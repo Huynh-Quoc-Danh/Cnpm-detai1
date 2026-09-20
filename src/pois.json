@@ -1,19 +1,19 @@
 [
     {
       "id": "poi-1",
-      "name": "Tượng Phật Bà Quan Âm",
+      "name": "Tượng Phật Bà Quan Âm 67m",
       "coords": [16.1001, 108.2778],
       "radius": 25,
       "thumbnail": "https://images.unsplash.com/photo-1548013146-72479768bada?w=500",
       "translations": {
         "vi": {
           "title": "Tượng Phật Bà Quan Âm 67m",
-          "description": "Tượng Phật Bà Quan Âm cao 67m, đứng tựa lưng vào núi, hướng ra biển Đông, được xem là biểu tượng của sự bình an và che chở.",
+          "description": "Tượng cao 67m tương đương tòa nhà 30 tầng, tựa lưng vào bán đảo Sơn Trà, hướng nhìn ra biển Đông, được xem là biểu tượng che chở sóng gió cho ngư dân Đà Nẵng.",
           "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
         },
         "en": {
-          "title": "Lady Buddha Statue 67m",
-          "description": "The 67-meter Lady Buddha statue stands back against the mountain, facing the East Sea, known as a symbol of peace and protection.",
+          "title": "Lady Buddha Statue (67m)",
+          "description": "Standing 67 meters tall, equivalent to a 30-story building, leaning against Son Tra Peninsula and facing the East Sea, known for blessing peace and safety for fishermen.",
           "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
         }
       }
@@ -27,13 +27,89 @@
       "translations": {
         "vi": {
           "title": "Chánh Điện",
-          "description": "Nơi thờ Phật Thích Ca Mâu Ni cùng các vị chư Phật, chốn tôn nghiêm để Phật tử và du khách thập phương chiêm bái.",
+          "description": "Nơi tôn nghiêm nhất của chùa, thờ tượng Phật Bổn Sư Thích Ca Mâu Ni ở giữa, bên phải thờ Quan Thế Âm Bồ Tát, bên trái thờ Địa Tạng Vương Bồ Tát.",
           "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
         },
         "en": {
           "title": "Main Sanctuary",
-          "description": "The sacred place honoring Shakyamuni Buddha and other deities, where pilgrims and visitors come to pray.",
+          "description": "The most sacred heart of the pagoda, enshrining Shakyamuni Buddha in the center, Avalokiteshvara Bodhisattva on the right, and Ksitigarbha Bodhisattva on the left.",
           "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+        }
+      }
+    },
+    {
+      "id": "poi-3",
+      "name": "Cổng Tam Quan",
+      "coords": [16.0990, 108.2762],
+      "radius": 15,
+      "thumbnail": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=500",
+      "translations": {
+        "vi": {
+          "title": "Cổng Tam Quan",
+          "description": "Lối vào chính với kiến trúc cổng vòm cổ kính truyền thống, mang ý nghĩa ba cách nhìn của Phật giáo: Không quan, Giả quan và Trung quan.",
+          "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+        },
+        "en": {
+          "title": "Three-Entrance Gate (Tam Quan)",
+          "description": "The grand main entrance with traditional tiered architecture, symbolizing the three ways of viewing existence in Buddhist philosophy.",
+          "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+        }
+      }
+    },
+    {
+      "id": "poi-4",
+      "name": "Vườn Tượng 18 Vị La Hán",
+      "coords": [16.0998, 108.2765],
+      "radius": 25,
+      "thumbnail": "https://images.unsplash.com/photo-1528181304800-259b08848526?w=500",
+      "translations": {
+        "vi": {
+          "title": "Vườn Tượng 18 Vị La Hán",
+          "description": "Hai hàng tượng gồm 18 vị La Hán tạc bằng đá trắng nguyên khối, mỗi vị mang một biểu cảm hỷ nộ ái ố sống động và độc đáo dọc đường lên Chánh Điện.",
+          "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+        },
+        "en": {
+          "title": "Garden of 18 Arhats",
+          "description": "Two rows of 18 Arhat statues carved from monolithic white marble, each displaying distinctive facial expressions and emotions leading to the Main Hall.",
+          "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+        }
+      }
+    },
+    {
+      "id": "poi-5",
+      "name": "Tháp Xá Lợi",
+      "coords": [16.1006, 108.2783],
+      "radius": 15,
+      "thumbnail": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=500",
+      "translations": {
+        "vi": {
+          "title": "Tháp Xá Lợi",
+          "description": "Ngọn tháp nhiều tầng sừng sững bên cạnh tượng Phật Bà, nơi lưu giữ xá lợi linh thiêng và có tầm nhìn bao quát toàn bộ vịnh biển Đà Nẵng.",
+          "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+        },
+        "en": {
+          "title": "Sarira Stupa",
+          "description": "A majestic multi-tiered stupa near the Lady Buddha statue, preserving sacred relics and providing panoramic views over Da Nang Bay.",
+          "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+        }
+      }
+    },
+    {
+      "id": "poi-6",
+      "name": "Điểm Ngắm Toàn Cảnh Vịnh Biển",
+      "coords": [16.1008, 108.2790],
+      "radius": 20,
+      "thumbnail": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500",
+      "translations": {
+        "vi": {
+          "title": "Khu Vực Ngắm Cảnh Biển Đông",
+          "description": "Khoảng sân rộng hướng thẳng ra đường chân trời, nơi du khách có thể phóng tầm mắt ngắm trọn dải bờ biển Mỹ Khê và thành phố Đà Nẵng từ trên cao.",
+          "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+        },
+        "en": {
+          "title": "Sea Viewpoint",
+          "description": "A spacious terrace overlooking the horizon, offering visitors scenic panoramas of My Khe Beach and Da Nang city from above.",
+          "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
         }
       }
     }
