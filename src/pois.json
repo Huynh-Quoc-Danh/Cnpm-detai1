@@ -1,0 +1,40 @@
+[
+    {
+      "id": "poi-1",
+      "name": "Tượng Phật Bà Quan Âm",
+      "coords": [16.1001, 108.2778],
+      "radius": 25,
+      "thumbnail": "https://images.unsplash.com/photo-1548013146-72479768bada?w=500",
+      "translations": {
+        "vi": {
+          "title": "Tượng Phật Bà Quan Âm 67m",
+          "description": "Tượng Phật Bà Quan Âm cao 67m, đứng tựa lưng vào núi, hướng ra biển Đông, được xem là biểu tượng của sự bình an và che chở.",
+          "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        },
+        "en": {
+          "title": "Lady Buddha Statue 67m",
+          "description": "The 67-meter Lady Buddha statue stands back against the mountain, facing the East Sea, known as a symbol of peace and protection.",
+          "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        }
+      }
+    },
+    {
+      "id": "poi-2",
+      "name": "Chánh Điện Chùa Linh Ứng",
+      "coords": [16.0995, 108.2769],
+      "radius": 20,
+      "thumbnail": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=500",
+      "translations": {
+        "vi": {
+          "title": "Chánh Điện",
+          "description": "Nơi thờ Phật Thích Ca Mâu Ni cùng các vị chư Phật, chốn tôn nghiêm để Phật tử và du khách thập phương chiêm bái.",
+          "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+        },
+        "en": {
+          "title": "Main Sanctuary",
+          "description": "The sacred place honoring Shakyamuni Buddha and other deities, where pilgrims and visitors come to pray.",
+          "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+        }
+      }
+    }
+  ]
