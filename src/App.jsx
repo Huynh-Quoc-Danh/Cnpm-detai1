@@ -2,9 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Circle } from 'react-leaflet';
 import L from 'leaflet';
 import poiData from './pois.json';
-import { Globe, MessageSquare, CreditCard, Volume2, Navigation, Send, X } from 'lucide-react';
+import { Globe, MessageSquare, CreditCard, Volume2, Square, Navigation, Send, X } from 'lucide-react';
 
-// Tạo custom marker hình tròn hiện đại có icon
 const createCustomMarker = (isActive) => {
   return L.divIcon({
     className: 'custom-poi-marker',
@@ -36,9 +35,10 @@ export default function App() {
   const [lang, setLang] = useState('vi');
   const [userLocation, setUserLocation] = useState(null);
   const [activePOI, setActivePOI] = useState(null);
+  const [isPlayingVoice, setIsPlayingVoice] = useState(false);
   const [showChat, setShowChat] = useState(false);
   const [chatMessages, setChatMessages] = useState([
-    { sender: 'bot', text: 'Xin chào! Tôi có thể giúp gì cho chuyến tham quan Chùa Linh Ứng của bạn?' }
+    { sender: 'bot', text: 'Xin chào! Tôi có thể hỗ trợ thông tin gì về Chùa Linh Ứng?' }
   ]);
   const [inputMessage, setInputMessage] = useState('');
 
@@ -53,16 +53,46 @@ export default function App() {
     }
   }, []);
 
+  // Tự động dừng đọc khi đổi điểm tham quan hoặc đổi ngôn ngữ
+  useEffect(() => {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      setIsPlayingVoice(false);
+    }
+  }, [activePOI, lang]);
+
+  // Hàm phát/dừng giọng đọc thuyết minh AI
+  const toggleVoice = () => {
+    if (!('speechSynthesis' in window) || !activePOI) return;
+
+    if (isPlayingVoice) {
+      window.speechSynthesis.cancel();
+      setIsPlayingVoice(false);
+    } else {
+      window.speechSynthesis.cancel();
+      const textToRead = `${activePOI.translations[lang].title}. ${activePOI.translations[lang].description}`;
+      const utterance = new SpeechSynthesisUtterance(textToRead);
+      utterance.lang = lang === 'vi' ? 'vi-VN' : 'en-US';
+      utterance.rate = 0.95;
+
+      utterance.onend = () => setIsPlayingVoice(false);
+      utterance.onerror = () => setIsPlayingVoice(false);
+
+      window.speechSynthesis.speak(utterance);
+      setIsPlayingVoice(true);
+    }
+  };
+
   const handleSendMessage = (e) => {
     e.preventDefault();
     if (!inputMessage.trim()) return;
-    const newMsg = inputMessage;
-    setChatMessages((prev) => [...prev, { sender: 'user', text: newMsg }]);
+    const msg = inputMessage;
+    setChatMessages((prev) => [...prev, { sender: 'user', text: msg }]);
     setInputMessage('');
     setTimeout(() => {
       setChatMessages((prev) => [
         ...prev,
-        { sender: 'bot', text: 'Chùa Linh Ứng Bãi Bụt mở cửa đón du khách từ 6h00 đến 21h00 hằng ngày và không thu phí vé vào cổng.' }
+        { sender: 'bot', text: 'Chùa Linh Ứng Bãi Bụt mở cửa miễn phí từ 6h00 đến 21h00 hằng ngày.' }
       ]);
     }, 600);
   };
@@ -79,19 +109,18 @@ export default function App() {
         fontFamily: 'system-ui, -apple-system, sans-serif'
       }}>
         <div style={{
-          background: 'rgba(255, 255, 255, 0.95)',
-          backdropFilter: 'blur(10px)',
+          background: '#ffffff',
           borderRadius: 24,
-          padding: '36px 28px',
+          padding: '36px 24px',
           maxWidth: 380,
           width: '100%',
           textAlign: 'center',
           boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
         }}>
           <div style={{
-            width: 72,
-            height: 72,
-            margin: '0 auto 18px',
+            width: 68,
+            height: 68,
+            margin: '0 auto 16px',
             background: 'linear-gradient(135deg, #3b82f6, #1d4ed8)',
             borderRadius: 20,
             display: 'flex',
@@ -99,13 +128,13 @@ export default function App() {
             justifyContent: 'center',
             color: '#fff'
           }}>
-            <Navigation size={36} />
+            <Navigation size={34} />
           </div>
-          <h2 style={{ margin: '0 0 10px', fontSize: 22, color: '#0f172a', fontWeight: 700 }}>
+          <h2 style={{ margin: '0 0 8px', fontSize: 22, color: '#0f172a', fontWeight: 700 }}>
             Linh Ứng Audio Guide
           </h2>
           <p style={{ margin: '0 0 24px', fontSize: 14, color: '#64748b', lineHeight: 1.5 }}>
-            Hệ thống thuyết minh tự động định vị GPS đa ngôn ngữ độc quyền tại bán đảo Sơn Trà.
+            Thuyết minh định vị GPS đa ngôn ngữ tự động tại Chùa Linh Ứng - Sơn Trà.
           </p>
           <button
             onClick={() => {
@@ -122,7 +151,6 @@ export default function App() {
               fontSize: 16,
               fontWeight: 600,
               cursor: 'pointer',
-              boxShadow: '0 8px 20px rgba(37, 99, 235, 0.35)',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -139,7 +167,7 @@ export default function App() {
   return (
     <div style={{ position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden', fontFamily: 'system-ui, -apple-system, sans-serif' }}>
       
-      {/* Header trạng thái trên đỉnh */}
+      {/* Header trạng thái */}
       <header style={{
         position: 'absolute',
         top: 16,
@@ -152,7 +180,7 @@ export default function App() {
         pointerEvents: 'none'
       }}>
         <div style={{
-          background: 'rgba(255, 255, 255, 0.9)',
+          background: 'rgba(255, 255, 255, 0.95)',
           backdropFilter: 'blur(8px)',
           padding: '8px 14px',
           borderRadius: 30,
@@ -172,7 +200,7 @@ export default function App() {
         <button
           onClick={() => setLang(lang === 'vi' ? 'en' : 'vi')}
           style={{
-            background: 'rgba(255, 255, 255, 0.9)',
+            background: 'rgba(255, 255, 255, 0.95)',
             backdropFilter: 'blur(8px)',
             padding: '8px 14px',
             borderRadius: 30,
@@ -193,7 +221,7 @@ export default function App() {
         </button>
       </header>
 
-      {/* Bản đồ nền Voyager phong cách du lịch hiện đại */}
+      {/* Bản đồ */}
       <MapContainer
         center={[16.1001, 108.2778]}
         zoom={17}
@@ -223,26 +251,26 @@ export default function App() {
         ))}
       </MapContainer>
 
-      {/* Sheet thông tin POI & trình phát Audio */}
+      {/* Khung thông tin POI & Nút giọng nói thuyết minh */}
       {activePOI && (
         <section style={{
           position: 'absolute',
           bottom: 24,
           left: 16,
           right: 16,
-          background: 'rgba(255, 255, 255, 0.95)',
+          background: 'rgba(255, 255, 255, 0.98)',
           backdropFilter: 'blur(12px)',
           borderRadius: 20,
           padding: 18,
           zIndex: 1000,
           boxShadow: '0 12px 30px rgba(0,0,0,0.2)',
-          maxHeight: '45vh',
+          maxHeight: '48vh',
           overflowY: 'auto'
         }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 10 }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 8 }}>
             <div>
-              <span style={{ fontSize: 11, fontWeight: 700, textTransform: 'uppercase', color: '#2563eb', letterSpacing: 0.5 }}>
-                Điểm tham quan
+              <span style={{ fontSize: 11, fontWeight: 700, textTransform: 'uppercase', color: '#2563eb' }}>
+                {lang === 'vi' ? 'Điểm tham quan' : 'Point of Interest'}
               </span>
               <h3 style={{ margin: '2px 0 0', fontSize: 18, color: '#0f172a', fontWeight: 700 }}>
                 {activePOI.translations[lang].title}
@@ -260,14 +288,42 @@ export default function App() {
             {activePOI.translations[lang].description}
           </p>
 
-          <div style={{ background: '#f8fafc', padding: 10, borderRadius: 14, display: 'flex', alignItems: 'center', gap: 10 }}>
-            <Volume2 size={20} color="#2563eb" />
-            <audio controls autoPlay src={activePOI.translations[lang].audio} style={{ width: '100%', height: 36 }} />
-          </div>
+          {/* Nút bấm nghe giọng đọc thuyết minh AI */}
+          <button
+            onClick={toggleVoice}
+            style={{
+              width: '100%',
+              padding: '12px',
+              background: isPlayingVoice ? '#ef4444' : '#2563eb',
+              color: '#fff',
+              border: 'none',
+              borderRadius: 12,
+              fontSize: 14,
+              fontWeight: 600,
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: 8,
+              transition: 'background 0.2s'
+            }}
+          >
+            {isPlayingVoice ? (
+              <>
+                <Square size={18} fill="#fff" />
+                {lang === 'vi' ? 'Dừng đọc thuyết minh' : 'Stop Narration'}
+              </>
+            ) : (
+              <>
+                <Volume2 size={18} />
+                {lang === 'vi' ? 'Phát giọng đọc thuyết minh' : 'Play Audio Narration'}
+              </>
+            )}
+          </button>
         </section>
       )}
 
-      {/* Nút Chatbot nổi */}
+      {/* Chatbot */}
       <button
         onClick={() => setShowChat(!showChat)}
         style={{
@@ -291,31 +347,26 @@ export default function App() {
         <MessageSquare size={24} />
       </button>
 
-      {/* Hộp Chat AI */}
       {showChat && (
         <section style={{
           position: 'absolute',
           bottom: 86,
           right: 16,
-          width: 320,
-          maxHeight: 420,
-          background: 'rgba(255, 255, 255, 0.96)',
-          backdropFilter: 'blur(10px)',
+          width: 310,
+          background: '#ffffff',
           borderRadius: 20,
           padding: 16,
           zIndex: 1000,
-          boxShadow: '0 12px 35px rgba(0,0,0,0.22)',
-          display: 'flex',
-          flexDirection: 'column'
+          boxShadow: '0 12px 35px rgba(0,0,0,0.22)'
         }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12, paddingBottom: 8, borderBottom: '1px solid #e2e8f0' }}>
-            <span style={{ fontWeight: 700, fontSize: 14, color: '#0f172a' }}>Hỏi đáp Linh Ứng AI</span>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12, borderBottom: '1px solid #e2e8f0', paddingBottom: 8 }}>
+            <span style={{ fontWeight: 700, fontSize: 14, color: '#0f172a' }}>Linh Ứng AI</span>
             <button onClick={() => setShowChat(false)} style={{ background: 'none', border: 'none', cursor: 'pointer' }}>
               <X size={16} color="#64748b" />
             </button>
           </div>
 
-          <div style={{ flex: 1, minHeight: 180, maxHeight: 220, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: 8, paddingRight: 4 }}>
+          <div style={{ height: 180, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: 8 }}>
             {chatMessages.map((msg, idx) => (
               <div
                 key={idx}
@@ -326,8 +377,7 @@ export default function App() {
                   padding: '8px 12px',
                   borderRadius: 14,
                   fontSize: 13,
-                  maxWidth: '85%',
-                  lineHeight: 1.4
+                  maxWidth: '85%'
                 }}
               >
                 {msg.text}
@@ -341,26 +391,9 @@ export default function App() {
               value={inputMessage}
               onChange={(e) => setInputMessage(e.target.value)}
               placeholder="Đặt câu hỏi..."
-              style={{
-                flex: 1,
-                padding: '8px 12px',
-                borderRadius: 12,
-                border: '1px solid #cbd5e1',
-                fontSize: 13,
-                outline: 'none'
-              }}
+              style={{ flex: 1, padding: '8px 12px', borderRadius: 12, border: '1px solid #cbd5e1', fontSize: 13 }}
             />
-            <button
-              type="submit"
-              style={{
-                background: '#2563eb',
-                color: '#fff',
-                border: 'none',
-                borderRadius: 12,
-                padding: '0 12px',
-                cursor: 'pointer'
-              }}
-            >
+            <button type="submit" style={{ background: '#2563eb', color: '#fff', border: 'none', borderRadius: 12, padding: '0 12px', cursor: 'pointer' }}>
               <Send size={16} />
             </button>
           </form>
