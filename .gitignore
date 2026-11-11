@@ -1,0 +1,13 @@
+node_modules
+dist
+server/data
+server/uploads
+*.log
+.DS_Store
+.env
+
+# Bản dump gộp, chỉ để dự phòng trên máy (đã tách thành 01/02/03)
+database/halong.sql
+
+# Tài liệu phân công nội bộ của nhóm, không đăng lên GitHub
+docs/phan-cong/
