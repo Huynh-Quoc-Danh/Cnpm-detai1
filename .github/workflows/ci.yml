@@ -1,0 +1,79 @@
+# CI – tự chạy mỗi khi có push hoặc Pull Request vào main.
+# Kiểm tra: cài thư viện, kiểm tra kiểu TypeScript, build giao diện,
+# khởi động server với MySQL (MariaDB) thật và gọi thử API.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    name: Build và kiểm tra
+    runs-on: ubuntu-latest
+
+    services:
+      mysql:
+        image: mariadb:10.11
+        env:
+          MARIADB_ROOT_PASSWORD: root
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="healthcheck.sh --connect --innodb_initialized"
+          --health-interval=5s
+          --health-timeout=5s
+          --health-retries=20
+
+    env:
+      DB_HOST: 127.0.0.1
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: root
+      DB_NAME: halong
+      PORT: 3001
+
+    steps:
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Cài Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Cài thư viện
+        run: npm ci
+
+      - name: Kiểm tra kiểu TypeScript
+        run: npx tsc --noEmit
+
+      - name: Kiểm tra cú pháp server
+        run: find server -name "*.js" -not -path "server/uploads/*" -print0 | xargs -0 -n1 node --check
+
+      - name: Build giao diện (Vite)
+        run: npm run build
+
+      - name: Chạy unit test
+        run: npm test
+
+      - name: Khởi động server và gọi thử API
+        run: |
+          npm start > server.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -fs http://localhost:3001/api/health > /dev/null; then break; fi
+            sleep 2
+          done
+          echo "--- /api/health"
+          curl -fsS http://localhost:3001/api/health
+          echo
+          echo "--- /api/packages"
+          curl -fsS http://localhost:3001/api/packages | head -c 500
+          echo
+
+      - name: In log server nếu lỗi
+        if: failure()
+        run: cat server.log || true
