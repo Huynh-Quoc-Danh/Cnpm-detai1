@@ -1,0 +1,310 @@
+{
+  "id": 1,
+  "slug": "toan-canh-vinh-ha-long",
+  "name": "Ha Long Bay (Panoramic Overview)",
+  "nameVi": "Toàn cảnh Vịnh Hạ Long",
+  "provinceEn": "Quang Ninh, Vietnam",
+  "provinceVi": "Quảng Ninh, Việt Nam",
+  "yearEn": "UNESCO Inscribed: 1994 & 2000",
+  "yearVi": "UNESCO công nhận: 1994 & 2000",
+  "categoryEn": "Natural",
+  "categoryVi": "Toàn cảnh",
+  "categoryKey": "Natural",
+  "image": "/image/VinhHaLong.jpg",
+  "fallbackImage": "/image/VinhHaLong.jpg",
+  "lat": 20.886,
+  "lng": 107.049,
+  "rangeMeters": 1500,
+  "rating": 4.9,
+  "reviewsCount": 4280,
+  "shortDescVi": "Kỳ quan thiên nhiên thế giới với gần 2.000 đảo đá vôi nổi bật trên làn nước màu ngọc bích.",
+  "shortDescEn": "A World Natural Wonder with nearly 2,000 limestone islands rising from emerald waters.",
+  "historyVi": "Theo truyền thuyết, Ngọc Hoàng sai Rồng Mẹ mang đàn Rồng Con hạ phàm giúp người Việt đánh giặc ngoại xâm. Đàn rồng phun châu ngọc hóa thành ngàn vạn đảo đá chặn đứng thuyền giặc. Nơi Rồng Mẹ đáp xuống gọi là Hạ Long, nơi đàn Rồng Con đáp xuống là Bái Tử Long. Vịnh được UNESCO công nhận là Di sản Thiên nhiên Thế giới năm 1994 (giá trị thẩm mỹ) và năm 2000 (giá trị địa chất, địa mạo), và được bình chọn là một trong 7 Kỳ quan Thiên nhiên Mới của Thế giới năm 2011.",
+  "historyEn": "Legend tells that the Jade Emperor sent a Mother Dragon and her children to help the Vietnamese defend against invaders. The dragons spat pearls that turned into countless islands, wrecking the enemy fleet. The place where the Mother Dragon landed became Ha Long; where her children landed became Bai Tu Long. UNESCO inscribed the bay as a World Natural Heritage Site in 1994 (aesthetic value) and again in 2000 (geological and geomorphological value), and it was named one of the New 7 Wonders of Nature in 2011.",
+  "geologyVi": "Vịnh Hạ Long là ví dụ tiêu biểu của địa hình karst nhiệt đới ngập nước. Các lớp đá vôi tích tụ dưới đáy biển cổ qua hàng trăm triệu năm, bị nâng lên, hòa tan bởi mưa nhiệt đới thành tháp đá và hang động, rồi bị nước biển dâng nhấn chìm một phần sau kỳ băng hà cuối cùng.",
+  "geologyEn": "Ha Long Bay is an outstanding example of drowned tropical karst. Limestone laid down on ancient sea floors over hundreds of millions of years was uplifted, dissolved by tropical rain into towers and caves, then partly flooded by rising seas after the last ice age.",
+  "highlightsVi": [
+    "Hai lần được UNESCO công nhận là Di sản Thiên nhiên Thế giới (1994 & 2000).",
+    "Một trong 7 Kỳ quan Thiên nhiên Mới của Thế giới (New7Wonders, 2011).",
+    "Gần 2.000 đảo lớn nhỏ trên diện tích khoảng 1.553 km², vùng lõi di sản khoảng 434 km².",
+    "Hệ thống hang động nổi tiếng: Đầu Gỗ, Thiên Cung, Sửng Sốt, Luồn."
+  ],
+  "highlightsEn": [
+    "Twice inscribed as a UNESCO World Natural Heritage Site (1994 & 2000).",
+    "One of the New 7 Wonders of Nature (New7Wonders, 2011).",
+    "Nearly 2,000 islands over about 1,553 km², with a heritage core zone of about 434 km².",
+    "Famous caves: Dau Go, Thien Cung, Sung Sot and Luon."
+  ],
+  "translations": {
+    "ko": {
+      "name": "하롱베이 전경",
+      "province": "베트남 꽝닌성",
+      "year": "유네스코 등재: 1994년 및 2000년",
+      "category": "전경",
+      "shortDesc": "에메랄드빛 바다 위로 2,000개 가까운 석회암 섬이 솟아 있는 세계 자연의 경이입니다.",
+      "history": "전설에 따르면 옥황상제는 어미 용과 새끼 용들을 내려보내 외적과 싸우는 베트남 사람들을 돕게 했습니다. 용들이 뿜어낸 구슬과 보석은 수많은 바위섬이 되어 적의 배를 가로막았습니다. 어미 용이 내려앉은 곳은 하롱, 새끼 용들이 내려앉은 곳은 바이뜨롱이라 불립니다. 하롱베이는 1994년 미적 가치로, 2000년 지질·지형학적 가치로 유네스코 세계자연유산에 등재되었으며, 2011년에는 세계 신 7대 자연경관으로 선정되었습니다.",
+      "geology": "하롱베이는 열대 침수 카르스트 지형의 대표적인 예입니다. 수억 년 동안 고대 바다 밑에 쌓인 석회암이 융기한 뒤 열대의 비에 녹아 바위 탑과 동굴이 되었고, 마지막 빙하기 이후 해수면이 상승하면서 일부가 바다에 잠겼습니다.",
+      "highlights": [
+        "유네스코 세계자연유산에 두 차례 등재 (1994년, 2000년).",
+        "세계 신 7대 자연경관 중 하나 (New7Wonders, 2011년).",
+        "약 1,553km² 면적에 2,000개 가까운 섬이 있으며, 유산 핵심 구역은 약 434km²입니다.",
+        "유명한 동굴: 더우고, 티엔꿍, 승솟, 루온 동굴."
+      ]
+    },
+    "ja": {
+      "name": "ハロン湾 全景",
+      "province": "ベトナム・クアンニン省",
+      "year": "ユネスコ登録：1994年・2000年",
+      "category": "全景",
+      "shortDesc": "エメラルド色の海に2,000近くの石灰岩の島々がそびえる、世界的な自然の驚異です。",
+      "history": "伝説によると、玉皇上帝は母龍と子どもの龍たちを地上へ遣わし、外敵と戦うベトナムの人々を助けさせました。龍たちが吐き出した真珠は無数の島となり、敵の船団を打ち砕きました。母龍が降り立った場所がハロン、子龍たちが降り立った場所がバイトゥロンです。ハロン湾は1994年に美的価値で、2000年に地質学的・地形学的価値でユネスコ世界自然遺産に登録され、2011年には新・世界七不思議の自然部門に選ばれました。",
+      "geology": "ハロン湾は熱帯の沈水カルスト地形を代表する場所です。何億年もかけて太古の海底に堆積した石灰岩が隆起し、熱帯の雨に溶かされて岩の塔や洞窟となり、最後の氷河期のあとの海面上昇によって一部が海に沈みました。",
+      "highlights": [
+        "ユネスコ世界自然遺産に2度登録（1994年・2000年）。",
+        "新・世界七不思議（自然部門）のひとつ（New7Wonders、2011年）。",
+        "約1,553km²の範囲に2,000近くの島々があり、遺産の中心エリアは約434km²。",
+        "有名な洞窟：ダウゴー洞窟、ティエンクン洞窟、スンソット洞窟、ルオン洞窟。"
+      ]
+    },
+    "zh": {
+      "name": "下龙湾全景",
+      "province": "越南广宁省",
+      "year": "联合国教科文组织认定：1994年和2000年",
+      "category": "全景",
+      "shortDesc": "世界自然奇观，近2000座石灰岩岛屿矗立在翡翠般的海面上。",
+      "history": "相传，玉皇大帝派龙母带领小龙们下凡，帮助越南人民抵御外敌。群龙口吐珍珠，化作无数岛屿，击溃了敌人的船队。龙母降落的地方称为下龙，小龙们降落的地方称为拜子龙。下龙湾于1994年（美学价值）和2000年（地质与地貌价值）两次被联合国教科文组织列入世界自然遗产名录，并于2011年入选世界新七大自然奇观。",
+      "geology": "下龙湾是热带海上喀斯特地貌的杰出代表。数亿年间沉积于远古海底的石灰岩被抬升后，经热带雨水溶蚀形成石塔和溶洞，末次冰期后又因海平面上升而被部分淹没。",
+      "highlights": [
+        "两次被联合国教科文组织列入世界自然遗产（1994年和2000年）。",
+        "世界新七大自然奇观之一（New7Wonders，2011年）。",
+        "近2000座大小岛屿，面积约1553平方公里，遗产核心区约434平方公里。",
+        "著名溶洞：木头洞、天宫洞、惊讶洞、隧洞。"
+      ]
+    }
+  },
+  "narration": {
+    "vi": "Xin chào và chào mừng quý khách đến với Vịnh Hạ Long, kỳ quan thiên nhiên đã hai lần được UNESCO vinh danh. Ngay lúc này, con tàu của chúng ta đang lướt vào vùng lõi di sản, nơi hàng trăm đỉnh núi đá vôi trồi lên từ mặt nước xanh ngọc. Nhưng quý khách có biết vì sao nơi đây lại mang cái tên Hạ Long, nghĩa là rồng đáp xuống? Câu trả lời bắt đầu từ một truyền thuyết rất xa xưa.\n\nTương truyền, khi người Việt dựng nước và phải chống lại giặc ngoại xâm từ phía biển, Ngọc Hoàng đã sai Rồng Mẹ dẫn theo đàn Rồng Con xuống trần giúp sức. Đàn rồng phun ra châu ngọc, những viên ngọc rơi xuống biển hóa thành muôn vàn đảo đá, kết thành bức tường thành vững chãi chặn đứng đoàn thuyền giặc. Khi đất nước thanh bình, Rồng Mẹ ở lại nơi đây, gọi là Hạ Long, còn đàn Rồng Con đáp xuống vùng biển phía ngoài, nay là Bái Tử Long, với phần đuôi quẫy trắng xóa ở bán đảo Trà Cổ, gọi là Long Vĩ.\n\nBây giờ, mời quý khách cùng định hướng. Phía sau chúng ta, về hướng tây bắc, là bờ biển Bãi Cháy, cầu Bãi Cháy và đảo Tuần Châu, nơi phần lớn tàu du lịch xuất bến. Phía bên trái tàu, xa xa là đảo Đầu Gỗ, nơi có hang Đầu Gỗ và động Thiên Cung nổi tiếng. Phía trước và bên phải, quý khách sẽ lần lượt thấy Hòn Đỉnh Hương giống chiếc lư hương khổng lồ, đôi Hòn Trống Mái tựa vào nhau giữa sóng nước, Hòn Chó Đá, và xa hơn về phía đông nam là đảo Ti Tốp với bãi tắm hình vầng trăng khuyết.\n\nVịnh Hạ Long rộng khoảng 1.553 ki lô mét vuông, với gần 2.000 hòn đảo lớn nhỏ, phần lớn là đảo đá vôi. Vùng lõi di sản được UNESCO công nhận rộng khoảng 434 ki lô mét vuông, chính là khu vực chúng ta đang đi qua. Năm 1994, Vịnh Hạ Long được công nhận là Di sản Thiên nhiên Thế giới nhờ giá trị cảnh quan ngoại hạng. Năm 2000, UNESCO tiếp tục công nhận lần thứ hai nhờ giá trị địa chất, địa mạo. Đến năm 2011, Hạ Long được bình chọn là một trong bảy kỳ quan thiên nhiên mới của thế giới.\n\nVậy những ngọn núi này hình thành như thế nào? Các lớp đá vôi ở đây được tích tụ dưới đáy biển cổ trong hàng trăm triệu năm. Sau đó, vỏ trái đất nâng lên, mưa nhiệt đới hòa tan đá vôi, khoét sâu thành những tháp đá, hang động và thung lũng. Khi mực nước biển dâng lên sau thời kỳ băng hà cuối cùng, cả vùng núi đá ấy bị nhấn chìm một phần, để lại cảnh quan karst ngập nước điển hình mà quý khách đang chiêm ngưỡng. Những ngấn sóng dưới chân đảo cho thấy biển vẫn đang tiếp tục tạc nên hình hài các hòn đảo.\n\nVịnh Hạ Long còn là quê hương của cư dân làng chài như Cửa Vạn, Vông Viêng, sống gắn bó với biển qua nhiều thế hệ.\n\nVề chụp ảnh, ánh sáng đẹp nhất thường vào sáng sớm khi sương mờ phủ trên mặt vịnh, hoặc chiều muộn khi nắng vàng chiếu nghiêng lên vách đá. Hãy đứng ở mũi tàu, chọn những lớp đảo xếp chồng lên nhau làm hậu cảnh để bức ảnh có chiều sâu.\n\nCuối cùng, xin quý khách cùng chung tay giữ gìn di sản: không xả rác xuống biển, không chạm hay bẻ thạch nhũ trong hang, và hạn chế đồ nhựa dùng một lần. Cảm ơn quý khách đã lắng nghe. Chúc quý khách một hành trình thật trọn vẹn trên vùng vịnh rồng thiêng liêng này.",
+    "en": "Hello, and welcome to Ha Long Bay, a natural wonder twice honoured by UNESCO. Right now our boat is gliding into the heart of the heritage zone, where hundreds of limestone peaks rise straight out of jade-green water. But do you know why this place is called Ha Long, which means descending dragon? The answer begins with a very old legend.\n\nLong ago, when the Vietnamese people were defending their young nation against invaders from the sea, the Jade Emperor sent a Mother Dragon and her children down to earth to help. The dragons spat out jewels and pearls, which fell into the sea and turned into countless stone islands, forming a great wall that stopped the enemy fleet. When peace returned, the Mother Dragon stayed here, in Ha Long, while her children settled further out, in what is now Bai Tu Long, and their tails stirred the white sands of Tra Co, known as Long Vi.\n\nNow let us get our bearings. Behind us, to the northwest, is the Bai Chay shoreline, the Bai Chay Bridge and Tuan Chau Island, where most cruise boats depart. On the left side of the boat, in the distance, is Dau Go Island, home to Dau Go Cave and the famous Thien Cung Cave. Ahead and to the right you will see Incense Burner Islet, the Fighting Cocks leaning towards each other above the waves, Dog Rock, and further southeast, Ti Top Island with its crescent-shaped beach.\n\nHa Long Bay covers about 1,553 square kilometres and holds nearly two thousand islands and islets, most of them limestone. The core zone protected by UNESCO covers about four hundred and thirty-four square kilometres, exactly the area we are crossing. In 1994 the bay was inscribed as a World Natural Heritage Site for its outstanding scenic beauty. In 2000 UNESCO recognised it a second time for its geological and geomorphological value. And in 2011 it was named one of the New Seven Wonders of Nature.\n\nSo how were these peaks formed? The limestone here was laid down on the floor of ancient seas over hundreds of millions of years. Later the land was uplifted, and tropical rain slowly dissolved the rock, carving towers, caves and valleys. When sea levels rose after the last ice age, this karst landscape was partly drowned, leaving the classic submerged scenery in front of you. The wave notches at the foot of each island show the sea still sculpting these shapes today.\n\nHa Long Bay is also home to fishing communities such as Cua Van and Vong Vieng, who have lived with the sea for generations.\n\nFor photographs, the best light usually comes early in the morning, when mist hangs over the water, or late in the afternoon, when golden sunlight slants across the cliffs. Stand at the bow and use overlapping layers of islands as your background to give depth.\n\nFinally, please help us protect this heritage: never throw rubbish into the sea, do not touch or break stalactites in the caves, and avoid single-use plastic. Thank you for listening, and enjoy your journey through the sacred bay of the dragons.",
+    "ko": "안녕하세요, 유네스코가 두 번이나 인정한 자연의 경이, 하롱베이에 오신 것을 환영합니다. 지금 저희 배는 세계유산 핵심 구역으로 들어서고 있는데요, 옥빛 바다 위로 수백 개의 석회암 봉우리가 솟아 있습니다. 그런데 이곳이 왜 용이 내려앉은 곳이라는 뜻의 하롱이라는 이름을 갖게 되었는지 아시나요? 그 답은 아주 오래된 전설에서 시작됩니다.\n\n전설에 따르면, 베트남 사람들이 나라를 세우고 바다에서 쳐들어오는 외적과 맞서 싸우던 때, 옥황상제가 어미 용과 새끼 용들을 땅으로 내려보내 돕게 했습니다. 용들이 구슬과 보석을 내뿜자, 바다에 떨어진 보석들이 수많은 바위섬으로 변해 튼튼한 성벽을 이루고 적의 함대를 가로막았습니다. 평화가 찾아오자 어미 용은 이곳 하롱에 머물렀고, 새끼 용들은 바깥 바다, 지금의 바이뜨롱에 내려앉았습니다. 용의 꼬리가 물보라를 일으킨 짜꼬 반도는 롱비라고 불립니다.\n\n이제 방향을 잡아 볼까요? 저희 뒤쪽 북서쪽으로는 바이짜이 해안과 바이짜이 대교, 그리고 대부분의 유람선이 출발하는 뚜언쩌우 섬이 있습니다. 배의 왼쪽 멀리 보이는 섬은 더우고 섬으로, 더우고 동굴과 유명한 티엔꿍 동굴이 있는 곳입니다. 앞쪽과 오른쪽으로는 거대한 향로를 닮은 향로섬, 파도 위에서 서로 기대어 선 한 쌍의 닭싸움 바위, 개 바위가 차례로 보이실 겁니다. 더 멀리 남동쪽에는 초승달 모양 해변이 있는 띠똡섬이 있습니다.\n\n하롱베이의 면적은 약 1553제곱킬로미터이고, 크고 작은 섬이 2000개 가까이 있는데 대부분이 석회암 섬입니다. 유네스코가 인정한 핵심 구역은 약 434제곱킬로미터로, 바로 지금 저희가 지나가고 있는 곳입니다. 1994년, 하롱베이는 뛰어난 경관미를 인정받아 세계자연유산에 등재되었습니다. 2000년에는 지질학적, 지형학적 가치로 두 번째 인정을 받았고, 2011년에는 세계 신 7대 자연경관 가운데 하나로 선정되었습니다.\n\n그렇다면 이 봉우리들은 어떻게 만들어졌을까요? 이곳의 석회암은 수억 년에 걸쳐 고대 바다의 밑바닥에 쌓였습니다. 그 뒤 지각이 솟아오르고, 열대의 비가 석회암을 녹여 바위 탑과 동굴, 골짜기를 만들었습니다. 마지막 빙하기가 끝나고 해수면이 높아지자 이 산악 지대는 일부가 바다에 잠겼고, 지금 여러분이 보고 계신 전형적인 침수 카르스트 지형이 남게 되었습니다. 섬 아래쪽의 파도 자국은 바다가 지금도 섬을 다듬고 있다는 증거입니다.\n\n하롱베이는 또한 끄어반, 봉비엥 같은 어촌 마을 사람들의 고향이기도 합니다. 이들은 여러 세대에 걸쳐 바다와 함께 살아왔습니다.\n\n사진을 찍으신다면, 가장 아름다운 빛은 이른 아침 물안개가 만 위를 덮을 때, 또는 늦은 오후 황금빛 햇살이 절벽을 비스듬히 비출 때입니다. 뱃머리에 서서 겹겹이 포개진 섬들을 배경으로 삼으면 깊이감 있는 사진을 남기실 수 있습니다.\n\n마지막으로 이 소중한 유산을 함께 지켜 주시기 바랍니다. 바다에 쓰레기를 버리지 마시고, 동굴 안의 종유석을 만지거나 꺾지 마시고, 일회용 플라스틱 사용을 줄여 주세요. 들어 주셔서 감사합니다. 신성한 용의 바다에서 뜻깊은 여행 되세요.",
+    "ja": "皆さま、こんにちは。ユネスコに二度も認められた自然の驚異、ハロン湾へようこそ。今、私たちの船は世界遺産の中心エリアへと進んでいます。翡翠色の海から、何百もの石灰岩の峰がまっすぐにそびえ立っていますね。ところで、なぜここがハロン、つまり龍が降り立つ場所と呼ばれているのか、ご存じですか？その答えは、とても古い伝説から始まります。\n\n昔々、ベトナムの人々が国を築き、海から攻めてくる外敵と戦っていたころ、玉皇上帝は母なる龍と子どもの龍たちを地上へ遣わし、人々を助けさせました。龍たちが宝玉や真珠を吐き出すと、それらは海に落ちて無数の岩の島となり、堅固な城壁のように敵の船団を食い止めました。平和が訪れると、母龍は天に帰らずこの地にとどまりました。ここがハロンです。子どもの龍たちは外側の海に降り立ち、そこは今バイトゥロンと呼ばれています。そして龍の尾が白い波しぶきを上げたチャーコー半島は、龍の尾を意味するロンヴィと呼ばれています。\n\nでは、ここで方角を確認しましょう。私たちの後ろ、北西の方向には、バイチャイの海岸とバイチャイ橋、そして多くのクルーズ船が出発するトゥアンチャウ島があります。船の左手、遠くに見えるのはダウゴー島で、ダウゴー洞窟と有名なティエンクン洞窟があります。前方と右手には、巨大な香炉のような香炉島、波の上で寄り添う一対の闘鶏岩、そして犬岩島が順番に見えてきます。さらに南東の遠くには、三日月形のビーチで知られるティートップ島があります。\n\nハロン湾の面積はおよそ1553平方キロメートル、大小合わせて2000近くの島々があり、そのほとんどが石灰岩の島です。ユネスコが認めた中心エリアはおよそ434平方キロメートルで、まさに今、私たちが通っている場所です。1994年、ハロン湾はその比類ない景観美によって世界自然遺産に登録されました。2000年には地質学的、地形学的な価値によって二度目の登録を果たし、2011年には新・世界七不思議の自然部門のひとつに選ばれました。\n\nでは、これらの峰はどのようにして生まれたのでしょうか。ここの石灰岩は、何億年もの長い時間をかけて、太古の海の底に積み重なってできました。その後、大地が隆起し、熱帯の雨が少しずつ石灰岩を溶かして、岩の塔や洞窟、谷を深く刻んでいきました。最後の氷河期が終わって海面が上昇すると、この山々の一部が海に沈み、今ご覧になっている典型的な沈水カルスト地形が残されたのです。島の根元にあるくぼみは波が削った跡で、海が今もなお島の形を彫り続けていることを示しています。\n\nハロン湾はまた、クアヴァンやヴォンヴィエンといった漁村の人々のふるさとでもあり、彼らは何世代にもわたって海とともに暮らしてきました。\n\n写真を撮るなら、一番美しい光は、朝早く湾の上に霧が立ちこめる時間帯か、夕方、金色の日差しが断崖を斜めに照らす時間帯です。船首に立ち、幾重にも重なる島々を背景にすると、奥行きのある一枚になりますよ。\n\n最後に、この大切な遺産を守るため、皆さまのご協力をお願いします。海にごみを捨てないこと、洞窟の鍾乳石に触れたり折ったりしないこと、そして使い捨てのプラスチックをなるべく控えることです。ご清聴ありがとうございました。神聖な龍の湾での旅を、どうぞ心ゆくまでお楽しみください。",
+    "zh": "各位游客，您好！欢迎来到两度被联合国教科文组织列入世界遗产的自然奇观，下龙湾。此刻，我们的游船正驶入遗产核心区，数以百计的石灰岩山峰从翡翠般的海面上拔地而起。可是您知道吗，这里为什么叫下龙，也就是龙从天而降的意思？答案要从一个古老的传说说起。\n\n相传，越南先民建国之初，常有外敌从海上入侵。玉皇大帝便派龙母带着一群小龙下凡相助。群龙口吐珍珠宝玉，宝玉落入海中，化作千万座石岛，连成一道坚固的城墙，挡住了敌人的船队。天下太平之后，龙母留在了这里，于是这里被称为下龙；小龙们则落在外侧的海域，就是今天的拜子龙；而龙尾翻起白浪的茶古半岛，被称为龙尾。\n\n现在，请大家辨一辨方向。我们身后的西北方向，是白斋海岸、白斋大桥，还有大多数游船出发的巡州岛。游船左侧远处是木头岛，那里有木头洞和著名的天宫洞。在前方和右侧，您将依次看到形似巨大香炉的香炉岛、在浪花中相依相偎的斗鸡石，还有石狗岛。再往东南方向远处，就是拥有月牙形海滩的迪托普岛。\n\n下龙湾面积约1553平方公里，拥有近两千座大小岛屿，大部分是石灰岩岛。联合国教科文组织认定的核心区约434平方公里，正是我们现在经过的区域。1994年，下龙湾凭借卓越的景观之美被列入世界自然遗产名录；2000年，又因其地质和地貌价值第二次获得认定；到了2011年，下龙湾还入选了世界新七大自然奇观。\n\n那么，这些山峰是怎样形成的呢？这里的石灰岩在数亿年间沉积于远古海底。后来地壳抬升，热带雨水慢慢溶蚀岩石，雕琢出石塔、溶洞和山谷。末次冰期结束后，海平面上升，这片山地被部分淹没，留下了您眼前这种典型的海上喀斯特地貌。岛屿脚下的海蚀凹槽告诉我们，大海至今仍在继续雕刻着这些岛屿的模样。\n\n下龙湾也是卡万、翁永等水上渔村居民的家园，他们世世代代在这片海湾上与大海相伴，过着朴素而宁静的生活。\n\n如果您喜欢拍照，最美的光线通常出现在清晨薄雾笼罩海湾的时候，或是傍晚金色阳光斜照在峭壁上的时候。请站到船头，把层层叠叠的岛屿作为背景，照片就会更有层次感。\n\n最后，恳请各位和我们一起守护这份遗产：不要向海里乱扔垃圾，不要触摸或折断溶洞里的钟乳石，并尽量少用一次性塑料制品。感谢您的聆听，祝您在这片神圣的龙之海湾度过一段美好而难忘的旅程。"
+  },
+  "durationSec": {
+    "vi": 229,
+    "en": 208,
+    "ko": 219,
+    "ja": 224,
+    "zh": 200
+  },
+  "audioUrl": {
+    "vi": null,
+    "en": null,
+    "ko": null,
+    "ja": null,
+    "zh": null
+  },
+  "coordSource": "Central-bay water point in the core tourist cruise area, between Dau Go/Thien Cung (~20.912,107.018: https://www.nomads-travel-guide.com/places/thien-cung-cave-heavenly-cave/ , https://viet-go.com/en/attractions/thien-cung-cave) and Ti Top Island (~20.859,107.080: https://en.wikipedia.org/wiki/Ti_T%E1%BB%91p_Island , https://www.tripadvisor.in/Attraction_Review-g293923-d4795456-Reviews-Ti_Top_Island-H_Long_Bay_Quang_Ninh_Province.html); bay reference https://en.wikipedia.org/wiki/Ha_Long_Bay",
+  "isActive": true,
+  "exhibits": [
+    {
+      "id": "s1-e1",
+      "siteId": 1,
+      "nameVi": "Huyền thoại Rồng Mẹ và đàn Rồng Con",
+      "nameEn": "Legend of the Mother Dragon",
+      "zoneVi": "Câu chuyện vùng vịnh",
+      "zoneEn": "Bay story",
+      "image": "/image/VinhHaLong.jpg",
+      "shortDescVi": "Sự tích tên gọi Hạ Long, Bái Tử Long và Long Vĩ gắn với cuộc chiến giữ nước của người Việt.",
+      "shortDescEn": "How Ha Long, Bai Tu Long and Long Vi got their names from a legend of defending the nation.",
+      "translations": {
+        "ko": {
+          "name": "어미 용과 새끼 용들의 전설",
+          "zone": "만의 이야기",
+          "shortDesc": "하롱, 바이뜨롱, 롱비라는 이름이 나라를 지킨 베트남 사람들의 전설에서 어떻게 생겨났는지 들려줍니다."
+        },
+        "ja": {
+          "name": "母龍と子龍たちの伝説",
+          "zone": "湾の物語",
+          "shortDesc": "ハロン、バイトゥロン、ロンヴィという地名の由来となった、国を守る伝説を紹介します。"
+        },
+        "zh": {
+          "name": "龙母与小龙的传说",
+          "zone": "海湾故事",
+          "shortDesc": "讲述下龙、拜子龙和龙尾这些地名的由来，以及越南人民保家卫国的传说。"
+        }
+      },
+      "narration": {
+        "vi": "Mời quý khách nhìn ra những dãy đảo đá trùng điệp quanh tàu và hình dung chúng là những viên ngọc được rồng thiêng phun xuống. Theo truyền thuyết, khi giặc ngoại xâm kéo đến từ biển, Ngọc Hoàng sai Rồng Mẹ cùng đàn Rồng Con xuống giúp người Việt. Đàn rồng phun châu nhả ngọc, ngọc rơi xuống biển hóa thành muôn vàn đảo đá, có hòn sừng sững như tường thành, có hòn đứng lẻ loi như những người lính canh. Thuyền giặc lao vào bức thành đá ấy và vỡ tan. Khi đất nước yên bình, Rồng Mẹ không trở về trời mà ở lại nơi đây, vì thế vùng vịnh có tên Hạ Long, nghĩa là rồng đáp xuống. Đàn Rồng Con đáp xuống vùng biển phía ngoài, nay gọi là Bái Tử Long, tức các con rồng chầu mẹ. Còn đuôi rồng quẫy nước tạo nên bãi cát trắng Trà Cổ, được gọi là Long Vĩ. Mỗi lần ngắm các hòn đảo xếp lớp, quý khách có thể thử tìm hình dáng của những chú rồng ấy.",
+        "en": "Look out at the endless ranks of islands around the boat and imagine them as jewels dropped by sacred dragons. According to legend, when invaders came from the sea, the Jade Emperor sent a Mother Dragon and her children to help the Vietnamese. The dragons spat out pearls and jewels, which fell into the water and became countless islands, some standing like fortress walls, others alone like sentries. The enemy ships crashed into this stone barrier and were destroyed. When peace returned, the Mother Dragon chose to stay rather than return to heaven, and so the bay was named Ha Long, the place where the dragon descended. Her children landed in the outer waters, now called Bai Tu Long, meaning the young dragons paying respect to their mother. The flick of the dragon's tail created the white sands of Tra Co, known as Long Vi. As you gaze at the layered islands, try to spot the dragons' shapes.",
+        "ko": "배 주위로 끝없이 이어진 섬들을 바라보시면서, 이 섬들이 신성한 용이 뿜어낸 보석이라고 상상해 보세요. 전설에 따르면 바다에서 외적이 쳐들어오자 옥황상제는 어미 용과 새끼 용들을 내려보내 베트남 사람들을 돕게 했습니다. 용들이 구슬과 보석을 내뿜자, 바다에 떨어진 보석은 수많은 바위섬이 되었습니다. 어떤 섬은 성벽처럼 우뚝 솟았고, 어떤 섬은 보초병처럼 홀로 서 있었지요. 적의 배들은 이 바위 성벽에 부딪혀 산산이 부서졌습니다. 평화가 찾아오자 어미 용은 하늘로 돌아가지 않고 이곳에 머물렀고, 그래서 이 만은 용이 내려앉은 곳, 하롱이라는 이름을 얻었습니다. 새끼 용들이 내려앉은 바깥 바다는 어미를 받드는 새끼 용들이라는 뜻의 바이뜨롱이 되었고, 용의 꼬리가 물을 휘저어 만든 짜꼬의 하얀 모래사장은 롱비라고 불립니다. 겹겹이 펼쳐진 섬들을 바라보며 용의 모습을 한번 찾아보세요.",
+        "ja": "船のまわりに果てしなく連なる島々を眺めながら、それが聖なる龍の吐き出した宝石だと想像してみてください。伝説によると、海から外敵が攻めてきたとき、玉皇上帝は母龍と子どもの龍たちを遣わして、ベトナムの人々を助けさせました。龍たちが真珠や宝玉を吐き出すと、それらは海に落ちて無数の岩の島になりました。城壁のようにそびえる島もあれば、見張りの兵士のようにぽつんと立つ島もあります。敵の船はこの岩の壁にぶつかり、粉々に砕け散りました。平和が戻ると、母龍は天に帰らずここにとどまることを選びました。そのため、この湾は龍が降り立つ場所、ハロンと名づけられたのです。子どもの龍たちが降りた外側の海は、母を敬う子龍たちを意味するバイトゥロンと呼ばれ、龍の尾が水をはね上げてできたチャーコーの白い砂浜はロンヴィと呼ばれています。重なり合う島々の中に、龍の姿を探してみてくださいね。",
+        "zh": "请您望向游船四周连绵不绝的岛屿，想象它们是神龙吐出的宝珠。传说外敌从海上入侵时，玉皇大帝派龙母带着小龙们下凡，帮助越南人民。群龙口吐珍珠宝玉，宝玉落入海中，化作千万座石岛，有的高耸如城墙，有的孤立如哨兵。敌船撞上这道石墙，顿时粉身碎骨。天下太平后，龙母没有返回天庭，而是留在了这里，因此这片海湾被称为下龙，意思是龙降落的地方。小龙们落在外侧海域，如今叫拜子龙，意为小龙朝拜母亲。龙尾摆动卷起的白色沙滩就是茶古，被称为龙尾。欣赏层层叠叠的岛屿时，不妨找一找神龙的身影吧。"
+      },
+      "durationSec": {
+        "vi": 64,
+        "en": 63,
+        "ko": 64,
+        "ja": 63,
+        "zh": 50
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "sortOrder": 1
+    },
+    {
+      "id": "s1-e2",
+      "siteId": 1,
+      "nameVi": "Vùng lõi Di sản UNESCO",
+      "nameEn": "UNESCO Heritage Core Zone",
+      "zoneVi": "Vùng lõi di sản",
+      "zoneEn": "Core zone",
+      "image": "/image/VinhHaLong.jpg",
+      "shortDescVi": "Khu vực được UNESCO công nhận năm 1994 và 2000, nơi tập trung dày đặc đảo đá và hang động.",
+      "shortDescEn": "The area inscribed by UNESCO in 1994 and 2000, dense with limestone islets and caves.",
+      "translations": {
+        "ko": {
+          "name": "유네스코 세계유산 핵심 구역",
+          "zone": "유산 핵심 구역",
+          "shortDesc": "1994년과 2000년 유네스코에 등재된 구역으로, 석회암 섬과 동굴이 빽빽하게 모여 있습니다."
+        },
+        "ja": {
+          "name": "ユネスコ世界遺産の中心エリア",
+          "zone": "中心エリア",
+          "shortDesc": "1994年と2000年にユネスコに登録されたエリアで、石灰岩の島々と洞窟が密集しています。"
+        },
+        "zh": {
+          "name": "联合国教科文组织遗产核心区",
+          "zone": "遗产核心区",
+          "shortDesc": "1994年和2000年被联合国教科文组织认定的区域，石灰岩岛屿和溶洞密布。"
+        }
+      },
+      "narration": {
+        "vi": "Chúng ta đang đi trong vùng lõi di sản, khu vực rộng khoảng 434 ki lô mét vuông được UNESCO bảo vệ. Ranh giới này bao gồm phần lớn các thắng cảnh nổi tiếng nhất như hang Đầu Gỗ, động Thiên Cung, hang Sửng Sốt, Hòn Trống Mái, Hòn Đỉnh Hương và đảo Ti Tốp. Năm 1994, Vịnh Hạ Long lần đầu được ghi danh là Di sản Thiên nhiên Thế giới nhờ vẻ đẹp thẩm mỹ ngoại hạng. Sáu năm sau, vào năm 2000, UNESCO công nhận lần thứ hai vì giá trị địa chất và địa mạo, coi đây là một ví dụ tiêu biểu của cảnh quan karst ngập nước. Trong vùng lõi, mọi hoạt động xây dựng và khai thác đều được kiểm soát chặt chẽ, tàu du lịch phải đi theo những tuyến đã được quy định. Vì vậy, xin quý khách giữ gìn vệ sinh và tôn trọng các quy định để kỳ quan này còn mãi cho thế hệ mai sau.",
+        "en": "We are now travelling inside the heritage core zone, an area of about four hundred and thirty-four square kilometres protected by UNESCO. Its boundary takes in most of the best-known sights, including Dau Go Cave, Thien Cung Cave, Sung Sot Cave, the Fighting Cocks, Incense Burner Islet and Ti Top Island. In 1994 Ha Long Bay was first inscribed as a World Natural Heritage Site for its exceptional natural beauty. Six years later, in 2000, UNESCO recognised it again for its geological and geomorphological value, as an outstanding example of drowned karst scenery. Inside the core zone, construction and resource use are strictly controlled, and tour boats must follow designated routes. So please keep the bay clean and respect the rules, so this wonder can be enjoyed by generations to come.",
+        "ko": "지금 저희는 유네스코가 보호하는 약 434제곱킬로미터 넓이의 유산 핵심 구역 안을 지나고 있습니다. 이 구역에는 더우고 동굴, 티엔꿍 동굴, 승솟 동굴, 닭싸움 바위, 향로섬, 띠똡섬 같은 가장 유명한 명소들이 대부분 들어 있습니다. 1994년, 하롱베이는 뛰어난 자연미를 인정받아 처음으로 세계자연유산에 등재되었습니다. 6년 뒤인 2000년에는 지질학적, 지형학적 가치를 인정받아 두 번째로 등재되었는데, 침수 카르스트 지형의 대표적인 예로 평가받았습니다. 핵심 구역 안에서는 건설과 자원 개발이 엄격하게 관리되고, 유람선도 정해진 항로로만 다녀야 합니다. 그러니 이 경이로운 자연이 다음 세대까지 이어질 수 있도록 깨끗하게 지켜 주시고 규정을 꼭 지켜 주세요.",
+        "ja": "私たちは今、ユネスコが保護するおよそ434平方キロメートルの世界遺産の中心エリアを進んでいます。この範囲には、ダウゴー洞窟、ティエンクン洞窟、スンソット洞窟、闘鶏岩、香炉島、ティートップ島など、有名な見どころのほとんどが含まれています。1994年、ハロン湾はその際立った自然美によって、初めて世界自然遺産に登録されました。その6年後の2000年には、地質学的、地形学的な価値が認められ、沈水カルスト地形の代表的な例として二度目の登録を受けました。中心エリアでは、建設や資源の利用が厳しく管理されており、観光船も決められた航路を進まなければなりません。この素晴らしい自然を未来の世代へ残せるよう、ごみは持ち帰り、ルールを守ってお楽しみください。",
+        "zh": "我们现在正航行在遗产核心区内，这片约434平方公里的区域受到联合国教科文组织的保护。这里涵盖了大部分最著名的景点，比如木头洞、天宫洞、惊讶洞、斗鸡石、香炉岛和迪托普岛。1994年，下龙湾凭借卓越的自然美景首次被列入世界自然遗产名录。六年后的2000年，联合国教科文组织又因其地质和地貌价值第二次认定，称它是海上喀斯特景观的杰出典范。在核心区内，一切建设和开发活动都受到严格管控，游船必须沿着规定的航线行驶。因此，请您保持环境整洁，遵守相关规定，让这一奇观永远留给子孙后代。"
+      },
+      "durationSec": {
+        "vi": 59,
+        "en": 52,
+        "ko": 54,
+        "ja": 53,
+        "zh": 52
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "sortOrder": 2
+    },
+    {
+      "id": "s1-e3",
+      "siteId": 1,
+      "nameVi": "Địa hình karst ngập nước",
+      "nameEn": "The drowned karst landscape",
+      "zoneVi": "Địa chất",
+      "zoneEn": "Geology",
+      "image": "/image/VinhHaLong.jpg",
+      "shortDescVi": "Những tháp đá vôi, ngấn sóng và hang động kể lại hàng trăm triệu năm biến đổi của vỏ trái đất.",
+      "shortDescEn": "Limestone towers, wave notches and caves that record hundreds of millions of years of change.",
+      "translations": {
+        "ko": {
+          "name": "침수 카르스트 지형",
+          "zone": "지질",
+          "shortDesc": "석회암 탑과 파도 자국, 동굴이 수억 년에 걸친 지각의 변화를 들려줍니다."
+        },
+        "ja": {
+          "name": "沈水カルスト地形",
+          "zone": "地質",
+          "shortDesc": "石灰岩の塔、波の跡、洞窟が、何億年にもわたる大地の変化を物語ります。"
+        },
+        "zh": {
+          "name": "海上喀斯特地貌",
+          "zone": "地质",
+          "shortDesc": "石灰岩塔、海蚀凹槽和溶洞，记录着数亿年来地壳的变迁。"
+        }
+      },
+      "narration": {
+        "vi": "Hãy quan sát kỹ một hòn đảo gần tàu. Quý khách sẽ thấy vách đá dựng đứng, đỉnh đảo phủ cây xanh và ở chân đảo có một đường lõm sâu vào trong như vết khoét. Đó là ngấn sóng, dấu vết của nước biển và sinh vật bào mòn đá vôi qua hàng nghìn năm. Đá vôi ở Hạ Long được hình thành dưới đáy biển cổ trong hàng trăm triệu năm. Khi vỏ trái đất nâng lên, mưa nhiệt đới có tính axit nhẹ đã hòa tan đá, tạo ra các tháp đá dạng chóp nón và dạng tháp, cùng nhiều hang động có thạch nhũ. Sau thời kỳ băng hà cuối cùng, nước biển dâng cao, nhấn chìm các thung lũng giữa những ngọn núi, biến chúng thành vịnh biển ngày nay. Chính quá trình đó tạo nên cảnh quan karst ngập nước, giá trị địa chất giúp Hạ Long được UNESCO công nhận lần thứ hai.",
+        "en": "Take a close look at an island near the boat. You will see sheer cliffs, a crown of green vegetation, and at the waterline a deep groove cut into the rock. This is a wave notch, carved by seawater and marine life slowly eroding the limestone over thousands of years. Ha Long's limestone formed on the floor of ancient seas over hundreds of millions of years. When the land was uplifted, slightly acidic tropical rain dissolved the rock, shaping cone and tower peaks along with caves full of stalactites. After the last ice age the sea rose and flooded the valleys between the peaks, creating the bay we see today. This process produced the drowned karst landscape whose geological value earned Ha Long its second UNESCO recognition.",
+        "ko": "배 가까이에 있는 섬 하나를 자세히 살펴보세요. 깎아지른 듯한 절벽과 초록 나무로 덮인 봉우리, 그리고 섬 아래쪽 물가에 안으로 깊이 파인 홈이 보이실 겁니다. 이것이 바로 파도 자국으로, 바닷물과 바다 생물이 수천 년 동안 석회암을 조금씩 깎아 낸 흔적입니다. 하롱베이의 석회암은 수억 년에 걸쳐 고대 바다 밑바닥에서 만들어졌습니다. 지각이 솟아오르자 약한 산성을 띤 열대의 비가 바위를 녹여 원뿔 모양과 탑 모양의 봉우리, 그리고 종유석이 가득한 동굴들을 만들었습니다. 마지막 빙하기가 끝난 뒤 바닷물이 차오르면서 봉우리 사이의 골짜기들이 잠겼고, 오늘날의 만이 되었습니다. 바로 이 과정이 침수 카르스트 지형을 만들었고, 이 지질학적 가치 덕분에 하롱베이는 유네스코의 두 번째 인정을 받았습니다.",
+        "ja": "船の近くにある島をひとつ、よく見てください。切り立った崖、緑の木々に覆われた頂、そして水際には、岩を内側へ深くえぐったようなくぼみが見えるはずです。これはノッチと呼ばれる波の跡で、海水や海の生き物が何千年もかけて少しずつ石灰岩を削ってできたものです。ハロン湾の石灰岩は、何億年という時間をかけて太古の海の底で形づくられました。大地が隆起すると、弱い酸性を帯びた熱帯の雨が岩を溶かし、円すい形や塔の形をした峰、そして鍾乳石に満ちた洞窟を生み出しました。最後の氷河期のあと、海面が上がって峰と峰のあいだの谷が沈み、今日の湾が生まれたのです。この過程が沈水カルスト地形をつくり、その地質学的な価値によって、ハロン湾はユネスコから二度目の評価を受けました。",
+        "zh": "请仔细观察游船附近的一座小岛。您会看到陡峭的崖壁、覆盖着绿树的岛顶，而在岛的底部，有一道向内深深凹进去的痕迹。这就是海蚀凹槽，是海水和海洋生物经过数千年慢慢侵蚀石灰岩留下的印记。下龙湾的石灰岩是在数亿年间于远古海底形成的。地壳抬升后，略带酸性的热带雨水溶蚀岩石，塑造出锥状和塔状的山峰，以及布满钟乳石的溶洞。末次冰期之后，海平面上升，淹没了山峰之间的谷地，形成了今天的海湾。正是这一过程造就了海上喀斯特地貌，而这份地质价值也让下龙湾第二次获得联合国教科文组织的认定。"
+      },
+      "durationSec": {
+        "vi": 56,
+        "en": 51,
+        "ko": 57,
+        "ja": 54,
+        "zh": 52
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "sortOrder": 3
+    },
+    {
+      "id": "s1-e4",
+      "siteId": 1,
+      "nameVi": "Góc ngắm hoàng hôn trên vịnh",
+      "nameEn": "Sunset viewpoint on the bay",
+      "zoneVi": "Boong tàu",
+      "zoneEn": "Sun deck",
+      "image": "/image/VinhHaLong.jpg",
+      "shortDescVi": "Gợi ý thời điểm, vị trí và bố cục để có những bức ảnh toàn cảnh vịnh đẹp nhất.",
+      "shortDescEn": "Tips on timing, position and framing for the best panoramic photos of the bay.",
+      "translations": {
+        "ko": {
+          "name": "만 위의 일몰 감상 포인트",
+          "zone": "선상 갑판",
+          "shortDesc": "하롱베이 전경을 가장 아름답게 담을 수 있는 시간, 위치, 구도를 알려 드립니다."
+        },
+        "ja": {
+          "name": "湾に沈む夕日のビューポイント",
+          "zone": "サンデッキ",
+          "shortDesc": "湾の全景をいちばん美しく撮るための時間帯、立ち位置、構図のヒントです。"
+        },
+        "zh": {
+          "name": "海湾日落观景点",
+          "zone": "观景甲板",
+          "shortDesc": "拍出最美海湾全景照片的时间、位置和构图建议。"
+        }
+      },
+      "narration": {
+        "vi": "Nếu quý khách yêu thích nhiếp ảnh, boong tàu chính là phòng chụp tuyệt vời nhất. Buổi sáng sớm, sương mỏng phủ trên mặt nước khiến các hòn đảo hiện lên mờ ảo như tranh thủy mặc. Buổi chiều, khi mặt trời xuống thấp về phía tây, ánh nắng vàng cam chiếu nghiêng làm nổi bật từng thớ đá trên vách núi. Hãy thử đứng ở mũi tàu, đặt các lớp đảo chồng lên nhau ở hậu cảnh để bức ảnh có chiều sâu, và để đường chân trời ở một phần ba khung hình. Một chiếc thuyền buồm hay thuyền nan nhỏ ở tiền cảnh sẽ giúp người xem cảm nhận được sự kỳ vĩ của núi đá. Khi chụp ngược sáng, quý khách nên giảm phơi sáng một chút để giữ màu trời. Và đừng quên dành vài phút cất máy, chỉ để ngắm nhìn vịnh bằng chính đôi mắt của mình.",
+        "en": "If you love photography, the sun deck is the best studio you could ask for. Early in the morning, thin mist on the water makes the islands look soft and dreamlike, like an ink painting. In the late afternoon, as the sun sinks to the west, golden light slants across the cliffs and brings out every texture in the rock. Try standing at the bow, layering the islands in the background for depth, and placing the horizon on a third of the frame. A sailing junk or small bamboo boat in the foreground helps viewers feel the scale of the peaks. When shooting into the light, lower your exposure slightly to keep the colour of the sky. And remember to put the camera away for a few minutes, simply to enjoy the bay with your own eyes.",
+        "ko": "사진을 좋아하신다면, 이 갑판이야말로 최고의 촬영 스튜디오입니다. 이른 아침에는 물 위에 엷은 안개가 깔려 섬들이 마치 수묵화처럼 아련하게 보입니다. 늦은 오후, 해가 서쪽으로 기울면 황금빛 햇살이 절벽을 비스듬히 비추며 바위의 결 하나하나를 또렷하게 드러내지요. 뱃머리에 서서 겹겹이 포개진 섬들을 배경에 두면 사진에 깊이가 생기고, 수평선은 화면의 삼분의 일 지점에 맞춰 보세요. 앞쪽에 돛단배나 작은 대나무 배를 넣으면 보는 사람이 봉우리의 웅장함을 더 잘 느낄 수 있습니다. 역광으로 찍으실 때는 노출을 조금 낮춰야 하늘의 색을 살릴 수 있습니다. 그리고 잠시 카메라를 내려놓고, 여러분의 두 눈으로 이 아름다운 만을 감상하는 것도 잊지 마세요.",
+        "ja": "写真がお好きな方にとって、このデッキは最高のスタジオです。早朝には、水面にうっすらと霧がかかり、島々が水墨画のように幻想的に浮かび上がります。夕方、太陽が西に傾くと、金色の光が断崖を斜めに照らし、岩肌の質感をくっきりと際立たせます。船首に立って、重なり合う島々を背景に入れると奥行きが生まれます。水平線は画面の三分の一の位置に置いてみてください。手前に帆船や小さな竹舟を入れると、峰の雄大さがより伝わります。逆光で撮るときは、露出を少し下げると空の色がきれいに残ります。そして、数分だけカメラを置いて、ご自分の目でこの湾の景色をゆっくり味わうことも忘れないでくださいね。",
+        "zh": "如果您喜欢摄影，这片甲板就是最好的摄影棚。清晨，薄雾轻笼水面，岛屿若隐若现，宛如一幅水墨画。傍晚，太阳西沉，金色的阳光斜照在崖壁上，岩石的每一道纹理都清晰可见。您可以站在船头，把层层叠叠的岛屿放在背景中，让照片更有纵深感，并把地平线放在画面三分之一的位置。前景中加上一艘帆船或一只小竹船，更能衬托出山峰的雄伟。逆光拍摄时，适当降低一点曝光，就能保留天空的色彩。最后，别忘了放下相机几分钟，用自己的双眼好好欣赏这片美丽的海湾。"
+      },
+      "durationSec": {
+        "vi": 54,
+        "en": 55,
+        "ko": 53,
+        "ja": 47,
+        "zh": 46
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "sortOrder": 4
+    }
+  ]
+}

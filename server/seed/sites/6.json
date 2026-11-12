@@ -1,0 +1,310 @@
+{
+  "id": 6,
+  "slug": "hon-con-coc",
+  "name": "Toad Islet",
+  "nameVi": "Hòn Con Cóc",
+  "provinceEn": "Ha Long Bay, Quang Ninh",
+  "provinceVi": "Vịnh Hạ Long, Quảng Ninh",
+  "yearEn": "Natural Wonder",
+  "yearVi": "Thắng cảnh thiên tạo",
+  "categoryEn": "Unique Rock",
+  "categoryVi": "Hòn kỳ thú",
+  "categoryKey": "Unique Rock",
+  "image": "/image/hon-con-coc.jpg",
+  "fallbackImage": "/image/VinhHaLong.jpg",
+  "lat": 20.89511,
+  "lng": 107.09885,
+  "rangeMeters": 300,
+  "rating": 4.6,
+  "reviewsCount": 1580,
+  "shortDescVi": "Khối đá vôi cao khoảng 9 m mang dáng chú cóc ngồi ngóng trời, gợi nhớ sự tích 'Con cóc là cậu ông Trời'.",
+  "shortDescEn": "A roughly 9-metre limestone rock shaped like a toad gazing at the sky, tied to a beloved Vietnamese folk tale.",
+  "historyVi": "Hòn Con Cóc nằm ở phía đông nam vịnh Hạ Long, cách cảng tàu du lịch Bãi Cháy khoảng 12 km đường thủy. Khối đá cao khoảng 9 m, dáng ngồi chồm hỗm ngẩng đầu ngóng trời, gắn liền với truyện cổ 'Cóc kiện Trời': chú cóc nhỏ bé cùng cua, gấu, cọp, ong, cáo lên thiên đình đòi mưa cứu muôn loài khỏi đại hạn. Hòn đá không có bến cập, du khách chiêm ngưỡng từ trên tàu.",
+  "historyEn": "Toad Islet lies in the south-eastern part of Ha Long Bay, about 12 km by water from the Bai Chay tourist port. Around 9 m tall, it resembles a squatting toad gazing skyward and is linked to the folk tale of the toad who, with a crab, bear, tiger, bees and fox, went to heaven to demand rain during a great drought. There is no landing pier; visitors admire it from the boat.",
+  "geologyVi": "Khối đá vôi sót lại của địa hình karst ngập nước, được mưa gió và sóng biển bào mòn qua hàng triệu năm; chân đá có ngấn sóng (hàm ếch) điển hình do thủy triều hòa tan đá vôi.",
+  "geologyEn": "A residual limestone peak of drowned karst, sculpted by rain, wind and waves over millions of years; its base shows a typical wave notch where tides dissolve the limestone.",
+  "highlightsVi": [
+    "Hình thù chú cóc ngẩng đầu ngóng trời rõ nét khi nhìn nghiêng từ mạn tàu.",
+    "Gắn với sự tích dân gian 'Con cóc là cậu ông Trời' quen thuộc với mọi thế hệ.",
+    "Ngấn sóng chân đá minh chứng giá trị địa chất được UNESCO công nhận năm 2000.",
+    "Góc chụp ảnh đẹp vào sáng sớm và chiều muộn."
+  ],
+  "highlightsEn": [
+    "A clear sky-gazing toad silhouette when viewed side-on from the deck.",
+    "Linked to the folk tale 'The toad is the uncle of the Sky', known to every generation.",
+    "A wave-notched base illustrating the geological values recognised by UNESCO in 2000.",
+    "Great photo opportunities in early morning and late afternoon light."
+  ],
+  "narration": {
+    "vi": "Xin chào quý khách, và chào mừng quý khách đến với một trong những hòn đá đáng yêu nhất của vịnh Hạ Long: Hòn Con Cóc. Chỉ cao chừng chín mét, nhưng khối đá nhỏ bé này lại mang trong mình một câu chuyện mà gần như đứa trẻ Việt Nam nào cũng thuộc lòng, câu chuyện về một chú cóc dám lên tận thiên đình để kiện ông Trời. Vì sao một con cóc lại được người xưa gọi là \"cậu ông Trời\"? Mời quý khách cùng lắng nghe.\n\nTrước hết, mời quý khách hướng tầm mắt ra mặt nước phía trước mũi tàu, hơi chếch về bên phải. Khối đá thấp, tròn trịa, đứng tách riêng giữa biển chính là Hòn Con Cóc. Hòn đá nằm ở khu vực phía đông nam của vịnh, cách cảng tàu du lịch Bãi Cháy khoảng mười hai ki-lô-mét đường thủy. Hòn đá không có bến cập nên du khách chỉ chiêm ngưỡng từ trên tàu, nhưng chính khoảng cách ấy giúp ta thấy trọn dáng hình của nó.\n\nHãy quan sát thật kỹ. Phần chân đá bè rộng như hai chân sau đang xoạc ra, phần thân nhô cao và hơi ngả về phía sau, còn phần đầu thì ngẩng lên, cái miệng rộng như đang há ra ngóng về phía bầu trời. Đó chính là dáng ngồi chồm hỗm quen thuộc của chú cóc trong tranh dân gian.\n\nVà bây giờ là câu chuyện. Ngày xưa, hạn hán kéo dài nhiều năm, ruộng đồng nứt nẻ, muôn loài khát nước, còn ông Trời mải vui mà quên làm mưa. Chú cóc nhỏ bé quyết định lên trời kiện. Trên đường đi, cóc rủ thêm cua, gấu, cọp, ong và cáo cùng tham gia. Đến cửa nhà Trời, cóc cầm dùi đánh trống thật to. Ông Trời sai gà ra mổ, cáo liền vồ lấy gà. Trời sai chó ra đuổi, gấu quật chết chó. Trời sai thần Sét ra trị tội, ong bay ra đốt, thần Sét chạy xuống ao thì bị cua kẹp, cọp chặn đường. Cuối cùng, ông Trời đành mời cóc vào, hứa từ nay hễ nghe tiếng cóc nghiến răng là sẽ cho mưa xuống. Từ đó dân gian có câu: \"Con cóc là cậu ông Trời, hễ ai đánh nó thì Trời đánh cho\". Câu chuyện nhắc rằng dù nhỏ bé, có lý lẽ và biết đoàn kết, ta vẫn làm nên điều lớn lao.\n\nVề mặt địa chất, Hòn Con Cóc là một khối đá vôi sót lại, tức là phần còn lại của một khối núi lớn hơn sau hàng triệu năm bị mưa gió và sóng biển bào mòn. Đá vôi của vịnh hình thành từ trầm tích biển cách nay hàng trăm triệu năm. Quý khách hãy để ý vệt lõm chạy quanh chân đá, sát mép nước. Đó là ngấn sóng, dấu vết của nước biển và thủy triều liên tục gặm mòn đá vôi. Chính những ngấn sóng như thế đã góp phần tạo nên dáng hình độc đáo của hòn đá hôm nay.\n\nNhững giá trị ấy là lý do vịnh Hạ Long được UNESCO công nhận là Di sản Thiên nhiên Thế giới năm 1994 về giá trị thẩm mỹ, năm 2000 về giá trị địa chất, địa mạo, và năm 2023 mở rộng thành di sản vịnh Hạ Long – quần đảo Cát Bà.\n\nGợi ý chụp ảnh: hãy đứng ở mạn tàu và chụp nghiêng để thấy rõ cái miệng ngẩng lên trời. Ánh sáng đẹp nhất vào sáng sớm hoặc chiều muộn.\n\nXin quý khách lưu ý không xả rác xuống biển và giữ trật tự để cùng gìn giữ vẻ đẹp của di sản. Cảm ơn quý khách đã lắng nghe, chúc quý khách một hành trình thật nhiều niềm vui trên vịnh Hạ Long.",
+    "en": "Hello everyone, and welcome to one of the most charming rocks in Ha Long Bay: Toad Islet, or Hòn Con Cóc. It stands only about nine meters tall, yet this little rock carries a story that almost every Vietnamese child knows by heart, the story of a toad brave enough to climb all the way to heaven and sue the Sky God. Why would people call a humble toad \"the uncle of the Sky\"? Stay with me and you will find out.\n\nFirst, please look out across the water ahead of the bow, slightly to the right. That low, rounded rock standing alone in the sea is Toad Islet. It lies in the south-eastern part of the bay, roughly twelve kilometers by water from the Bai Chay tourist port. The islet is tiny and has no landing pier, so it can only be admired from the boat, but that distance lets you see its whole silhouette.\n\nTake a careful look. The base spreads wide like two hind legs, the body rises and leans slightly back, and the head tilts upward, its broad mouth open toward the sky. It is exactly the squatting toad you see in Vietnamese folk paintings.\n\nNow, the legend. Long ago, a terrible drought lasted for years. Fields cracked, plants withered and every creature was thirsty, while the Sky God, busy with his pleasures, forgot to send rain. The little toad decided to go to heaven and file a complaint. On the way he was joined by a crab, a bear, a tiger, a swarm of bees and a fox. At heaven's gate the toad beat the great drum. The Sky God sent a rooster to peck him, and the fox caught the rooster. He sent a dog, and the bear killed the dog. He sent the Thunder God, but the bees stung him, the crab pinched him in the pond and the tiger blocked his way. At last the Sky God invited the toad inside and promised that whenever he heard the toad grinding its teeth, he would send rain. Hence the saying: \"The toad is the uncle of the Sky; whoever strikes it will be struck by the Sky.\" The tale reminds us that even the smallest can achieve great things with reason and unity.\n\nGeologically, Toad Islet is a residual limestone peak, what remains of a larger mass after millions of years of rain, wind and waves. The limestone of Ha Long Bay formed from marine sediments hundreds of millions of years ago. Notice the groove running around the base, right at the waterline. That is a wave notch, carved as seawater and tides slowly dissolve the rock, and it helps give the islet its distinctive shape.\n\nSuch values are why UNESCO inscribed Ha Long Bay as a World Natural Heritage Site in 1994 for its outstanding beauty, again in 2000 for its geology and geomorphology, and in 2023 extended it together with the Cat Ba Archipelago.\n\nA few photo tips: stand at the side rail as the boat passes and shoot at an angle to capture the upturned mouth. The best light comes early in the morning or late in the afternoon.\n\nPlease keep the sea clean and help protect this heritage. Thank you for listening, and enjoy the rest of your journey on Ha Long Bay.",
+    "ko": "안녕하세요, 여러분. 하롱베이에서 가장 귀여운 바위 가운데 하나인 두꺼비 바위, 베트남어로 혼꼰꼭에 오신 것을 환영합니다. 높이는 겨우 9미터 정도지만, 이 작은 바위에는 베트남 아이라면 거의 누구나 외우고 있는 이야기가 담겨 있습니다. 바로 하늘나라까지 올라가 옥황상제를 고소한 용감한 두꺼비 이야기입니다. 옛사람들은 왜 작은 두꺼비를 '하늘의 외삼촌'이라고 불렀을까요? 지금부터 함께 들어 보시죠.\n\n먼저 뱃머리 앞쪽, 약간 오른쪽 바다를 바라봐 주세요. 바다 한가운데 홀로 서 있는 낮고 둥근 바위가 바로 두꺼비 바위입니다. 이 바위는 하롱베이 남동쪽에 있으며, 바이짜이 관광 선착장에서 뱃길로 약 12킬로미터 떨어져 있습니다. 배를 댈 곳이 없어 배 위에서 감상하지만, 덕분에 바위 전체 모습을 한눈에 볼 수 있습니다.\n\n자세히 한번 살펴보세요. 넓게 퍼진 아랫부분은 쩍 벌린 두 뒷다리 같고, 몸통은 높이 솟아 살짝 뒤로 기울어 있습니다. 머리는 위로 들려 있고, 커다란 입은 하늘을 향해 벌리고 있는 것 같지요. 베트남 민화에 나오는 쪼그려 앉은 두꺼비의 모습 그대로입니다.\n\n이제 전설을 들려 드리겠습니다. 옛날 옛적, 몇 해 동안이나 가뭄이 이어졌습니다. 논밭은 갈라지고 모든 생명이 목말라했지만, 옥황상제는 노는 데 정신이 팔려 비 내리는 것을 잊었습니다. 작은 두꺼비는 하늘에 올라가 따지기로 마음먹었습니다. 가는 길에 게, 곰, 호랑이, 벌, 여우가 함께했지요. 하늘 문 앞에 도착한 두꺼비는 큰 북을 힘껏 두드렸습니다. 옥황상제가 닭을 보내자 여우가 덮쳤고, 개를 보내자 곰이 때려눕혔습니다. 벼락신을 보내자 벌들이 쏘았고, 연못으로 도망친 벼락신을 게가 물고 호랑이가 길을 막았습니다. 결국 옥황상제는 두꺼비를 불러들여, 두꺼비가 이를 가는 소리만 들리면 비를 내려 주겠다고 약속했습니다. 그래서 베트남에는 '두꺼비는 하늘의 외삼촌, 두꺼비를 때리는 사람은 하늘이 벌을 내린다'라는 말이 전해집니다. 이 이야기는 아무리 작아도 이치에 맞고 서로 힘을 합치면 큰일을 해낼 수 있다고 일깨워 줍니다.\n\n지질학적으로 보면, 두꺼비 바위는 남아 있는 석회암 봉우리입니다. 더 큰 산이 수백만 년 동안 깎이고 남은 부분이지요. 하롱베이의 석회암은 수억 년 전 바다 밑 퇴적물로 만들어졌습니다. 물과 맞닿은 바위 밑동을 따라 움푹 파인 홈이 보이시나요? 이것을 파식와라고 부르는데, 바닷물과 조수가 끊임없이 석회암을 녹이고 깎아 낸 흔적입니다. 이 홈이 바위의 독특한 모양을 만드는 데 한몫했습니다.\n\n이러한 가치 덕분에 하롱베이는 1994년에 뛰어난 경관미로, 2000년에는 지질과 지형적 가치로 유네스코 세계자연유산에 등재되었습니다. 2023년에는 깟바 군도까지 유산 범위가 넓어졌습니다.\n\n사진 팁을 하나 드릴게요. 배 옆 난간에 서서 비스듬한 각도로 찍으면 하늘을 향해 들린 입이 또렷하게 나옵니다. 빛이 가장 아름다운 시간은 이른 아침이나 늦은 오후입니다.\n\n바다에 쓰레기를 버리지 마시고, 질서를 지켜 이 유산의 아름다움을 함께 지켜 주세요. 들어 주셔서 감사합니다. 하롱베이에서 즐거운 여행 되시길 바랍니다.",
+    "ja": "皆さま、こんにちは。ハロン湾でいちばん愛らしい岩のひとつ、ヒキガエル岩、ベトナム語でホン・コン・コックへようこそ。高さはわずか9メートルほどですが、この小さな岩には、ベトナムの子どもなら誰もが知っている物語が秘められています。天まで昇って天の神さまを訴えた、勇敢なヒキガエルのお話です。なぜ昔の人は、小さなヒキガエルを「天の神さまのおじさん」と呼んだのでしょうか。どうぞ一緒にお聞きください。\n\nまずは船首の前方、やや右手の海をご覧ください。海の真ん中にぽつんと立つ、低くて丸みを帯びた岩、あれがヒキガエル岩です。この岩はハロン湾の南東部にあり、バイチャイ観光船ターミナルから船で約12キロメートルのところです。船着き場がないため船の上からの見学ですが、そのおかげで岩の姿全体を眺めることができます。\n\nよく見てみましょう。横に大きく広がった根元は、踏ん張るように開いた二本の後ろ足のようです。胴体は高く盛り上がり、少し後ろへ反っています。頭は上を向き、大きな口を空に向かってぱっくりと開けているように見えます。ベトナムの民画に描かれる、しゃがんだヒキガエルの姿そのものです。\n\nそれでは、伝説をお話ししましょう。昔々、何年もの間ひどい日照りが続きました。田畑はひび割れ、あらゆる生き物がのどの渇きに苦しんでいましたが、天の神さまは遊びに夢中で、雨を降らせることを忘れていました。そこで小さなヒキガエルは、天に昇って訴えることを決心します。道中、カニ、クマ、トラ、ハチ、キツネが仲間に加わりました。天の門に着くと、ヒキガエルは大きな太鼓を力いっぱい打ち鳴らしました。天の神さまがニワトリを送るとキツネが飛びかかり、犬を送るとクマが打ち倒しました。雷の神を送るとハチが刺し、池へ逃げ込んだ雷の神をカニがはさみで挟み、トラが行く手をふさぎました。とうとう天の神さまはヒキガエルを招き入れ、歯ぎしりの音を聞いたらすぐに雨を降らせると約束したのです。それ以来、ベトナムには「ヒキガエルは天の神さまのおじさん、ヒキガエルをたたく者は天に罰せられる」ということわざが伝わっています。この物語は、たとえ小さな者でも、道理をわきまえ、力を合わせれば大きなことを成し遂げられると教えてくれます。\n\n地質の面から見ると、ヒキガエル岩は取り残された石灰岩の峰です。つまり、何百万年もの間、雨や風、波に削られて残った、もっと大きな山の一部なのです。ハロン湾の石灰岩は、何億年も前に海の底に積もった堆積物からできています。岩の根元、水面すれすれのところに、ぐるりと続くくぼみが見えますか。これはノッチと呼ばれる波食のくぼみで、海水と潮の満ち引きが絶えず石灰岩を溶かし、削り取ってきた跡です。このくぼみが、岩の独特な形を生み出す一因となりました。\n\nこうした価値が認められ、ハロン湾は1994年にすぐれた景観美で、2000年には地質・地形学的価値で、ユネスコの世界自然遺産に登録されました。さらに2023年には、カットバ諸島を加えた遺産へと拡大されています。\n\n撮影のヒントです。船の横の手すりに立ち、斜めの角度から撮ると、空を見上げる口がはっきりと写ります。光がいちばん美しいのは、早朝か夕方です。\n\n海にごみを捨てず、マナーを守って、この遺産の美しさを一緒に守りましょう。ご清聴ありがとうございました。ハロン湾での楽しい旅をお過ごしください。",
+    "zh": "各位游客，大家好！欢迎来到下龙湾最可爱的岩石之一——蛤蟆石。它只有九米左右高，但这块小小的岩石里，却藏着一个几乎每个越南孩子都能倒背如流的故事：一只敢于飞上天庭、状告老天爷的蛤蟆。为什么古人会把一只小小的蛤蟆称为“老天爷的舅舅”呢？请大家跟我一起听下去。\n\n首先，请大家朝船头前方、稍微偏右的海面看。那块孤零零立在海中、低矮又圆润的岩石，就是蛤蟆石。它位于下龙湾的东南部，距离白斋旅游码头大约十二公里水路。这里没有码头可以停靠，游客只能在船上观赏，不过正是这段距离，让我们能完整地看清它的轮廓。\n\n请仔细看。底部宽宽地展开，就像两条张开的后腿；身体高高隆起，稍稍向后仰；头部向上抬起，宽大的嘴巴好像正张开着望向天空。这正是越南民间画里那只蹲坐着的蛤蟆的模样。\n\n现在，我来讲讲这个传说。很久很久以前，大旱持续了好多年，田地干裂，万物干渴，可老天爷只顾自己玩乐，忘了下雨。小小的蛤蟆决定上天去告状。一路上，螃蟹、熊、老虎、蜜蜂和狐狸都加入了它的队伍。到了天门，蛤蟆拿起鼓槌，用力敲响大鼓。老天爷派公鸡去啄它，狐狸一下扑住了公鸡；派狗去追，熊一掌打死了狗；派雷公去惩治，蜜蜂飞出来蜇他，雷公逃进池塘，又被螃蟹夹住，老虎还拦住了去路。最后，老天爷只好请蛤蟆进去，答应从今以后，只要听到蛤蟆磨牙的声音，就马上降雨。从此，越南民间流传着一句话：“蛤蟆是老天爷的舅舅，谁打它，老天就打谁。”这个故事告诉我们，即使再渺小，只要有道理、懂得团结，也能成就大事。\n\n从地质上看，蛤蟆石是一座残留的石灰岩峰，也就是一座更大的山体经过数百万年的风吹雨打和海浪侵蚀后留下的部分。下龙湾的石灰岩，是由数亿年前的海洋沉积物形成的。请大家留意岩石底部、紧贴水面的那一圈凹槽。那就是海蚀凹槽，是海水和潮汐不断溶蚀石灰岩留下的痕迹。正是这样的凹槽，造就了这块岩石今天独特的形状。\n\n正因为这些价值，下龙湾在1994年因其美学价值、在2000年因其地质地貌价值，被联合国教科文组织列入世界自然遗产名录；2023年，又与吉婆群岛一起，扩展为下龙湾—吉婆群岛遗产。\n\n拍照小贴士：站在船舷边侧着拍，就能清楚拍到它朝天张开的嘴巴。光线最美的时候是清晨或傍晚。\n\n请不要向海里扔垃圾，遵守秩序，一起守护这份遗产的美丽。感谢大家的聆听，祝大家在下龙湾旅途愉快！"
+  },
+  "durationSec": {
+    "vi": 227,
+    "en": 222,
+    "ko": 219,
+    "ja": 228,
+    "zh": 201
+  },
+  "audioUrl": {
+    "vi": null,
+    "en": null,
+    "ko": null,
+    "ja": null,
+    "zh": null
+  },
+  "translations": {
+    "ko": {
+      "name": "두꺼비 바위",
+      "province": "꽝닌성 하롱베이",
+      "year": "자연 경관",
+      "category": "기암",
+      "shortDesc": "높이 약 9미터의 석회암 바위로, 하늘을 올려다보는 두꺼비 모양이며 '두꺼비는 하늘의 외삼촌'이라는 베트남 민담과 이어져 있습니다.",
+      "history": "두꺼비 바위, 베트남어로 혼꼰꼭은 하롱베이 남동쪽에 있으며 바이짜이 관광 선착장에서 뱃길로 약 12킬로미터 떨어져 있습니다. 높이 약 9미터의 바위는 쪼그려 앉아 고개를 들고 하늘을 바라보는 모습으로, '두꺼비가 하늘을 고소하다'라는 옛이야기와 이어져 있습니다. 작은 두꺼비가 게, 곰, 호랑이, 벌, 여우와 함께 하늘나라에 올라가 큰 가뭄에서 모든 생명을 구할 비를 요구했다는 이야기입니다. 배를 댈 곳이 없어 배 위에서 감상합니다.",
+      "geology": "물에 잠긴 카르스트 지형에 남은 석회암 봉우리로, 수백만 년 동안 비와 바람, 파도에 깎여 만들어졌습니다. 바위 아랫부분에는 조수가 석회암을 녹여 생긴 전형적인 파식와, 즉 노치가 있습니다.",
+      "highlights": [
+        "배 옆에서 비스듬히 보면 고개를 들고 하늘을 바라보는 두꺼비 모양이 뚜렷합니다.",
+        "모든 세대에게 친숙한 민담 '두꺼비는 하늘의 외삼촌'과 이어져 있습니다.",
+        "바위 밑동의 파식와는 2000년 유네스코가 인정한 지질학적 가치를 보여 줍니다.",
+        "이른 아침과 늦은 오후에 사진이 가장 아름답게 나옵니다."
+      ]
+    },
+    "ja": {
+      "name": "ヒキガエル岩",
+      "province": "クアンニン省 ハロン湾",
+      "year": "自然の景勝地",
+      "category": "奇岩",
+      "shortDesc": "空を見上げるヒキガエルの姿をした高さ約9メートルの石灰岩で、「ヒキガエルは天の神さまのおじさん」というベトナムの民話にゆかりがあります。",
+      "history": "ヒキガエル岩、ベトナム語でホン・コン・コックは、ハロン湾の南東部にあり、バイチャイ観光船ターミナルから船で約12キロメートルの場所にあります。高さ約9メートルの岩は、しゃがんで頭を上げ、空を見上げる姿をしており、「ヒキガエルが天を訴える」という昔話と結びついています。小さなヒキガエルがカニ、クマ、トラ、ハチ、キツネとともに天へ昇り、大干ばつから生き物を救う雨を求めたという物語です。船着き場はなく、船上から眺めます。",
+      "geology": "沈水カルスト地形に取り残された石灰岩の峰で、何百万年もの間、雨や風、波に削られてできました。岩の根元には、潮が石灰岩を溶かしてできた典型的なノッチ、つまり波食のくぼみが見られます。",
+      "highlights": [
+        "船の横から斜めに眺めると、空を見上げるヒキガエルの姿がはっきりとわかります。",
+        "世代を超えて親しまれる民話「ヒキガエルは天の神さまのおじさん」にゆかりがあります。",
+        "根元のノッチは、2000年にユネスコが認めた地質学的価値を物語っています。",
+        "早朝と夕方は、写真撮影に最適な時間帯です。"
+      ]
+    },
+    "zh": {
+      "name": "蛤蟆石",
+      "province": "广宁省 下龙湾",
+      "year": "天然景观",
+      "category": "奇石",
+      "shortDesc": "一块高约9米、形似仰望天空的蛤蟆的石灰岩，与越南民间故事《蛤蟆是老天爷的舅舅》紧密相连。",
+      "history": "蛤蟆石位于下龙湾东南部，距离白斋旅游码头约12公里水路。岩石高约9米，形似一只蹲坐着抬头望天的蛤蟆，与越南古老的《蛤蟆告天》故事紧密相连：小小的蛤蟆和螃蟹、熊、老虎、蜜蜂、狐狸一起上天庭，为大旱中的万物求雨。这里没有码头停靠，游客在船上观赏。",
+      "geology": "淹没型喀斯特地貌中残留的石灰岩峰，经过数百万年风雨和海浪的侵蚀而成；岩石底部有一圈典型的海蚀凹槽，是潮汐溶蚀石灰岩留下的痕迹。",
+      "highlights": [
+        "从船舷侧面看，抬头望天的蛤蟆轮廓清晰可见。",
+        "与世代相传的民间故事《蛤蟆是老天爷的舅舅》紧密相连。",
+        "石脚的海蚀凹槽，见证了2000年联合国教科文组织认定的地质价值。",
+        "清晨和傍晚是拍照的最佳时段。"
+      ]
+    }
+  },
+  "coordSource": "Wikimapia object 35704663 \"Hòn Cóc Con\" (http://wikimapia.org/35704663) 20.89511,107.09885, part of the Hòn Cóc islet cluster (Hòn Cóc 20.89291,107.10808; Hòn Cóc Trên/Dưới); cross-checked with location descriptions \"đông nam vịnh, cách cảng Bãi Cháy ~12 km\" at https://www.visithalongbay.com/islets/con-coc-islet.html and https://vinwonders.com/vi/wonderpedia/news/hon-con-coc-ha-long/",
+  "isActive": true,
+  "exhibits": [
+    {
+      "id": "s6-e1",
+      "siteId": 6,
+      "nameVi": "Dáng cóc ngồi ngóng trời",
+      "nameEn": "The Sky-Gazing Toad",
+      "zoneVi": "Góc ngắm chính diện",
+      "zoneEn": "Front viewpoint",
+      "image": "/image/hon-con-coc.jpg",
+      "shortDescVi": "Nhận diện chân, thân, đầu và cái miệng ngẩng lên trời của chú cóc đá cao khoảng 9 m.",
+      "shortDescEn": "Spot the legs, body, head and upturned mouth of this roughly 9-metre stone toad.",
+      "narration": {
+        "vi": "Quý khách đang nhìn thấy góc đẹp nhất để nhận ra chú cóc đá. Hãy bắt đầu từ phần chân: khối đá bè rộng, sát mặt nước, giống hai chân sau đang xoạc ra để giữ thăng bằng. Tiếp theo, phần thân nhô cao, hơi ngả về phía sau như đang lấy đà. Trên cùng là phần đầu ngẩng lên, cái miệng rộng như đang há ra, hướng thẳng về phía bầu trời. Toàn bộ khối đá chỉ cao khoảng chín mét, nhưng hình dáng lại rất rõ ràng, đặc biệt khi nhìn nghiêng từ mạn tàu. Người dân vùng biển vẫn ví chú cóc này đang ngóng mưa, đúng như hình ảnh trong câu chuyện cổ. Mỗi khi tàu chuyển hướng, góc nhìn thay đổi và chú cóc như cũng đổi tư thế, lúc thì ngồi chồm hỗm, lúc lại như sắp nhảy xuống biển. Quý khách hãy thử chỉ cho người đi cùng xem đâu là mắt, đâu là miệng của chú cóc nhé.",
+        "en": "You are now at the best angle to recognise the stone toad. Start with the legs: the broad base right at the waterline looks like two hind legs spread out for balance. Next, the body rises and leans slightly back, as if gathering strength. On top, the head tilts upward with a wide mouth open toward the sky. The whole rock is only about nine metres tall, yet its shape is remarkably clear, especially when seen side-on from the rail. Local fishermen say the toad is waiting for rain, just like the old tale. Each time the boat turns, the angle shifts and the toad seems to change pose, sometimes squatting, sometimes ready to leap into the sea. Try pointing out the toad's eyes and mouth to your companions.",
+        "ko": "지금 계신 곳이 돌 두꺼비를 알아보기에 가장 좋은 각도입니다. 먼저 다리부터 보세요. 물가에 넓게 퍼진 아랫부분이 균형을 잡으려고 벌린 두 뒷다리처럼 보입니다. 다음으로 몸통은 높이 솟아, 힘을 모으듯 살짝 뒤로 기울어 있습니다. 맨 위에는 머리가 들려 있고, 커다란 입은 하늘을 향해 활짝 벌어져 있지요. 바위 전체의 높이는 9미터 정도밖에 되지 않지만, 모양이 아주 뚜렷해서 특히 배 옆에서 비스듬히 볼 때 잘 보입니다. 이곳 어민들은 이 두꺼비가 옛이야기 속 모습처럼 비를 기다리고 있다고 말합니다. 배가 방향을 바꿀 때마다 보는 각도가 달라져서, 두꺼비도 자세를 바꾸는 것처럼 보입니다. 쪼그려 앉아 있는 것 같다가도, 금방이라도 바다로 뛰어들 것 같기도 하지요. 함께 오신 분께 두꺼비의 눈과 입이 어디인지 한번 짚어 보세요.",
+        "ja": "今いらっしゃる場所は、石のヒキガエルを見分けるのにいちばんよい角度です。まずは足から見てみましょう。水際に大きく広がった根元は、バランスを取るために開いた二本の後ろ足のようです。次に胴体は高く盛り上がり、勢いをつけるように少し後ろへ反っています。いちばん上には頭が持ち上がり、大きな口を空に向かってぱっくりと開けています。岩全体の高さは9メートルほどしかありませんが、形はとてもはっきりしていて、特に船の横から斜めに眺めるとよくわかります。地元の漁師たちは、昔話のとおり、このヒキガエルは雨を待っているのだと言います。船が向きを変えるたびに見える角度が変わり、ヒキガエルも姿勢を変えるように見えます。しゃがんでいるように見えたかと思えば、今にも海へ飛び込みそうにも見えます。ご一緒の方に、ヒキガエルの目と口がどこか、ぜひ指さして教えてあげてください。",
+        "zh": "您现在所在的位置，正是辨认这只石蛤蟆的最佳角度。先从腿看起：紧贴水面、宽宽展开的底部，就像为了保持平衡而张开的两条后腿。接着，身体高高隆起，微微向后仰，好像正在蓄力。最上面是抬起的头部，宽大的嘴巴朝着天空张开。整块岩石只有九米左右高，但轮廓非常清晰，尤其是从船舷侧面看的时候。当地渔民说，这只蛤蟆就像古老故事里那样，正在盼望下雨。每当船只转向，视角随之变化，蛤蟆仿佛也换了姿势，一会儿像是蹲坐着，一会儿又像要跳进海里。请试着给同行的朋友指一指，哪里是蛤蟆的眼睛，哪里是它的嘴巴吧。"
+      },
+      "durationSec": {
+        "vi": 59,
+        "en": 52,
+        "ko": 58,
+        "ja": 62,
+        "zh": 51
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "translations": {
+        "ko": {
+          "name": "하늘을 바라보는 두꺼비",
+          "zone": "정면 전망 지점",
+          "shortDesc": "높이 약 9미터인 돌 두꺼비의 다리, 몸통, 머리, 그리고 하늘을 향해 들린 입을 찾아보세요."
+        },
+        "ja": {
+          "name": "空を見上げるヒキガエル",
+          "zone": "正面ビューポイント",
+          "shortDesc": "高さ約9メートルの石のヒキガエルの足、胴体、頭、そして空を見上げる口を見つけてみましょう。"
+        },
+        "zh": {
+          "name": "仰望天空的蛤蟆",
+          "zone": "正面观景点",
+          "shortDesc": "找一找这只高约9米的石蛤蟆的腿、身体、头部和朝天张开的嘴巴。"
+        }
+      },
+      "sortOrder": 1
+    },
+    {
+      "id": "s6-e2",
+      "siteId": 6,
+      "nameVi": "Sự tích Cóc kiện Trời",
+      "nameEn": "The Toad Who Sued the Sky",
+      "zoneVi": "Góc kể chuyện",
+      "zoneEn": "Storytelling corner",
+      "image": "/image/hon-con-coc.jpg",
+      "shortDescVi": "Truyện cổ \"Con cóc là cậu ông Trời\": chú cóc cùng các bạn lên thiên đình đòi mưa.",
+      "shortDescEn": "The folk tale of the toad who led his friends to heaven to demand rain.",
+      "narration": {
+        "vi": "Truyện cổ tích Cóc kiện Trời là một trong những câu chuyện dân gian quen thuộc nhất của người Việt. Hạn hán kéo dài, muôn loài khát nước, chú cóc nhỏ quyết lên thiên đình. Dọc đường, cóc kết bạn với cua, gấu, cọp, ong và cáo. Đến nơi, cóc đánh trống ầm ĩ. Ông Trời sai gà ra mổ thì bị cáo vồ, sai chó thì bị gấu quật, sai thần Sét thì bị ong đốt, cua kẹp và cọp chặn đường. Cuối cùng, ông Trời phải mời cóc vào và hứa hễ nghe cóc nghiến răng là cho mưa xuống. Từ đó có câu \"Con cóc là cậu ông Trời, hễ ai đánh nó thì Trời đánh cho\". Câu chuyện đề cao trí khôn, lòng dũng cảm và tinh thần đoàn kết của những người nhỏ bé. Vì vậy, khi nhìn hòn đá này, người Việt không chỉ thấy một hình thù kỳ lạ mà còn thấy cả một bài học sâu sắc.",
+        "en": "The tale of the Toad Who Sued the Sky is one of Vietnam's best-loved folk stories. During a long drought, a little toad set off for heaven. Along the way he befriended a crab, a bear, a tiger, some bees and a fox. At heaven's gate he beat the drum loudly. The Sky God sent a rooster, and the fox caught it; a dog, and the bear struck it down; the Thunder God, who was stung by bees, pinched by the crab and blocked by the tiger. Finally the Sky God invited the toad in and promised rain whenever he heard the toad grind its teeth. Hence the saying \"The toad is the uncle of the Sky.\" The story celebrates the wit, courage and unity of the small and humble, so when Vietnamese people look at this rock, they see not just a curious shape but a lasting lesson.",
+        "ko": "두꺼비가 하늘을 고소한 이야기는 베트남 사람들에게 가장 친숙한 민담 가운데 하나입니다. 가뭄이 오래 이어져 모든 생명이 목말라하자, 작은 두꺼비는 하늘나라로 올라가기로 결심합니다. 가는 길에 두꺼비는 게, 곰, 호랑이, 벌, 여우와 친구가 되었습니다. 하늘 문에 도착한 두꺼비는 북을 요란하게 울렸습니다. 옥황상제가 닭을 보내자 여우가 덮쳤고, 개를 보내자 곰이 때려눕혔습니다. 벼락신을 보내자 벌이 쏘고, 게가 물고, 호랑이가 길을 막았지요. 결국 옥황상제는 두꺼비를 안으로 들이고, 두꺼비가 이를 가는 소리를 들으면 비를 내리겠다고 약속했습니다. 그래서 '두꺼비는 하늘의 외삼촌, 두꺼비를 때리는 사람은 하늘이 벌한다'라는 말이 생겼습니다. 이 이야기는 작은 존재들의 지혜와 용기, 그리고 단결을 기립니다. 그래서 베트남 사람들은 이 바위를 볼 때 신기한 모양뿐 아니라 깊은 교훈까지 함께 떠올린답니다.",
+        "ja": "ヒキガエルが天を訴えた物語は、ベトナムの人々にとって最もなじみ深い民話のひとつです。長い日照りで、あらゆる生き物がのどの渇きに苦しむなか、小さなヒキガエルは天へ昇ることを決意しました。道中、ヒキガエルはカニ、クマ、トラ、ハチ、キツネと仲間になります。天の門に着くと、ヒキガエルは太鼓を大きく打ち鳴らしました。天の神さまがニワトリを送るとキツネが飛びかかり、犬を送るとクマが打ち倒しました。雷の神を送ると、ハチが刺し、カニが挟み、トラが行く手をふさぎました。とうとう天の神さまはヒキガエルを招き入れ、歯ぎしりの音が聞こえたら雨を降らせると約束しました。こうして、「ヒキガエルは天の神さまのおじさん、ヒキガエルをたたく者は天に罰せられる」ということわざが生まれたのです。この物語は、小さな者たちの知恵と勇気、そして団結をたたえています。だからベトナムの人々は、この岩を見ると、不思議な形だけでなく、心に残る教えも思い浮かべるのです。",
+        "zh": "蛤蟆告天的故事，是越南人最熟悉的民间故事之一。大旱持续不断，万物干渴，一只小蛤蟆决定上天庭去。一路上，它和螃蟹、熊、老虎、蜜蜂和狐狸结成了伙伴。到了天门，蛤蟆把大鼓敲得震天响。老天爷派公鸡去啄，被狐狸扑住；派狗去追，被熊打倒；派雷公出马，又被蜜蜂蜇、螃蟹夹、老虎拦住去路。最后，老天爷只好请蛤蟆进去，答应只要听到蛤蟆磨牙，就马上降雨。从此便有了“蛤蟆是老天爷的舅舅，谁打它，老天就打谁”的说法。这个故事赞美了小人物的智慧、勇气和团结精神。所以，越南人看到这块岩石时，看到的不只是一个奇特的形状，更是一个意味深长的道理。"
+      },
+      "durationSec": {
+        "vi": 58,
+        "en": 60,
+        "ko": 65,
+        "ja": 67,
+        "zh": 54
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "translations": {
+        "ko": {
+          "name": "하늘을 고소한 두꺼비 이야기",
+          "zone": "이야기 코너",
+          "shortDesc": "민담 '두꺼비는 하늘의 외삼촌': 두꺼비가 친구들과 함께 하늘나라에 올라가 비를 요구한 이야기입니다."
+        },
+        "ja": {
+          "name": "天を訴えたヒキガエルの物語",
+          "zone": "ストーリーコーナー",
+          "shortDesc": "民話「ヒキガエルは天の神さまのおじさん」。ヒキガエルが仲間と天へ昇り、雨を求めたお話です。"
+        },
+        "zh": {
+          "name": "蛤蟆告天的传说",
+          "zone": "故事角",
+          "shortDesc": "民间故事《蛤蟆是老天爷的舅舅》：蛤蟆带着伙伴们上天庭求雨。"
+        }
+      },
+      "sortOrder": 2
+    },
+    {
+      "id": "s6-e3",
+      "siteId": 6,
+      "nameVi": "Ngấn sóng chân đảo",
+      "nameEn": "The Wave Notch",
+      "zoneVi": "Mép nước chân đá",
+      "zoneEn": "Waterline base",
+      "image": "/image/hon-con-coc.jpg",
+      "shortDescVi": "Vệt lõm quanh chân đá do sóng và thủy triều bào mòn, minh chứng địa mạo karst của vịnh.",
+      "shortDescEn": "A groove carved by waves and tides around the base, a classic feature of Ha Long karst.",
+      "narration": {
+        "vi": "Mời quý khách nhìn xuống sát mép nước, nơi chân đá tiếp giáp mặt biển. Quý khách sẽ thấy một vệt lõm chạy vòng quanh, như thể ai đó đã khoét vào chân đá. Các nhà địa chất gọi đó là ngấn sóng, hay hàm ếch. Nước biển hơi có tính axit cùng sóng vỗ và thủy triều lên xuống mỗi ngày đã từ từ hòa tan và gặm mòn đá vôi ở vùng giao thoa giữa nước và không khí. Theo thời gian, ngấn sóng ăn sâu dần, khiến phần chân đá thắt lại còn phần trên nhô ra. Đây là đặc điểm tiêu biểu của địa hình karst ngập nước ở vịnh Hạ Long, một trong những giá trị địa chất, địa mạo giúp vịnh được UNESCO công nhận lần thứ hai vào năm hai nghìn. Ở Hòn Con Cóc, chính ngấn sóng này góp phần tạo nên dáng chú cóc như đang nhấc mình khỏi mặt nước.",
+        "en": "Please look down at the waterline, where the rock meets the sea. You will see a groove running all the way around, as if someone had scooped into the base. Geologists call this a wave notch. Slightly acidic seawater, breaking waves and the daily rise and fall of the tide slowly dissolve and erode the limestone where water meets air. Over time the notch cuts deeper, pinching the base while the upper part overhangs. It is a signature feature of drowned karst in Ha Long Bay, one of the geological and geomorphological values for which UNESCO recognised the bay a second time in 2000. Here at Toad Islet, this notch helps create the impression of a toad lifting itself out of the water.",
+        "ko": "물가 쪽, 바위 아랫부분이 바다와 맞닿는 곳을 내려다봐 주세요. 누군가 바위 밑동을 파낸 것처럼, 빙 둘러 움푹 들어간 홈이 보이실 겁니다. 지질학자들은 이것을 파식와, 또는 노치라고 부릅니다. 약한 산성을 띤 바닷물과 부딪치는 파도, 그리고 매일 오르내리는 조수가 물과 공기가 만나는 부분의 석회암을 조금씩 녹이고 깎아 냈습니다. 시간이 흐르면서 홈은 점점 깊어졌고, 아랫부분은 잘록해지고 윗부분은 앞으로 튀어나오게 되었지요. 이것은 하롱베이의 물에 잠긴 카르스트 지형을 대표하는 특징으로, 2000년에 유네스코가 하롱베이를 두 번째로 인정한 지질학적, 지형학적 가치 가운데 하나입니다. 이곳 두꺼비 바위에서는 바로 이 홈 덕분에, 두꺼비가 물 위로 몸을 들어 올리는 듯한 모습이 만들어졌습니다.",
+        "ja": "水際の、岩と海が接するあたりを見下ろしてみてください。誰かが根元をえぐり取ったかのように、ぐるりと続くくぼみが見えるはずです。地質学者はこれをノッチ、または波食のくぼみと呼んでいます。わずかに酸性を帯びた海水と打ち寄せる波、そして毎日の潮の満ち引きが、水と空気が触れ合う部分の石灰岩を少しずつ溶かし、削ってきました。長い年月とともにくぼみはしだいに深くなり、根元はくびれ、上の部分は張り出すようになりました。これはハロン湾の沈水カルスト地形を代表する特徴で、2000年にユネスコが二度目に湾を認めた、地質・地形学的価値のひとつです。ここヒキガエル岩では、まさにこのくぼみのおかげで、ヒキガエルが水の中から体を持ち上げているような姿が生まれているのです。",
+        "zh": "请大家往下看，看看岩石与海面相接的地方。您会看到一圈凹槽环绕着岩石底部，就像有人在石脚上挖了一圈。地质学家把它叫做海蚀凹槽。略带酸性的海水、拍打的浪花，再加上每天的潮涨潮落，慢慢溶解、侵蚀着水与空气交界处的石灰岩。久而久之，凹槽越来越深，底部逐渐收窄，上部则向外突出。这是下龙湾淹没型喀斯特地貌的典型特征，也是2000年联合国教科文组织第二次认定下龙湾时所看重的地质地貌价值之一。在蛤蟆石这里，正是这道凹槽，让蛤蟆看起来就像正从水中挺身而起。"
+      },
+      "durationSec": {
+        "vi": 56,
+        "en": 49,
+        "ko": 57,
+        "ja": 54,
+        "zh": 48
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "translations": {
+        "ko": {
+          "name": "바위 밑동의 파식와",
+          "zone": "물가 바위 밑동",
+          "shortDesc": "파도와 조수에 깎여 바위 밑동을 둘러싼 홈으로, 하롱베이 카르스트 지형을 보여 주는 증거입니다."
+        },
+        "ja": {
+          "name": "岩の根元のノッチ",
+          "zone": "水際の岩の根元",
+          "shortDesc": "波と潮に削られて根元を取り巻くくぼみで、ハロン湾のカルスト地形を物語る典型的な特徴です。"
+        },
+        "zh": {
+          "name": "石脚的海蚀凹槽",
+          "zone": "水边石脚",
+          "shortDesc": "海浪和潮汐在岩石底部侵蚀出的一圈凹槽，是下龙湾喀斯特地貌的典型见证。"
+        }
+      },
+      "sortOrder": 3
+    },
+    {
+      "id": "s6-e4",
+      "siteId": 6,
+      "nameVi": "Góc chụp ảnh từ mạn tàu",
+      "nameEn": "Photo Spot From the Deck",
+      "zoneVi": "Mạn tàu",
+      "zoneEn": "Boat deck",
+      "image": "/image/hon-con-coc.jpg",
+      "shortDescVi": "Mẹo chọn góc nghiêng, thời điểm ánh sáng đẹp và cách chụp ảnh lưu niệm cùng chú cóc đá.",
+      "shortDescEn": "Tips on angles, the best light and how to take a souvenir photo with the stone toad.",
+      "narration": {
+        "vi": "Vì không thể lên đảo, khoảnh khắc tàu đi ngang chính là cơ hội vàng để chụp ảnh. Quý khách nên di chuyển ra mạn tàu phía gần hòn đá trước khi tàu tới nơi, tránh chen lấn vào phút cuối. Góc đẹp nhất là góc nghiêng, khi đường nét đầu và miệng ngẩng lên trời hiện rõ trên nền trời. Nếu chụp người, hãy đứng lệch sang một bên khung hình để chú cóc nằm ở phía còn lại, tạo cảm giác như đang trò chuyện cùng chú cóc. Buổi sáng sớm hoặc chiều muộn cho ánh sáng mềm, bóng đá in dài trên mặt nước, rất hợp để chụp ảnh. Khi trời có sương, hãy tăng độ phơi sáng một chút để hòn đá không bị tối. Và xin quý khách giữ chặt điện thoại, máy ảnh, đứng vững khi tàu dập dềnh, an toàn luôn là trên hết.",
+        "en": "Since you cannot land on the islet, the moment the boat passes is your golden chance for photos. Move to the rail on the side facing the rock before the boat arrives, rather than rushing at the last minute. The best view is side-on, when the outline of the head and upturned mouth stands out against the sky. For portraits, stand to one side of the frame and leave the toad on the other, as if the two of you were chatting. Early morning or late afternoon gives soft light and long shadows on the water. On misty days, raise the exposure slightly so the rock does not look too dark. Please hold your phone or camera firmly and keep your balance when the boat rocks; safety always comes first.",
+        "ko": "섬에 내릴 수 없기 때문에, 배가 지나가는 순간이 사진을 찍을 수 있는 절호의 기회입니다. 마지막에 서두르지 마시고, 배가 도착하기 전에 미리 바위 쪽 난간으로 옮겨 가 주세요. 가장 좋은 각도는 옆모습으로, 머리와 하늘을 향해 들린 입의 윤곽이 하늘을 배경으로 뚜렷하게 드러납니다. 인물 사진을 찍을 때는 화면 한쪽에 서고 반대쪽에 두꺼비를 두면, 마치 두꺼비와 이야기를 나누는 듯한 사진이 됩니다. 이른 아침이나 늦은 오후에는 빛이 부드럽고 바위 그림자가 물 위에 길게 드리워져 사진 찍기에 아주 좋습니다. 안개가 낀 날에는 노출을 조금 올려서 바위가 어둡게 나오지 않도록 하세요. 그리고 배가 흔들릴 때는 휴대폰과 카메라를 꼭 잡고 몸의 중심을 잘 잡아 주세요. 안전이 언제나 가장 중요합니다.",
+        "ja": "島には上陸できないため、船が通り過ぎる瞬間こそが撮影の絶好のチャンスです。直前に慌てないよう、船が近づく前に、岩に面した側の手すりへ移動しておきましょう。いちばんよい角度は横から見たときで、頭と空を見上げる口の輪郭が、空を背景にくっきりと浮かび上がります。人物を撮るなら、画面の片側に立ち、反対側にヒキガエルを入れると、まるでヒキガエルとおしゃべりしているような一枚になります。早朝や夕方は光がやわらかく、岩の影が水面に長く伸びて、写真にぴったりです。霧の日は露出を少し上げると、岩が暗く写りません。そして、船が揺れるときはスマートフォンやカメラをしっかり持ち、足元に気をつけてください。安全がいちばん大切です。",
+        "zh": "由于无法登岛，船只经过的那一刻就是拍照的黄金时机。建议大家在船靠近之前，就提前走到靠近岩石一侧的船舷，避免最后一刻拥挤。最佳角度是侧面，这时头部和朝天张开的嘴巴，会在天空的映衬下清晰地显现出来。如果要拍人像，可以站在画面的一侧，把蛤蟆留在另一侧，就像在和蛤蟆聊天一样。清晨或傍晚光线柔和，岩石的倒影长长地映在水面上，非常适合拍照。遇到雾天，可以把曝光稍微调高一点，免得岩石显得太暗。另外，船身摇晃时请握紧手机和相机，站稳脚步，安全永远是第一位的。"
+      },
+      "durationSec": {
+        "vi": 53,
+        "en": 52,
+        "ko": 56,
+        "ja": 50,
+        "zh": 48
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "translations": {
+        "ko": {
+          "name": "배 위 사진 명소",
+          "zone": "배 갑판",
+          "shortDesc": "비스듬한 각도 고르기, 빛이 좋은 시간, 돌 두꺼비와 기념사진 찍는 요령을 알려 드립니다."
+        },
+        "ja": {
+          "name": "船上のフォトスポット",
+          "zone": "船のデッキ",
+          "shortDesc": "角度の選び方、光がきれいな時間帯、石のヒキガエルと記念写真を撮るコツをご紹介します。"
+        },
+        "zh": {
+          "name": "船舷拍照点",
+          "zone": "船舷甲板",
+          "shortDesc": "教您选择侧面角度、把握最美光线，与石蛤蟆拍下纪念照。"
+        }
+      },
+      "sortOrder": 4
+    }
+  ]
+}

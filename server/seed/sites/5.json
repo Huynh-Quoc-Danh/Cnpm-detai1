@@ -1,0 +1,310 @@
+{
+  "id": 5,
+  "slug": "dao-ti-top",
+  "name": "Ti Top Island",
+  "nameVi": "Đảo Ti Tốp",
+  "provinceEn": "Ha Long Bay, Quang Ninh",
+  "provinceVi": "Vịnh Hạ Long, Quảng Ninh",
+  "yearEn": "Named in 1962",
+  "yearVi": "Đặt tên năm 1962",
+  "categoryEn": "Island",
+  "categoryVi": "Đảo",
+  "categoryKey": "Island",
+  "image": "/image/dao-titop.jpg",
+  "fallbackImage": "/image/VinhHaLong.jpg",
+  "lat": 20.8594,
+  "lng": 107.0805,
+  "rangeMeters": 450,
+  "rating": 4.9,
+  "reviewsCount": 3820,
+  "shortDescVi": "Hòn đảo mang tên nhà du hành vũ trụ Titov, nổi tiếng với bãi cát vầng trăng khuyết và đài quan sát toàn cảnh vịnh 360 độ.",
+  "shortDescEn": "The island named after cosmonaut Titov, famous for its crescent beach and a 360-degree summit lookout over the bay.",
+  "historyVi": "Đảo từng được gọi là đảo Nghĩa Địa hay Hồng Thập Tự, gắn với những thủy thủ Pháp gặp nạn được chôn cất tại đây đầu thế kỷ XX. Ngày 22/1/1962, Chủ tịch Hồ Chí Minh cùng nhà du hành vũ trụ Liên Xô Gherman Titov thăm đảo; Bác đặt tên đảo là Ti Tốp để ghi dấu tình hữu nghị Việt – Xô. Năm 2015, tượng Gherman Titov được dựng trên đảo.",
+  "historyEn": "Once known as Cemetery Island or Red Cross Island, after French sailors from an early-20th-century shipwreck were buried here. On 22 January 1962, President Ho Chi Minh visited with Soviet cosmonaut Gherman Titov and named the island Ti Top in his honour to mark Vietnam–Soviet friendship. A statue of Titov was erected on the island in 2015.",
+  "geologyVi": "Đảo đá vôi hình thành từ trầm tích biển cổ, bị phong hóa và xâm thực tạo nên vách dốc đứng ở một phía; sườn thoải còn lại được sóng và dòng chảy bồi đắp thành bãi cát trắng mịn hình vầng trăng khuyết.",
+  "geologyEn": "A limestone island formed from ancient marine sediments; weathering and erosion carved sheer cliffs on one side, while waves and currents deposited fine white sand on the gentler slope, forming a crescent beach.",
+  "highlightsVi": [
+    "Hơn 400 bậc đá dẫn lên đài quan sát ngắm toàn cảnh vịnh 360 độ.",
+    "Bãi tắm vầng trăng khuyết nước trong, cát trắng mịn.",
+    "Tượng nhà du hành vũ trụ Gherman Titov dựng năm 2015.",
+    "Dấu ấn chuyến thăm lịch sử của Chủ tịch Hồ Chí Minh năm 1962."
+  ],
+  "highlightsEn": [
+    "Over 400 stone steps up to a 360-degree panoramic lookout.",
+    "Crescent-moon beach with clear water and fine white sand.",
+    "Statue of cosmonaut Gherman Titov erected in 2015.",
+    "Legacy of President Ho Chi Minh's historic 1962 visit."
+  ],
+  "translations": {
+    "ko": {
+      "name": "띠똡섬",
+      "province": "하롱베이, 꽝닌성",
+      "year": "1962년 명명",
+      "category": "섬",
+      "shortDesc": "소련 우주 비행사 티토프의 이름을 딴 섬으로, 초승달 모양의 해변과 하롱베이를 360도로 내려다보는 정상 전망대로 유명합니다.",
+      "history": "이 섬은 20세기 초 조난을 당한 프랑스 선원들이 묻힌 곳이라 하여 묘지섬 또는 적십자섬으로 불렸습니다. 1962년 1월 22일, 호찌민 주석이 소련의 우주 비행사 게르만 티토프와 함께 이 섬을 방문했고, 베트남과 소련의 우정을 기념하여 섬의 이름을 띠똡으로 지었습니다. 2015년에는 섬에 게르만 티토프의 동상이 세워졌습니다.",
+      "geology": "고대 바다의 퇴적물로 형성된 석회암 섬입니다. 풍화와 침식으로 한쪽에는 깎아지른 절벽이 생겼고, 완만한 반대쪽 경사면에는 파도와 해류가 곱고 하얀 모래를 쌓아 초승달 모양의 해변을 만들었습니다.",
+      "highlights": [
+        "400개가 넘는 돌계단을 오르면 하롱베이를 360도로 조망하는 전망대가 나옵니다.",
+        "맑은 바다와 곱고 하얀 모래가 있는 초승달 해변.",
+        "2015년에 세워진 우주 비행사 게르만 티토프 동상.",
+        "1962년 호찌민 주석의 역사적인 방문의 발자취."
+      ]
+    },
+    "ja": {
+      "name": "ティートップ島",
+      "province": "ハロン湾、クアンニン省",
+      "year": "1962年命名",
+      "category": "島",
+      "shortDesc": "ソ連の宇宙飛行士チトフにちなんで名づけられた島。三日月形のビーチと、湾を360度見渡せる山頂展望台で有名です。",
+      "history": "かつては、20世紀初めに遭難したフランス人船員たちが葬られたことから、墓地の島や赤十字の島と呼ばれていました。1962年1月22日、ホー・チ・ミン主席がソ連の宇宙飛行士ゲルマン・チトフとともにこの島を訪れ、ベトナムとソ連の友好の証として島をティートップと名づけました。2015年には島にチトフの像が建てられました。",
+      "geology": "太古の海の堆積物からできた石灰岩の島です。風化と浸食によって片側には切り立った崖が刻まれ、なだらかな反対側の斜面には波と潮の流れが細かな白砂を運び、三日月形の砂浜をつくりました。",
+      "highlights": [
+        "400段を超える石段を登ると、湾を360度見渡せる展望台があります。",
+        "澄んだ海と細かな白砂が広がる三日月形のビーチ。",
+        "2015年に建てられた宇宙飛行士ゲルマン・チトフの像。",
+        "1962年のホー・チ・ミン主席による歴史的な訪問の足跡。"
+      ]
+    },
+    "zh": {
+      "name": "迪托普岛",
+      "province": "广宁省下龙湾",
+      "year": "1962年命名",
+      "category": "岛屿",
+      "shortDesc": "以苏联宇航员季托夫命名的小岛，以新月形沙滩和可360度俯瞰海湾的山顶观景台而闻名。",
+      "history": "这座岛曾被称为墓地岛或红十字岛，因为二十世纪初一艘法国船遇难，遇难的水手被安葬在这里。1962年1月22日，胡志明主席陪同苏联宇航员盖尔曼·季托夫登岛参观，并将小岛命名为迪托普岛，以纪念越苏两国的友谊。2015年，岛上竖立起季托夫的雕像。",
+      "geology": "这是一座由远古海洋沉积物形成的石灰岩岛屿。风化和侵蚀在一侧刻出了陡峭的悬崖，而在较平缓的另一侧，海浪和水流堆积起细腻的白沙，形成了新月形的沙滩。",
+      "highlights": [
+        "攀登四百多级石阶，即可到达360度俯瞰海湾全景的观景台。",
+        "海水清澈、白沙细腻的新月形海滩。",
+        "2015年竖立的宇航员盖尔曼·季托夫雕像。",
+        "1962年胡志明主席历史性访问留下的印记。"
+      ]
+    }
+  },
+  "narration": {
+    "vi": "Xin chào quý khách! Con tàu đang chậm lại trước một hòn đảo nhỏ với bãi cát trắng cong như vầng trăng khuyết và một ngôi chòi nhỏ trên đỉnh núi. Đây là đảo Ti Tốp, hòn đảo duy nhất trên vịnh Hạ Long mang tên một nhà du hành vũ trụ. Vì sao một người từng bay vào không gian lại để lại tên mình giữa kỳ quan này? Mời quý khách cùng nghe câu chuyện.\n\nĐảo Ti Tốp nằm ở trung tâm vùng di sản, cách cảng Bãi Cháy khoảng bảy đến tám cây số về phía đông nam. Phía trước mặt tàu là bãi tắm, phía sau lưng đảo là sườn đá dốc đứng phủ cây xanh. Xa hơn về phía đông nam là đảo Bồ Hòn, nơi có hang Sửng Sốt, một trong những hang động rộng và đẹp nhất vịnh.\n\nTheo tài liệu lưu truyền, đầu thế kỷ hai mươi, một con tàu của Pháp gặp nạn gần khu vực này và những thủy thủ thiệt mạng được chôn cất trên đảo, vì thế người dân từng gọi đây là đảo Nghĩa Địa, hay đảo Hồng Thập Tự.\n\nBước ngoặt đến vào ngày hai mươi hai tháng một năm một nghìn chín trăm sáu mươi hai. Hôm ấy, Chủ tịch Hồ Chí Minh đưa nhà du hành vũ trụ Liên Xô Gherman Titov, người thứ hai trên thế giới bay vào quỹ đạo Trái Đất, đi thăm vịnh Hạ Long. Đoàn đã dừng chân tại đây. Để ghi dấu tình hữu nghị giữa hai dân tộc, Bác đã đặt tên đảo là Ti Tốp, theo cách phát âm tiếng Việt của tên Titov. Năm hai nghìn không trăm mười lăm, một bức tượng Gherman Titov được dựng ngay phía trên bãi cát để tưởng nhớ chuyến thăm lịch sử ấy.\n\nVề mặt địa chất, Ti Tốp cũng như hàng nghìn hòn đảo quanh đây được tạo nên từ đá vôi hình thành dưới đáy biển cổ từ hàng trăm triệu năm trước. Mưa, gió và sóng biển đã bào mòn khối đá thành những vách dựng đứng. Riêng ở sườn thoải của đảo, sóng và dòng chảy bồi đắp nên dải cát trắng mịn ôm sát chân núi, tạo thành hình vầng trăng khuyết nổi tiếng. Nhờ thủy triều thay nước thường xuyên, làn nước nơi đây khá trong, rất thích hợp để tắm biển vào mùa hè.\n\nChính những giá trị thẩm mỹ và địa chất ấy đã giúp vịnh Hạ Long được UNESCO công nhận là Di sản Thiên nhiên Thế giới năm một nghìn chín trăm chín mươi bốn, và lần thứ hai về giá trị địa chất, địa mạo vào năm hai nghìn.\n\nKhi lên đảo, quý khách có hai lựa chọn. Nếu thích thư giãn, hãy tắm biển hoặc dạo trên bãi cát. Nếu muốn chinh phục, hãy leo hơn bốn trăm bậc đá lên đài quan sát trên đỉnh. Đường lên khá dốc, quý khách nên đi giày đế bám, mang theo nước và nghỉ ở các chòi dừng chân giữa đường. Phần thưởng xứng đáng đang chờ phía trên: toàn cảnh vịnh Hạ Long ba trăm sáu mươi độ, với những đoàn tàu trắng nhỏ xíu len giữa muôn hòn đảo xanh thẫm.\n\nMột vài mẹo chụp ảnh: buổi sáng sớm hoặc cuối chiều là lúc ánh sáng dịu và đẹp nhất. Từ đỉnh núi, hãy hướng ống kính xuống bãi tắm để thấy rõ đường cong vầng trăng. Dưới bãi cát, góc chụp có tượng Titov và vách núi phía sau cũng rất ấn tượng.\n\nCuối cùng, xin quý khách giữ gìn vệ sinh chung, không xả rác, không bẻ cây hay khắc chữ lên đá, để hòn đảo mang tên tình hữu nghị này mãi xanh và sạch. Chúc quý khách có những phút giây thật đáng nhớ trên đảo Ti Tốp. Xin cảm ơn!",
+    "en": "Hello and welcome! Our boat is slowing down in front of a small island with a white beach curved like a crescent moon and a little pavilion perched on its summit. This is Ti Top Island, the only island in Ha Long Bay named after a space traveller. So why would a man who flew into orbit leave his name among these limestone peaks? Let us find out.\n\nTi Top lies in the heart of the heritage area, about seven to eight kilometres south-east of Bai Chay port. In front of the boat is the beach, while the back of the island is a steep, forested cliff. Further to the south-east is Bo Hon Island, home to Sung Sot Cave, one of the largest and most beautiful caves in the bay.\n\nBefore it received today's name, the island was known by others. According to local accounts, in the early twentieth century a French ship was wrecked nearby and the sailors who lost their lives were buried here, so people called it Cemetery Island, or Red Cross Island.\n\nThe turning point came on the twenty-second of January, nineteen sixty-two. On that day, President Ho Chi Minh took Soviet cosmonaut Gherman Titov, the second human ever to orbit the Earth, on a visit to Ha Long Bay, and they stopped at this small island. To honour the friendship between the two nations, Uncle Ho named it Ti Top, the Vietnamese pronunciation of Titov. In twenty fifteen, a statue of Gherman Titov was erected just above the beach to remember that historic visit.\n\nGeologically, Ti Top, like thousands of islands around it, is made of limestone that formed on an ancient seabed hundreds of millions of years ago. Over an immense span of time, rain, wind and waves carved the rock into sheer cliffs. On the island's gentler side, waves and currents deposited a strip of fine white sand hugging the foot of the hill, creating the famous crescent shape. Because the tide refreshes the water regularly, it stays quite clear, perfect for a summer swim.\n\nThese aesthetic and geological values helped Ha Long Bay become a UNESCO World Natural Heritage Site in nineteen ninety-four, and again for its geology and geomorphology in the year two thousand.\n\nOn the island, you have two choices. To relax, swim or stroll along the sand. For a challenge, climb more than four hundred stone steps to the lookout at the top. The path is steep, so wear shoes with good grip, bring water and rest at the shelters along the way. The reward is a full three-hundred-sixty-degree view of the bay, with tiny white boats gliding between countless green islands.\n\nA few photo tips: early morning and late afternoon offer the softest, most beautiful light. From the summit, point your camera down at the beach to capture the crescent curve. On the sand, a shot of the Titov statue with the cliff behind it is also striking. At peak hours the stairway gets busy, so please be patient and give way to others.\n\nFinally, please keep the island clean, do not litter, break branches or carve on the rocks, so that this island of friendship stays green and beautiful. We wish you wonderful moments on Ti Top Island. Thank you!",
+    "ko": "안녕하세요, 여러분! 지금 우리 배는 초승달처럼 휘어진 하얀 모래사장과 산꼭대기에 작은 정자가 있는 아담한 섬 앞에서 속도를 줄이고 있습니다. 이곳은 띠똡섬, 베트남어로 다오 띠똡이라고 부르는 섬으로, 하롱베이에서 유일하게 우주 비행사의 이름을 딴 섬입니다. 우주를 날았던 사람이 왜 이 경이로운 바다 한가운데에 자신의 이름을 남기게 되었을까요? 지금부터 그 이야기를 함께 들어 보시죠.\n\n띠똡섬은 유산 지역의 한가운데에 있으며, 바이짜이 항구에서 남동쪽으로 약 칠에서 팔 킬로미터 떨어져 있습니다. 배 앞쪽으로는 해수욕장이, 섬 뒤편으로는 푸른 나무로 덮인 가파른 절벽이 보입니다. 더 남동쪽으로 가면 보혼섬이 있는데, 그곳에는 하롱베이에서 가장 넓고 아름다운 동굴 중 하나인 승솟 동굴이 있습니다.\n\n기록에 따르면, 이십 세기 초 프랑스 배 한 척이 이 근처에서 조난을 당했고, 목숨을 잃은 선원들이 이 섬에 묻혔다고 합니다. 그래서 사람들은 이곳을 묘지섬, 또는 적십자섬이라고 불렀습니다.\n\n전환점은 천구백육십이 년 일월 이십이 일에 찾아왔습니다. 그날 호찌민 주석은 지구 궤도를 비행한 세계 두 번째 인물인 소련의 우주 비행사 게르만 티토프와 함께 하롱베이를 방문했고, 일행은 바로 이 섬에 들렀습니다. 두 나라 국민의 우정을 기념하기 위해 호찌민 주석은 티토프라는 이름을 베트남식으로 발음한 띠똡을 섬의 이름으로 지어 주었습니다. 이천십오 년에는 모래사장 바로 위에 티토프의 동상이 세워졌습니다.\n\n지질학적으로 보면, 띠똡섬은 주변의 수천 개 섬들과 마찬가지로 수억 년 전 고대 바다 밑에서 만들어진 석회암으로 이루어져 있습니다. 비와 바람, 그리고 파도가 오랜 세월 바위를 깎아 깎아지른 절벽을 만들었습니다. 반면 완만한 쪽에서는 파도와 해류가 하얀 모래를 쌓아 유명한 초승달 모양의 해변을 만들었습니다. 밀물과 썰물이 바닷물을 자주 바꿔 주기 때문에 물이 꽤 맑아서, 여름철 해수욕을 즐기기에 아주 좋습니다.\n\n이러한 미적 가치와 지질학적 가치 덕분에 하롱베이는 천구백구십사 년 유네스코 세계자연유산으로 지정되었고, 이천 년에는 지질과 지형의 가치로 두 번째 인정을 받았습니다.\n\n섬에 내리시면 두 가지 선택이 있습니다. 편안히 쉬고 싶으시다면 해수욕을 하거나 모래사장을 산책해 보세요. 도전을 원하신다면 사백 개가 넘는 돌계단을 올라 정상의 전망대까지 가 보세요. 길이 꽤 가파르니 미끄럽지 않은 신발을 신고, 물을 챙기시고, 중간중간 쉼터에서 쉬어 가시기 바랍니다. 정상에서는 멋진 보상이 기다리고 있습니다. 삼백육십 도로 펼쳐지는 하롱베이의 전경입니다.\n\n사진 촬영 팁도 몇 가지 알려 드릴게요. 이른 아침이나 늦은 오후가 빛이 가장 부드럽고 아름다운 시간입니다. 정상에서는 카메라를 해수욕장 쪽으로 향해 초승달 곡선을 담아 보세요.\n\n마지막으로, 쓰레기를 버리거나 나뭇가지를 꺾거나 바위에 글씨를 새기지 마시고, 우정의 이름을 가진 이 섬이 언제나 푸르고 깨끗하게 남을 수 있도록 함께 지켜 주세요. 띠똡섬에서 정말 잊지 못할 시간 보내시길 바랍니다. 감사합니다!",
+    "ja": "皆さま、こんにちは！船は今、三日月のように弧を描く白い砂浜と、山頂に小さなあずまやがある小さな島の前で速度を落としています。こちらはティートップ島、ベトナム語でダオ・ティートップと呼ばれる島で、ハロン湾で唯一、宇宙飛行士の名前がつけられた島なんです。宇宙を飛んだ人物が、なぜこの絶景の中に自分の名前を残したのでしょうか。それでは、その物語をご一緒にお聞きください。\n\nティートップ島は世界遺産エリアの中心にあり、バイチャイ港から南東へおよそ七、八キロメートルの場所に位置しています。船の正面には海水浴場が、島の裏側には緑に覆われた切り立った岩壁が見えます。さらに南東へ進むとボーホン島があり、そこには湾内でも最も広く美しい洞窟のひとつ、スンソット洞窟があります。\n\n言い伝えによりますと、二十世紀の初め、フランスの船がこの近くで遭難し、命を落とした船員たちがこの島に葬られました。そのため、地元の人々はここを墓地の島、あるいは赤十字の島と呼んでいたそうです。\n\n転機が訪れたのは、千九百六十二年一月二十二日のことでした。この日、ホー・チ・ミン主席は、世界で二番目に地球の周回軌道を飛んだソ連の宇宙飛行士、ゲルマン・チトフさんを案内して、ハロン湾を訪れました。一行はこの島に立ち寄りました。両国民の友好を記念して、ホー主席は、チトフという名前をベトナム語風に発音したティートップを、島の名前として贈ったのです。そして二千十五年には、砂浜のすぐ上にゲルマン・チトフさんの像が建てられました。\n\n地質の面から見ますと、ティートップ島は周りの何千もの島々と同じく、数億年前に太古の海の底で生まれた石灰岩でできています。雨や風、そして波が長い年月をかけて岩を削り、垂直にそびえる崖をつくりました。一方、島のなだらかな斜面では、波と潮の流れが細かく白い砂を少しずつ運び、山のふもとに寄り添うように積み上げました。こうして、有名な三日月形の砂浜が生まれたのです。潮の満ち引きによって海水がよく入れ替わるため、水はとても澄んでいて、夏の海水浴にぴったりです。\n\nこうした美しさと地質学的な価値が認められ、ハロン湾は千九百九十四年にユネスコの世界自然遺産に登録されました。さらに二千年には、地質と地形の価値によって、二度目の登録を果たしています。\n\n島に上陸したら、楽しみ方は二つあります。のんびりしたい方は、海水浴や砂浜の散歩をどうぞ。挑戦したい方は、四百段を超える石段を登って、山頂の展望台を目指してみてください。道はかなり急ですので、滑りにくい靴を履き、お水を持って、途中の休憩所で一息つきながら登りましょう。頂上では素晴らしいご褒美が待っています。三百六十度に広がるハロン湾の大パノラマです。深い緑の無数の島々の間を、小さな白い船がすべるように進んでいく様子をご覧いただけます。\n\n写真撮影のコツもいくつかご紹介しましょう。朝早くか夕方近くが、光がいちばんやわらかく美しい時間帯です。山頂からは、カメラを海水浴場に向けて、三日月の曲線を写してみてください。\n\n最後になりますが、ごみを捨てたり、木の枝を折ったり、岩に文字を彫ったりせず、友好の名を持つこの島がいつまでも緑豊かで美しくあるよう、ご協力をお願いいたします。ティートップ島で、どうぞ思い出に残るひとときをお過ごしください。ありがとうございました！",
+    "zh": "各位游客，大家好！我们的船正在一座小岛前慢慢减速，岛上有一片弯如新月的白色沙滩，山顶上还有一座小凉亭。这里就是迪托普岛，它是下龙湾唯一一座以宇航员名字命名的岛屿。一位曾经飞上太空的人，为什么会把自己的名字留在这片奇景之中呢？下面就请大家一起来听听这个故事。\n\n迪托普岛位于遗产区的中心，在白斋港东南方向大约七到八公里的地方。船的正前方是海滩，岛的背面是覆盖着绿树的陡峭石壁。再往东南方向是菩寒岛，那里有惊讶洞，是下龙湾最宽敞、最美丽的溶洞之一。\n\n据流传下来的资料记载，二十世纪初，一艘法国船在这附近遇难，遇难的水手们被安葬在岛上，因此当地人曾把这里叫做墓地岛，或者红十字岛。\n\n转折发生在一九六二年一月二十二日。那一天，胡志明主席陪同苏联宇航员盖尔曼·季托夫游览下龙湾。季托夫是世界上第二位进入地球轨道的人。一行人就在这座小岛上停留。为了纪念两国人民的友谊，胡伯伯按照越南语对季托夫这个名字的发音，把小岛命名为迪托普岛。二零一五年，人们在沙滩上方竖立了一座季托夫的雕像，以纪念那次具有历史意义的访问。\n\n从地质上看，迪托普岛和周围成千上万座岛屿一样，都是由数亿年前在远古海底形成的石灰岩构成的。雨水、风和海浪不断侵蚀岩石，形成了一道道陡峭的悬崖。而在小岛平缓的一侧，海浪和水流慢慢堆积起细腻的白沙，紧紧环抱着山脚，形成了著名的新月形沙滩。由于潮水经常更换海水，这里的水相当清澈，非常适合夏天来游泳。\n\n正是这些美学价值和地质价值，让下龙湾在一九九四年被联合国教科文组织列入世界自然遗产名录，并在二零零零年因地质地貌价值第二次获得认定。\n\n登岛以后，大家有两个选择。如果想放松，可以下海游泳，或者在沙滩上散步。如果想挑战自己，可以攀登四百多级石阶，到山顶的观景台。上山的路比较陡，建议大家穿防滑的鞋，带上饮用水，在途中的休息亭歇一歇。山顶上有丰厚的回报在等着您：三百六十度的下龙湾全景，一艘艘白色的小船在无数墨绿色的岛屿之间穿梭。\n\n再给大家几个拍照小建议：清晨或傍晚的光线最柔和、最漂亮。在山顶上，可以把镜头对准下面的海滩，拍下新月般的弧线。在沙滩上，以季托夫雕像和后面的山崖为背景拍照，也非常有感觉。\n\n最后，请大家爱护环境，不乱扔垃圾，不折树枝，也不要在石头上刻字，让这座以友谊命名的小岛永远青翠、干净。祝大家在迪托普岛度过难忘的美好时光。谢谢大家！"
+  },
+  "durationSec": {
+    "vi": 229,
+    "en": 218,
+    "ko": 218,
+    "ja": 227,
+    "zh": 210
+  },
+  "audioUrl": {
+    "vi": null,
+    "en": null,
+    "ko": null,
+    "ja": null,
+    "zh": null
+  },
+  "coordSource": "OSM Nominatim 'Ti Tốp' (Titov statue 20.85902,107.08091) https://nominatim.openstreetmap.org/search?q=Ti+T%E1%BB%91p&format=json ; Tripadvisor (20.85944,107.08028) https://www.tripadvisor.com/Attraction_Review-g293923-d4795456-Reviews-Ti_Top_Island-H_Long_Bay_Quang_Ninh_Province.html ; AllTrails lookout (20.85925,107.0811) https://www.alltrails.com/trail/vietnam/qu-ng-ninh/ti-top-island-lookout ; cross-check Hang Sửng Sốt OSM 20.8437,107.0908",
+  "isActive": true,
+  "exhibits": [
+    {
+      "id": "s5-e1",
+      "siteId": 5,
+      "nameVi": "Bãi tắm vầng trăng khuyết",
+      "nameEn": "Crescent Moon Beach",
+      "zoneVi": "Khu bãi tắm",
+      "zoneEn": "Beach area",
+      "image": "/image/dao-titop.jpg",
+      "shortDescVi": "Dải cát trắng mịn cong như vầng trăng ôm chân đảo, nước trong xanh quanh năm.",
+      "shortDescEn": "A fine white-sand crescent hugging the island's foot, with clear water most of the year.",
+      "translations": {
+        "ko": {
+          "name": "초승달 해변",
+          "zone": "해수욕장 구역",
+          "shortDesc": "섬 기슭을 감싸는 초승달 모양의 곱고 하얀 모래사장으로, 일 년 내내 물이 맑습니다."
+        },
+        "ja": {
+          "name": "三日月ビーチ",
+          "zone": "ビーチエリア",
+          "shortDesc": "島のふもとを包むように弧を描く白砂の浜。一年を通して水が澄んでいます。"
+        },
+        "zh": {
+          "name": "新月海滩",
+          "zone": "海滩区",
+          "shortDesc": "细腻的白沙如一弯新月环抱岛脚，海水常年清澈碧绿。"
+        }
+      },
+      "narration": {
+        "vi": "Quý khách đang đứng trên bãi tắm Ti Tốp, nơi được ví như vầng trăng khuyết giữa vịnh Hạ Long. Dải cát này được hình thành nhờ sóng và dòng chảy bồi đắp dần ở sườn thoải của đảo, trong khi phía bên kia là vách đá dốc đứng. Thủy triều lên xuống mỗi ngày giúp thay nước thường xuyên, vì vậy làn nước ở đây khá trong và cát luôn sạch. Mùa hè là thời điểm lý tưởng để tắm biển, chèo kayak hoặc chỉ đơn giản là ngồi dưới bóng ô ngắm những con tàu ra vào. Xin quý khách chỉ bơi trong khu vực có phao giới hạn, chú ý cờ báo của lực lượng cứu hộ và trông chừng trẻ nhỏ. Nếu muốn có bức ảnh đẹp nhất về hình vầng trăng, hãy leo lên đài quan sát rồi nhìn xuống, cả bãi cát sẽ hiện ra trọn vẹn đường cong mềm mại.",
+        "en": "You are standing on Ti Top Beach, often likened to a crescent moon in the middle of Ha Long Bay. This sand was built up gradually by waves and currents on the island's gentle slope, while the other side is a sheer limestone cliff. The daily rise and fall of the tide keeps the water refreshed, so it is fairly clear and the sand stays clean. Summer is the ideal time to swim, paddle a kayak, or simply sit under an umbrella watching the boats come and go. Please swim only inside the buoy line, follow the lifeguards' flags and keep an eye on children. For the best photo of the crescent shape, climb to the lookout and look down, where the whole soft curve of the beach comes into view.",
+        "ko": "여러분은 지금 하롱베이 한가운데의 초승달로 비유되는 띠똡 해수욕장에 서 계십니다. 이 모래사장은 섬의 완만한 경사면에 파도와 해류가 조금씩 모래를 쌓아 만든 것이고, 반대편은 깎아지른 석회암 절벽입니다. 매일 밀물과 썰물이 바닷물을 바꿔 주기 때문에 물이 꽤 맑고 모래도 늘 깨끗합니다. 여름에는 해수욕이나 카약을 즐기거나, 파라솔 아래에 앉아 오가는 배들을 바라보기에 좋습니다. 부표 안쪽에서만 수영하시고, 안전 요원의 깃발 신호를 확인하시며, 어린이들을 잘 살펴 주세요. 초승달 모양을 가장 멋지게 담고 싶으시다면 전망대에 올라 내려다보세요. 해변의 부드러운 곡선이 한눈에 들어옵니다.",
+        "ja": "皆さまが今立っているのは、ハロン湾に浮かぶ三日月にたとえられる、ティートップ島の海水浴場です。この砂浜は、島のなだらかな斜面に波と潮の流れが少しずつ砂を運んでできたもので、反対側は切り立った石灰岩の崖になっています。毎日の潮の満ち引きで海水が入れ替わるため、水はかなり澄んでいて、砂もいつもきれいです。夏は海水浴やカヤックを楽しんだり、パラソルの下で行き交う船を眺めたりするのに最適な季節です。泳ぐときはブイの内側だけにして、ライフガードの旗の合図に注意し、お子さまから目を離さないようにしてください。三日月の形をいちばんきれいに撮りたい方は、展望台に登って見下ろしてみてください。砂浜のやわらかな曲線が、まるごと目の前に広がります。",
+        "zh": "您现在站在迪托普岛的海滩上，这里被誉为下龙湾中央的一弯新月。这片沙滩是海浪和水流在小岛平缓的一侧慢慢堆积而成的，而另一侧则是陡峭的石灰岩悬崖。每天潮起潮落，海水经常更换，所以这里的水相当清澈，沙子也一直很干净。夏天是游泳、划皮划艇的好时节，或者就坐在遮阳伞下，看着船只来来往往。请大家只在浮标围起的区域内游泳，留意救生员的旗帜信号，并照看好小朋友。如果想拍出最美的新月形状，可以登上观景台向下望，整片沙滩柔美的弧线就会完整地呈现在眼前。"
+      },
+      "durationSec": {
+        "vi": 55,
+        "en": 52,
+        "ko": 49,
+        "ja": 53,
+        "zh": 48
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "sortOrder": 1
+    },
+    {
+      "id": "s5-e2",
+      "siteId": 5,
+      "nameVi": "Đài quan sát đỉnh núi",
+      "nameEn": "Summit Lookout Pavilion",
+      "zoneVi": "Đỉnh đảo",
+      "zoneEn": "Summit",
+      "image": "/image/dao-titop.jpg",
+      "shortDescVi": "Hơn 400 bậc đá dẫn lên chòi ngắm toàn cảnh vịnh Hạ Long 360 độ.",
+      "shortDescEn": "Over 400 stone steps lead to a pavilion with a 360-degree view of Ha Long Bay.",
+      "translations": {
+        "ko": {
+          "name": "정상 전망대",
+          "zone": "섬 정상",
+          "shortDesc": "400개가 넘는 돌계단을 오르면 하롱베이를 360도로 바라보는 정자가 나옵니다."
+        },
+        "ja": {
+          "name": "山頂展望台",
+          "zone": "山頂",
+          "shortDesc": "400段以上の石段を登ると、ハロン湾を360度見渡せるあずまやに着きます。"
+        },
+        "zh": {
+          "name": "山顶观景台",
+          "zone": "岛顶",
+          "shortDesc": "沿四百多级石阶而上，可在凉亭中360度饱览下龙湾全景。"
+        }
+      },
+      "narration": {
+        "vi": "Chào mừng quý khách đã chinh phục đỉnh Ti Tốp! Để lên tới đây, quý khách vừa vượt qua hơn bốn trăm bậc đá, với những chòi nghỉ chân dọc đường. Từ đài quan sát này, quý khách có thể phóng tầm mắt ba trăm sáu mươi độ ra toàn vùng vịnh. Hãy nhìn xuống bãi tắm để thấy rõ hình vầng trăng khuyết, rồi đưa mắt ra xa, nơi hàng trăm đảo đá vôi xanh thẫm nhấp nhô nối tiếp nhau đến tận chân trời. Những chấm trắng nhỏ đang di chuyển kia chính là các tàu du lịch đi theo tuyến tham quan trung tâm vịnh. Vào ngày trời trong, cảnh vật đặc biệt sắc nét, còn lúc chiều muộn mặt nước sẽ ánh lên màu vàng cam rất đẹp. Xin quý khách đứng phía trong lan can, giữ chặt điện thoại khi chụp ảnh và nhường chỗ cho du khách khác sau khi đã chụp xong.",
+        "en": "Congratulations on reaching the top of Ti Top! To get here you have climbed more than four hundred stone steps, with rest shelters along the way. From this lookout you can take in a full three-hundred-sixty-degree view of the bay. Look down at the beach to see its crescent shape clearly, then let your eyes travel outward, where hundreds of dark green limestone islands rise one after another to the horizon. Those small white dots moving below are cruise boats following the central sightseeing route. On clear days the scenery is especially sharp, and late in the afternoon the water glows orange and gold. Please stay inside the railing, hold your phone firmly while taking photos, and make room for other visitors once you are done.",
+        "ko": "띠똡섬 정상 정복을 축하드립니다! 이곳까지 오시느라 중간중간 쉼터가 있는 사백 개가 넘는 돌계단을 오르셨습니다. 이 전망대에서는 하롱베이 전체를 삼백육십 도로 둘러보실 수 있습니다. 먼저 아래 해수욕장을 내려다보시면 초승달 모양이 또렷하게 보이고, 시선을 멀리 옮기시면 짙푸른 석회암 섬 수백 개가 지평선까지 겹겹이 이어져 있습니다. 저 아래 움직이는 작고 하얀 점들은 하롱베이 중심 관광 코스를 따라가는 유람선들입니다. 맑은 날에는 풍경이 특히 선명하고, 늦은 오후에는 바다가 주황빛과 금빛으로 아름답게 반짝입니다. 난간 안쪽에 서 계시고, 사진을 찍으실 때는 휴대폰을 꼭 잡으시고, 촬영이 끝나면 다른 분들께 자리를 양보해 주세요.",
+        "ja": "ティートップ島の頂上へようこそ、登頂おめでとうございます！ここまで来るのに、皆さまは途中に休憩所のある四百段以上の石段を登ってこられました。この展望台からは、湾全体を三百六十度見渡すことができます。まずは下の海水浴場を見下ろしてみてください。三日月の形がはっきりと分かります。それから視線を遠くへ移すと、深い緑の石灰岩の島々が何百も、地平線まで重なり合うように続いています。下のほうで動いている小さな白い点は、湾の中心をめぐる観光ルートを進む遊覧船です。晴れた日には景色が特にくっきりと見え、夕方遅くには海面がオレンジ色や金色に輝いてとても美しいです。手すりの内側に立ち、写真を撮るときはスマートフォンをしっかり持って、撮影が終わったらほかの方に場所を譲ってください。",
+        "zh": "恭喜大家成功登上迪托普岛山顶！为了来到这里，您刚刚爬过了四百多级石阶，沿途还有几座休息亭。在这座观景台上，您可以三百六十度眺望整个海湾。先往下看看海滩，新月的形状清晰可见；再把目光投向远方，数百座墨绿色的石灰岩岛屿此起彼伏，一直延伸到天边。下面那些移动着的小白点，就是沿着海湾中心游览线路行驶的游船。天气晴朗的时候，景色格外清晰；到了傍晚，海面会泛起橙黄色的光芒，非常美丽。请大家站在栏杆内侧，拍照时握紧手机，拍完后请给其他游客让出位置。"
+      },
+      "durationSec": {
+        "vi": 56,
+        "en": 50,
+        "ko": 52,
+        "ja": 56,
+        "zh": 48
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "sortOrder": 2
+    },
+    {
+      "id": "s5-e3",
+      "siteId": 5,
+      "nameVi": "Tượng đài Gherman Titov",
+      "nameEn": "Gherman Titov Statue",
+      "zoneVi": "Khu tượng đài",
+      "zoneEn": "Monument area",
+      "image": "/image/dao-titop.jpg",
+      "shortDescVi": "Tượng nhà du hành vũ trụ Liên Xô dựng năm 2015, biểu tượng tình hữu nghị Việt – Nga.",
+      "shortDescEn": "Statue of the Soviet cosmonaut erected in 2015, a symbol of Vietnam–Russia friendship.",
+      "translations": {
+        "ko": {
+          "name": "게르만 티토프 동상",
+          "zone": "기념 동상 구역",
+          "shortDesc": "2015년에 세워진 소련 우주 비행사의 동상으로, 베트남과 러시아 우정의 상징입니다."
+        },
+        "ja": {
+          "name": "ゲルマン・チトフ像",
+          "zone": "記念像エリア",
+          "shortDesc": "2015年に建てられたソ連の宇宙飛行士の像。ベトナムとロシアの友好の象徴です。"
+        },
+        "zh": {
+          "name": "盖尔曼·季托夫雕像",
+          "zone": "雕像区",
+          "shortDesc": "2015年竖立的苏联宇航员雕像，是越俄友谊的象征。"
+        }
+      },
+      "narration": {
+        "vi": "Trước mặt quý khách là tượng Gherman Titov, nhà du hành vũ trụ người Liên Xô. Tháng tám năm một nghìn chín trăm sáu mươi mốt, ông thực hiện chuyến bay trên tàu Vostok 2 và trở thành người thứ hai trên thế giới bay vào quỹ đạo Trái Đất, đồng thời là người đầu tiên ở trong không gian trọn một ngày. Đầu năm một nghìn chín trăm sáu mươi hai, ông sang thăm Việt Nam và được Chủ tịch Hồ Chí Minh đưa đi thăm vịnh Hạ Long. Bức tượng được dựng năm hai nghìn không trăm mười lăm để ghi nhớ chuyến thăm ấy và tình hữu nghị lâu bền giữa hai dân tộc. Đây là điểm chụp ảnh được nhiều du khách, đặc biệt là du khách Nga, yêu thích. Xin quý khách không trèo lên bệ tượng và giữ gìn vệ sinh khu vực xung quanh.",
+        "en": "In front of you is the statue of Gherman Titov, the Soviet cosmonaut. In August nineteen sixty-one he flew aboard Vostok 2, becoming the second person ever to orbit the Earth and the first to spend a full day in space. In early nineteen sixty-two he visited Vietnam, and President Ho Chi Minh took him to see Ha Long Bay. The statue was erected in twenty fifteen to remember that visit and the lasting friendship between the two peoples. It is a favourite photo spot for many visitors, especially travellers from Russia. Please do not climb onto the pedestal, and kindly help us keep the area around the monument clean and tidy for everyone.",
+        "ko": "여러분 앞에 있는 것은 소련의 우주 비행사 게르만 티토프의 동상입니다. 천구백육십일 년 팔월, 그는 보스토크 이호를 타고 비행하여 세계에서 두 번째로 지구 궤도를 돈 사람이 되었고, 동시에 우주에서 꼬박 하루를 보낸 최초의 사람이 되었습니다. 천구백육십이 년 초 그는 베트남을 방문했고, 호찌민 주석의 안내로 하롱베이를 둘러보았습니다. 이 동상은 그 방문과 두 나라 국민의 변치 않는 우정을 기억하기 위해 이천십오 년에 세워졌습니다. 많은 관광객, 특히 러시아 관광객들이 즐겨 찾는 사진 명소입니다. 동상 받침대 위로 올라가지 마시고, 주변을 깨끗하게 지켜 주시기 바랍니다.",
+        "ja": "皆さまの目の前にあるのは、ソ連の宇宙飛行士、ゲルマン・チトフさんの像です。千九百六十一年八月、チトフさんはボストーク二号で宇宙へ飛び立ち、世界で二番目に地球の周回軌道を回った人物となりました。同時に、宇宙でまる一日を過ごした最初の人でもあります。千九百六十二年の初め、チトフさんはベトナムを訪れ、ホー・チ・ミン主席の案内でハロン湾を見学しました。この像は、その訪問と両国民の変わらぬ友情を記念して、二千十五年に建てられました。多くの観光客、とりわけロシアからの旅行者に人気の撮影スポットです。台座には登らないようにし、周りをきれいに保つようご協力をお願いいたします。",
+        "zh": "您面前的是苏联宇航员盖尔曼·季托夫的雕像。一九六一年八月，他乘坐东方二号飞船进入太空，成为世界上第二位进入地球轨道的人，同时也是第一位在太空中度过一整天的人。一九六二年初，他访问越南，胡志明主席亲自陪同他游览了下龙湾。这座雕像建于二零一五年，用来纪念那次访问，以及两国人民之间长久的友谊。季托夫这个名字，也因此成为越南人民非常熟悉的名字。这里是很多游客最喜欢的拍照地点，特别是来自俄罗斯的游客。请不要攀爬雕像的底座，也请大家一起保持周围环境的干净整洁。"
+      },
+      "durationSec": {
+        "vi": 53,
+        "en": 46,
+        "ko": 46,
+        "ja": 46,
+        "zh": 50
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "sortOrder": 3
+    },
+    {
+      "id": "s5-e4",
+      "siteId": 5,
+      "nameVi": "Dấu ấn chuyến thăm năm 1962",
+      "nameEn": "The 1962 Historic Visit",
+      "zoneVi": "Câu chuyện lịch sử",
+      "zoneEn": "History",
+      "image": "/image/dao-titop.jpg",
+      "shortDescVi": "Ngày 22/1/1962, Bác Hồ cùng Titov thăm đảo và đặt tên Ti Tốp để ghi dấu tình hữu nghị.",
+      "shortDescEn": "On 22 Jan 1962, Ho Chi Minh and Titov visited and Uncle Ho named the island Ti Top.",
+      "translations": {
+        "ko": {
+          "name": "1962년 역사적 방문의 발자취",
+          "zone": "역사 이야기",
+          "shortDesc": "1962년 1월 22일, 호찌민 주석과 티토프가 섬을 방문했고, 우정을 기념해 띠똡이라는 이름을 지었습니다."
+        },
+        "ja": {
+          "name": "1962年の歴史的訪問",
+          "zone": "歴史の物語",
+          "shortDesc": "1962年1月22日、ホー・チ・ミン主席とチトフが島を訪れ、友好の証としてティートップと名づけました。"
+        },
+        "zh": {
+          "name": "1962年历史性访问",
+          "zone": "历史故事",
+          "shortDesc": "1962年1月22日，胡志明主席与季托夫登岛参观，并将其命名为迪托普岛以纪念友谊。"
+        }
+      },
+      "narration": {
+        "vi": "Ngày hai mươi hai tháng một năm một nghìn chín trăm sáu mươi hai là một ngày đặc biệt với hòn đảo nhỏ này. Chủ tịch Hồ Chí Minh cùng nhà du hành vũ trụ Gherman Titov đi tàu thăm vịnh Hạ Long và dừng chân tại đây. Trước đó, đảo từng mang những cái tên gợi buồn như đảo Nghĩa Địa hay đảo Hồng Thập Tự, gắn với câu chuyện những thủy thủ Pháp gặp nạn được chôn cất trên đảo. Sau chuyến thăm, Bác đặt cho đảo cái tên mới là Ti Tốp, theo cách đọc tiếng Việt của tên Titov, như một món quà dành cho người bạn từ xa đến. Từ một hòn đảo vô danh, Ti Tốp trở thành biểu tượng của tình hữu nghị Việt Nam và Liên Xô, nay là Liên bang Nga, và là điểm dừng chân quen thuộc của hầu hết các hành trình du thuyền trên vịnh.",
+        "en": "The twenty-second of January, nineteen sixty-two, was a special day for this little island. President Ho Chi Minh and cosmonaut Gherman Titov toured Ha Long Bay by boat and stopped here. Before that, the island carried sombre names such as Cemetery Island or Red Cross Island, linked to the story of French sailors who died in a shipwreck and were buried here. After the visit, Uncle Ho gave the island a new name, Ti Top, the Vietnamese reading of Titov, as a gift for a friend from afar. From an unknown islet, Ti Top became a symbol of friendship between Vietnam and the Soviet Union, today Russia, and a familiar stop on almost every cruise through the bay.",
+        "ko": "천구백육십이 년 일월 이십이 일은 이 작은 섬에게 아주 특별한 날이었습니다. 호찌민 주석과 우주 비행사 게르만 티토프가 배를 타고 하롱베이를 둘러보다가 이곳에 들렀습니다. 그 전까지 이 섬은 묘지섬이나 적십자섬처럼 쓸쓸한 이름으로 불렸는데, 조난을 당한 프랑스 선원들이 이 섬에 묻혔다는 이야기와 관련이 있습니다. 방문이 끝난 뒤 호찌민 주석은 멀리서 온 친구에게 주는 선물처럼, 티토프의 이름을 베트남식으로 읽은 띠똡이라는 새 이름을 섬에 붙여 주었습니다. 이름 없던 작은 섬이었던 띠똡은 이렇게 베트남과 소련, 지금의 러시아 사이 우정의 상징이 되었고, 하롱베이를 도는 거의 모든 크루즈가 들르는 친숙한 곳이 되었습니다.",
+        "ja": "千九百六十二年一月二十二日は、この小さな島にとって特別な一日でした。ホー・チ・ミン主席と宇宙飛行士のゲルマン・チトフさんが船でハロン湾をめぐり、ここに立ち寄ったのです。それまでこの島は、墓地の島や赤十字の島といった、どこか物悲しい名前で呼ばれていました。遭難したフランスの船員たちがこの島に葬られたという話にちなんだ名前です。訪問のあと、ホー主席は遠くから来た友人への贈り物として、チトフという名前をベトナム語風に読んだティートップという新しい名前を、この島に贈りました。こうして名もない小島だったティートップ島は、ベトナムとソ連、現在のロシアとの友好の象徴となり、湾をめぐるほとんどのクルーズ船が立ち寄る、おなじみの場所になったのです。",
+        "zh": "一九六二年一月二十二日，对这座小岛来说是一个特别的日子。胡志明主席和宇航员盖尔曼·季托夫乘船游览下龙湾，并在这里停留。在此之前，小岛曾经有过一些令人伤感的名字，比如墓地岛或红十字岛，这和遇难的法国水手被安葬在岛上的故事有关。访问结束后，胡伯伯按照越南语对季托夫名字的读法，给小岛取了一个新名字，叫迪托普岛，就像送给远方朋友的一份礼物。就这样，这座无名小岛成为越南和苏联，也就是今天的俄罗斯之间友谊的象征，也成了几乎所有下龙湾游船行程中熟悉的一站。"
+      },
+      "durationSec": {
+        "vi": 55,
+        "en": 47,
+        "ko": 51,
+        "ja": 53,
+        "zh": 49
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "sortOrder": 4
+    }
+  ]
+}

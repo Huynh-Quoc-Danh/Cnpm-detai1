@@ -1,0 +1,310 @@
+{
+  "id": 2,
+  "slug": "hon-trong-mai",
+  "name": "Fighting Cocks Islet",
+  "nameVi": "Hòn Trống Mái (Hòn Gà Chọi)",
+  "provinceEn": "Ha Long Bay, Quang Ninh",
+  "provinceVi": "Vịnh Hạ Long, Quảng Ninh",
+  "yearEn": "National Tourism Emblem",
+  "yearVi": "Biểu tượng du lịch quốc gia",
+  "categoryEn": "Iconic",
+  "categoryVi": "Biểu tượng",
+  "categoryKey": "Iconic",
+  "image": "/image/HonTrongMai.jpg",
+  "fallbackImage": "/image/VinhHaLong.jpg",
+  "lat": 20.89075,
+  "lng": 107.0258,
+  "rangeMeters": 300,
+  "rating": 4.9,
+  "reviewsCount": 3150,
+  "shortDescVi": "Đôi đá vôi hình gà trống, gà mái đối mặt nhau giữa sóng nước – biểu tượng nổi tiếng nhất của Vịnh Hạ Long.",
+  "shortDescEn": "Two limestone rocks shaped like a rooster and a hen facing each other – the most famous emblem of Ha Long Bay.",
+  "historyVi": "Hòn Trống Mái, còn gọi là Hòn Gà Chọi, nằm ở phía tây nam Vịnh Hạ Long, cách cảng tàu du lịch Bãi Cháy khoảng 5 km, gần Hòn Đỉnh Hương. Đảo gồm hai khối đá vôi cao khoảng hơn mười mét, một khối lớn một khối nhỏ, chụm đầu vào nhau như đôi gà trống mái. Người dân chài lưới truyền nhau nhiều truyền thuyết về đôi vợ chồng hóa đá vì thủy chung. Hình ảnh hòn đảo đã trở thành biểu tượng quen thuộc của Hạ Long, xuất hiện trên tem thư, bưu thiếp, tờ quảng bá và nhiều ấn phẩm du lịch Việt Nam. Vịnh Hạ Long được UNESCO công nhận là Di sản Thiên nhiên Thế giới năm 1994 về giá trị thẩm mỹ và năm 2000 về giá trị địa chất, địa mạo.",
+  "historyEn": "Trong Mai Islet, also called Ga Choi or the Fighting Cocks Islet, lies in the south-west of Ha Long Bay, about 5 km from Bai Chay tourist port and close to Incense Burner Islet. It is formed by two limestone rocks a little over ten metres high, one larger and one smaller, leaning towards each other like a rooster and a hen. Local fishermen tell several legends of a faithful couple turned to stone. The islet has become the best-known image of Ha Long, printed on stamps, postcards, brochures and countless Vietnamese tourism materials. Ha Long Bay was inscribed by UNESCO as a World Natural Heritage Site in 1994 for its aesthetic value and in 2000 for its geological and geomorphological value.",
+  "geologyVi": "Hai khối đá là tàn tích của một khối đá vôi lớn hơn, hình thành từ trầm tích biển hàng trăm triệu năm trước. Trải qua quá trình karst hóa, mưa, gió và đặc biệt là sóng biển, thủy triều liên tục ăn mòn phần chân đá tạo nên các ngấn biển thắt eo đặc trưng. Phần chân nhỏ, phần thân lớn khiến hai khối đá trông chênh vênh nhưng vẫn đứng vững qua bao mùa bão.",
+  "geologyEn": "The two rocks are remnants of a larger limestone block formed from marine sediments hundreds of millions of years ago. Karst processes, rain, wind and above all waves and tides have constantly eroded their bases, carving the characteristic tidal notches. With slender bases and heavier tops, the rocks look precariously balanced, yet they have stood firm through countless storm seasons.",
+  "highlightsVi": [
+    "Hình ảnh biểu tượng của Vịnh Hạ Long, xuất hiện trên tem thư, bưu thiếp và ấn phẩm quảng bá du lịch Việt Nam.",
+    "Ngấn biển thắt eo dưới chân đá – minh chứng sống động cho quá trình xâm thực karst.",
+    "Đẹp nhất lúc bình minh và hoàng hôn khi ánh sáng tạo bóng đổ của đôi đá trên mặt nước.",
+    "Nằm trên tuyến tham quan phổ biến cùng Hòn Đỉnh Hương, Hòn Chó Đá và hang Thiên Cung."
+  ],
+  "highlightsEn": [
+    "Iconic image of Ha Long Bay, featured on stamps, postcards and Vietnamese tourism publications.",
+    "Wave-cut tidal notches at the base – vivid evidence of karst erosion.",
+    "Most beautiful at sunrise and sunset, when the pair casts silhouettes on the water.",
+    "On the popular route together with Incense Burner Islet, Dog Rock and Thien Cung Cave."
+  ],
+  "translations": {
+    "ko": {
+      "name": "싸움닭 바위 (혼쫑마이)",
+      "province": "꽝닌성 하롱베이",
+      "year": "베트남 국가 관광 상징",
+      "category": "상징",
+      "shortDesc": "수탉과 암탉 모양의 석회암 바위 한 쌍이 물결 속에서 서로 마주 보고 있는, 하롱베이에서 가장 유명한 상징입니다.",
+      "history": "싸움닭 바위, 베트남어로 혼쫑마이 또는 혼가쪼이라고 불리는 이 섬은 하롱베이 남서쪽, 바이짜이 관광 항구에서 약 5킬로미터 떨어진 향로섬 근처에 있습니다. 섬은 높이 10미터가 조금 넘는 석회암 바위 두 개로 이루어져 있는데, 하나는 크고 하나는 작으며 마치 수탉과 암탉처럼 머리를 맞대고 있습니다. 이곳 어민들 사이에는 변치 않는 사랑 때문에 바위가 된 부부에 관한 여러 전설이 전해집니다. 이 섬의 모습은 우표, 엽서, 홍보 책자 등 수많은 베트남 관광 자료에 실리며 하롱베이를 대표하는 이미지가 되었습니다. 하롱베이는 1994년 경관의 아름다움으로, 2000년 지질·지형적 가치로 유네스코 세계자연유산에 등재되었습니다.",
+      "geology": "두 바위는 수억 년 전 바다 퇴적물로 형성된 더 큰 석회암 덩어리의 잔해입니다. 카르스트 작용과 비, 바람, 그리고 무엇보다 파도와 조수가 바위 밑동을 끊임없이 깎아 내어 허리가 잘록한 독특한 파식와를 만들었습니다. 밑동은 가늘고 윗부분은 커서 위태로워 보이지만, 두 바위는 수많은 태풍의 계절을 견디며 굳건히 서 있습니다.",
+      "highlights": [
+        "우표, 엽서, 베트남 관광 홍보물에 등장하는 하롱베이의 상징적인 이미지입니다.",
+        "바위 밑동의 잘록한 파식와는 카르스트 침식 작용을 생생하게 보여 줍니다.",
+        "해 뜰 무렵과 해 질 녘, 두 바위의 그림자가 수면에 드리울 때 가장 아름답습니다.",
+        "향로섬, 개 바위, 티엔꿍 동굴과 함께 인기 관광 코스에 포함되어 있습니다."
+      ]
+    },
+    "ja": {
+      "name": "闘鶏岩（チョンマイ島）",
+      "province": "クアンニン省 ハロン湾",
+      "year": "ベトナムの観光シンボル",
+      "category": "シンボル",
+      "shortDesc": "雄鶏と雌鶏の形をした二つの石灰岩が波間で向かい合う、ハロン湾で最も有名なシンボルです。",
+      "history": "闘鶏岩は、ベトナム語でチョンマイ島またはガーチョイ島と呼ばれ、ハロン湾の南西部、バイチャイ観光港から約5キロ、香炉島の近くにあります。島は高さ10メートルあまりの二つの石灰岩からなり、大きい岩と小さい岩が、雄鶏と雌鶏のように頭を寄せ合っています。地元の漁師たちの間には、一途な愛ゆえに岩になった夫婦の伝説がいくつも語り継がれています。島の姿は切手や絵はがき、パンフレットなど数多くのベトナム観光資料に使われ、ハロン湾を代表する風景となりました。ハロン湾は1994年に景観美、2000年に地質・地形学的価値によって、ユネスコの世界自然遺産に登録されています。",
+      "geology": "二つの岩は、数億年前に海の堆積物からできた、より大きな石灰岩の塊の名残です。カルスト作用や雨、風、そして何より波と潮が岩の根元を絶えず削り、くびれた特徴的なノッチを刻みました。根元が細く上部が大きいため不安定に見えますが、二つの岩は数えきれない嵐の季節を耐えて立ち続けています。",
+      "highlights": [
+        "切手や絵はがき、ベトナムの観光パンフレットに登場する、ハロン湾を象徴する風景です。",
+        "岩の根元のくびれたノッチは、カルスト浸食を生き生きと物語っています。",
+        "日の出と夕暮れどき、二つの岩の影が水面に映る時間帯が最も美しいです。",
+        "香炉島、犬岩島、ティエンクン洞窟とともに人気の観光ルートにあります。"
+      ]
+    },
+    "zh": {
+      "name": "斗鸡石（钟买岛）",
+      "province": "广宁省 下龙湾",
+      "year": "越南国家旅游标志",
+      "category": "标志性景点",
+      "shortDesc": "两块形似公鸡和母鸡的石灰岩在碧波中相对而立，是下龙湾最著名的标志。",
+      "history": "斗鸡石，越南语称为钟买岛，又名斗鸡岛，位于下龙湾西南部，距白斋旅游码头约5公里，靠近香炉岛。小岛由两块高十多米的石灰岩组成，一大一小，像一对公鸡和母鸡一样头靠着头。当地渔民流传着许多关于一对忠贞夫妻化为石头的传说。小岛的形象已成为下龙湾最广为人知的画面，出现在邮票、明信片、宣传册和众多越南旅游资料上。下龙湾于1994年因其美学价值、2000年因其地质和地貌价值，被联合国教科文组织列入世界自然遗产名录。",
+      "geology": "这两块石头是一块更大的石灰岩体的残余，由几亿年前的海洋沉积物形成。在喀斯特作用以及雨水、风，尤其是海浪和潮汐的不断侵蚀下，岩石底部形成了独特的细腰状海蚀凹槽。底部纤细、上部粗大，使两块石头看起来摇摇欲坠，却历经无数风暴季节依然屹立不倒。",
+      "highlights": [
+        "下龙湾的标志性画面，出现在邮票、明信片和越南旅游宣传品上。",
+        "岩石底部的细腰状海蚀凹槽，是喀斯特侵蚀作用的生动见证。",
+        "日出和日落时最美，阳光将两块石头的剪影投在水面上。",
+        "与香炉岛、石狗岛和天宫洞同属热门游览线路。"
+      ]
+    }
+  },
+  "narration": {
+    "vi": "Xin chào quý khách! Ngay trước mặt chúng ta là hình ảnh mà có lẽ quý khách đã từng thấy trên tem thư, bưu thiếp hay trong sách giáo khoa: Hòn Trống Mái, còn gọi là Hòn Gà Chọi. Nhưng quý khách có biết vì sao đôi đá nhỏ bé này lại trở thành biểu tượng của cả Vịnh Hạ Long, và câu chuyện tình nào đang ẩn sau dáng đứng kỳ lạ ấy? Trước hết, mời quý khách định hướng một chút. Chúng ta đang ở khu vực phía tây nam của vịnh, cách cảng tàu du lịch Bãi Cháy chừng năm cây số. Khi tàu chậm lại, quý khách hãy nhìn sang phía bên trái tàu: hai khối đá vôi vươn lên khỏi mặt nước, một khối lớn và một khối nhỏ hơn, chụm đầu sát vào nhau. Khối lớn được ví như con gà trống đang xòe cánh, khối nhỏ là gà mái nép mình bên cạnh. Mỗi khối cao khoảng hơn mười mét, nhưng phần chân lại thắt nhỏ đến mức trông như sắp đổ. Người dân chài trên vịnh lưu truyền nhiều truyền thuyết về đôi đá này. Một câu chuyện kể rằng, xưa kia có đôi vợ chồng nghèo sống bằng nghề đánh cá. Một ngày giông bão, người chồng ra khơi mãi không về, người vợ ngày ngày đứng chờ trên mỏm đá. Thương cảm cho tấm lòng thủy chung ấy, trời đất cho hai người hóa đá, mãi mãi đứng bên nhau giữa biển khơi. Lại có người kể đó là đôi gà của tiên, mải mê đùa vui mà quên đường về trời. Dù là truyền thuyết nào, Hòn Trống Mái vẫn luôn được xem là biểu tượng của tình yêu chung thủy và sự gắn bó lứa đôi. Về mặt địa chất, đây là một bài học sống động. Đá vôi ở Hạ Long được hình thành từ trầm tích biển cách đây hàng trăm triệu năm. Sau đó, vỏ trái đất nâng lên, hạ xuống, nước biển dâng và rút nhiều lần. Mưa, gió và đặc biệt là sóng biển, thủy triều liên tục bào mòn chân đá, tạo nên những ngấn biển lõm sâu mà quý khách có thể thấy rất rõ sát mặt nước. Chính quá trình xâm thực ấy đã tạc nên dáng thắt eo độc đáo của đôi gà. Năm một nghìn chín trăm chín mươi tư, UNESCO công nhận Vịnh Hạ Long là Di sản Thiên nhiên Thế giới về giá trị thẩm mỹ, và đến năm hai nghìn, vịnh tiếp tục được công nhận về giá trị địa chất, địa mạo. Bây giờ, mời quý khách quan sát kỹ hơn. Hãy tìm vệt ngấn biển màu sẫm quanh chân đá, đó là dấu vết của thủy triều qua bao thế kỷ. Hãy để ý những bụi cây nhỏ bám trên đỉnh đá, sống nhờ nước mưa và hơi sương. Nếu may mắn, quý khách còn có thể thấy chim biển đậu nghỉ trên các gờ đá. Một vài gợi ý để có bức ảnh đẹp: hãy chụp khi tàu ở góc chếch, để hai khối đá tách rời thành hai dáng gà rõ ràng. Lúc bình minh hoặc hoàng hôn, ánh sáng xiên tạo bóng đổ tuyệt đẹp trên mặt nước. Quý khách nên giữ chắc điện thoại, đứng ở vị trí an toàn trên boong và không nhoài người ra ngoài lan can. Hòn Trống Mái nhỏ bé nhưng mang trong mình cả vẻ đẹp của thiên nhiên lẫn tâm hồn của người dân vùng biển. Xin quý khách cùng chung tay giữ gìn di sản: không xả rác xuống biển và không để lại dấu vết trên đá. Cảm ơn quý khách đã lắng nghe, chúc quý khách có một hành trình thật đáng nhớ trên Vịnh Hạ Long!",
+    "en": "Welcome aboard! Right in front of us is an image you may already know from stamps, postcards and travel posters: Trong Mai Islet, also called the Fighting Cocks. But why did this tiny pair of rocks become the symbol of all of Ha Long Bay, and what love story is hidden behind their strange pose? First, let's get our bearings. We are in the south-western part of the bay, about five kilometres from Bai Chay tourist port. As the boat slows down, please look to the left side of the boat: two limestone rocks rise out of the water, one larger and one smaller, leaning their heads together. The larger one is said to be a rooster spreading its wings, the smaller one a hen nestling beside him. Each rises a little over ten metres, yet their bases are so narrow they seem about to topple. Fishermen on the bay tell many legends about these rocks. One story says that long ago a poor fishing couple lived here. One stormy day the husband sailed out and never returned, and his wife stood waiting on the rocks day after day. Moved by her loyalty, heaven turned them both to stone, so they could stand together forever in the sea. Others say they were a pair of fairy chickens who played so long they forgot their way back to heaven. Whatever the legend, Trong Mai has always been seen as a symbol of faithful love. Geologically, this is a living lesson. Ha Long's limestone formed from marine sediments hundreds of millions of years ago. Later the earth's crust rose and fell, and sea levels advanced and retreated many times. Rain, wind and above all waves and tides kept eroding the base of the rocks, carving the deep notches you can clearly see at the waterline. That erosion sculpted the unique narrow waists of our two cocks. In 1994 UNESCO inscribed Ha Long Bay as a World Natural Heritage Site for its aesthetic value, and in 2000 it was recognised again for its geological and geomorphological value. Now, take a closer look. Find the dark notch line around the base, the mark of tides over centuries. Notice the small shrubs clinging to the tops, living on rain and mist. If you are lucky, you may spot seabirds resting on the ledges. A few photo tips: shoot when the boat is at an angle, so the two rocks separate into two clear bird shapes. At sunrise or sunset, the low light casts beautiful silhouettes on the water. Hold your phone firmly, stay in a safe spot on deck and never lean over the railing. Trong Mai is small, yet it carries both the beauty of nature and the soul of the coastal people. Please help us protect this heritage: no litter in the sea and no marks on the rocks. Thank you for listening, and have a truly memorable journey on Ha Long Bay!",
+    "ko": "안녕하세요, 여러분! 우리 눈앞에 보이는 이 모습은 우표나 엽서, 교과서에서 한 번쯤 보셨을 거예요. 베트남어로 혼쫑마이, 또는 혼가쪼이라고 부르는 싸움닭 바위입니다. 그런데 이 작은 바위 한 쌍이 어떻게 하롱베이 전체의 상징이 되었는지, 그리고 그 신기한 모습 뒤에 어떤 사랑 이야기가 숨어 있는지 알고 계신가요? 먼저 위치를 잠깐 살펴볼게요. 우리는 지금 하롱베이의 남서쪽에 있고, 바이짜이 관광 항구에서 약 오 킬로미터 떨어져 있습니다. 배가 속도를 줄이면 배의 왼쪽을 바라봐 주세요. 석회암 바위 두 개가 물 위로 솟아 있는데요, 하나는 크고 하나는 조금 작으며, 서로 머리를 가까이 맞대고 있습니다. 큰 바위는 날개를 활짝 편 수탉, 작은 바위는 그 곁에 몸을 기댄 암탉에 비유됩니다. 각각의 높이는 십 미터가 조금 넘지만, 아랫부분이 너무 가늘어서 금방이라도 쓰러질 것처럼 보이죠. 하롱베이의 어부들 사이에는 이 바위에 관한 여러 전설이 전해 내려옵니다. 한 이야기에 따르면, 옛날 이곳에 고기잡이로 살아가던 가난한 부부가 있었습니다. 어느 폭풍우 치던 날, 남편은 바다로 나간 뒤 돌아오지 않았고, 아내는 날마다 바위 위에 서서 남편을 기다렸습니다. 그 변치 않는 마음에 감동한 하늘은 두 사람을 바위로 만들어, 영원히 함께 서 있게 해 주었다고 해요. 또 다른 이야기에서는 이들이 선녀의 닭 한 쌍이었는데, 노는 데 정신이 팔려 하늘로 돌아가는 길을 잊어버렸다고도 합니다. 어떤 전설이든, 이 바위는 변치 않는 사랑의 상징입니다. 지질학적으로 보면, 이곳은 살아 있는 교과서와 같습니다. 하롱베이의 석회암은 수억 년 전 바다 밑에 쌓인 퇴적물로 만들어졌어요. 그 후 지각이 솟아오르고 가라앉기를 반복했고, 바닷물도 여러 번 밀려왔다 물러났습니다. 비와 바람, 그리고 무엇보다 파도와 밀물, 썰물이 끊임없이 바위 밑동을 깎아 내면서, 수면 가까이에 깊게 파인 홈을 만들었습니다. 바로 이 침식 작용이 두 닭의 독특한 잘록한 허리를 조각해 낸 것이죠. 천구백구십사 년, 유네스코는 하롱베이를 아름다운 경관의 가치로 세계자연유산에 등재했고, 이천 년에는 지질과 지형의 가치로 다시 한번 인정했습니다. 이제 조금 더 자세히 살펴볼까요? 바위 밑동을 둘러싼 짙은 색의 홈을 찾아보세요. 수백 년 동안 밀물과 썰물이 남긴 흔적입니다. 바위 꼭대기에 매달린 작은 덤불도 눈여겨보세요. 운이 좋으시면 바위 턱에서 쉬는 바닷새도 보실 수 있습니다. 멋진 사진을 위한 몇 가지 팁을 드릴게요. 배가 비스듬한 각도에 있을 때 찍으시면, 두 바위가 따로 떨어져 두 마리 닭의 모습이 또렷하게 나옵니다. 해 뜰 무렵이나 해 질 녘에는 비스듬한 햇빛이 수면 위에 아름다운 그림자를 드리웁니다. 휴대전화는 단단히 잡으시고, 갑판의 안전한 곳에 서 계시며, 난간 밖으로 몸을 내밀지 마세요. 싸움닭 바위는 작지만, 자연의 아름다움과 바닷가 사람들의 마음을 함께 품고 있습니다. 이 유산을 함께 지켜 주세요. 바다에 쓰레기를 버리지 마시고, 바위에 흔적을 남기지 말아 주세요. 끝까지 들어 주셔서 감사합니다. 하롱베이에서 정말 잊지 못할 여행 되시길 바랍니다!",
+    "ja": "皆さま、こんにちは。目の前に見えているのは、切手や絵はがき、教科書などで一度はご覧になったことがあるかもしれない景色、チョンマイ島、別名ガーチョイ島とも呼ばれる闘鶏岩です。でも、この小さな二つの岩が、なぜハロン湾全体のシンボルになったのでしょうか。そして、その不思議な姿の裏には、どんな愛の物語が隠されているのでしょうか。まずは現在地を確認しましょう。私たちは湾の南西部にいて、バイチャイ観光港からおよそ五キロのところにいます。船がスピードを落としたら、船の左側をご覧ください。石灰岩の岩が二つ、水面から突き出ています。一つは大きく、もう一つは少し小さく、頭を寄せ合うように並んでいます。大きな岩は翼を広げた雄鶏、小さな岩はそのそばに寄り添う雌鶏にたとえられています。それぞれの高さは十メートルあまりですが、根元がとても細く、今にも倒れそうに見えますね。湾に暮らす漁師たちの間には、この岩にまつわる伝説がいくつも語り継がれています。昔、ここに漁をして暮らす貧しい夫婦がいました。ある嵐の日、夫は海に出たまま帰らず、妻は毎日岩の上に立って夫の帰りを待ち続けました。その一途な心に心を打たれた天は、二人を岩に変え、大海原の中でいつまでも寄り添っていられるようにしたと言われています。また、仙女の飼っていた二羽の鶏が、遊びに夢中になって天に帰る道を忘れてしまったという話もあります。どの伝説であっても、この岩は変わらぬ愛と夫婦の絆の象徴として大切にされてきました。地質学的に見ると、ここは生きた教科書です。ハロン湾の石灰岩は、数億年前に海の底に積もった堆積物からできました。その後、地殻は隆起と沈降を繰り返し、海面も何度も上がったり下がったりしました。雨や風、そして何より波と潮の満ち引きが岩の根元を絶えず削り、水面近くに深いくぼみを刻みました。今もはっきりと見ることができます。この浸食こそが、二羽の鶏のくびれた独特の姿を形づくったのです。千九百九十四年、ユネスコはハロン湾をその美しい景観によって世界自然遺産に登録し、二千年には地質と地形の価値でも改めて認められました。では、もう少し近くで観察してみましょう。岩の根元を取り巻く黒っぽい線を探してみてください。何世紀にもわたる潮の満ち引きの跡です。岩のてっぺんにしがみつく小さな茂みにも注目してください。雨水と霧だけを頼りに生きています。運が良ければ、岩の出っ張りで羽を休める海鳥も見られますよ。きれいな写真を撮るコツをいくつかご紹介します。船が斜めの角度にあるときに撮ると、二つの岩が離れて、二羽の鶏の姿がはっきり写ります。日の出や夕暮れどきには、低い光が水面に美しいシルエットを映し出します。スマートフォンはしっかりと握り、甲板の安全な場所に立って、手すりから身を乗り出さないようにしてください。闘鶏岩は小さな島ですが、自然の美しさと海辺に暮らす人々の心をあわせ持っています。この遺産を守るため、海にごみを捨てたり、岩に傷をつけたりしないようご協力ください。ご清聴ありがとうございました。ハロン湾で、どうぞ忘れられない旅をお過ごしください。",
+    "zh": "各位游客，大家好！我们眼前的这幅景象，您也许曾在邮票、明信片或者课本上见过，它就是斗鸡石，越南语叫做钟买岛。可是，您知道这对小小的石头为什么会成为整个下龙湾的象征吗？在它奇特的姿态背后，又藏着怎样的爱情故事呢？首先，我们来确认一下位置。我们现在位于海湾的西南部，距离白斋旅游码头大约五公里。船速放慢的时候，请大家看向船的左侧：两块石灰岩从水面上拔地而起，一块大，一块小，头靠着头紧紧依偎在一起。大的那块像一只展开翅膀的公鸡，小的那块像依偎在旁边的母鸡。每块石头高十多米，但底部却非常细，看上去好像随时都会倒下。湾上的渔民流传着许多关于这对石头的传说。相传很久以前，这里住着一对以打鱼为生的贫穷夫妻。一个暴风雨的日子，丈夫出海后再也没有回来，妻子每天站在岩石上苦苦等待。天地被她的忠贞所感动，就把两人化作石头，让他们在大海中永远相守。也有人说，它们是仙女的一对鸡，因为玩得太开心，忘记了回天上的路。无论是哪一个传说，斗鸡石一直被看作忠贞爱情和夫妻相守的象征。从地质上看，这里就是一堂生动的课。下龙湾的石灰岩是由几亿年前的海洋沉积物形成的。后来，地壳多次抬升和下降，海水也多次上涨和退去。雨水、风，尤其是海浪和潮汐，不断侵蚀着岩石的底部，在靠近水面的地方刻出了深深的凹槽，大家现在就能看得很清楚。正是这种侵蚀作用，雕琢出了这对鸡独特的细腰。一九九四年，联合国教科文组织因其美学价值，将下龙湾列入世界自然遗产名录；二零零零年，下龙湾又因其地质和地貌价值再次获得认可。现在，请大家再仔细观察一下。找一找岩石底部那圈深色的凹痕，那是几百年来潮起潮落留下的痕迹。再看看攀附在石头顶上的小灌木，它们只靠雨水和雾气生存。如果运气好，您还能看到海鸟在石檐上歇脚。给大家几个拍照小建议：在船处于斜角的时候拍摄，两块石头就会分开，呈现出两只鸡清晰的模样。日出或日落时，斜射的阳光会在水面上投下美丽的剪影。请拿稳手机，站在甲板上安全的位置，千万不要把身子探出栏杆。斗鸡石虽然很小，却承载着大自然的美丽和海边人民的情怀。请大家一起保护这份遗产：不要向海里扔垃圾，也不要在石头上留下痕迹。感谢您的聆听，祝您在下龙湾度过一段难忘的旅程！"
+  },
+  "durationSec": {
+    "vi": 225,
+    "en": 196,
+    "ko": 218,
+    "ja": 214,
+    "zh": 197
+  },
+  "audioUrl": {
+    "vi": null,
+    "en": null,
+    "ko": null,
+    "ja": null,
+    "zh": null
+  },
+  "coordSource": "https://www.tripadvisor.com/Attraction_Review-g293923-d7940447-Reviews-Hon_Ga_Choi_Island-H_Long_Bay_Quang_Ninh_Province.html (20.890854,107.025536); https://www.mapquest.com/vn/hon-ga-choi-island-525314255 (20.890853,107.025536); https://www.halongstyle.com/2017/04/Hon-Ga-Choi.html (20.890641,107.026125); http://vietlandmarks.com/module/groups/action/view/id/434 (20°53'25\"N 107°01'34\"E)",
+  "isActive": true,
+  "exhibits": [
+    {
+      "id": "s2-e1",
+      "siteId": 2,
+      "nameVi": "Gà Trống – khối đá lớn",
+      "nameEn": "The Rooster – the larger rock",
+      "zoneVi": "Khối đá phía đông",
+      "zoneEn": "Main rock",
+      "image": "/image/HonTrongMai.jpg",
+      "shortDescVi": "Khối đá cao hơn, dáng như gà trống xòe cánh che chở cho bạn đời.",
+      "shortDescEn": "The taller rock, shaped like a rooster spreading its wings over its mate.",
+      "translations": {
+        "ko": {
+          "name": "수탉 – 큰 바위",
+          "zone": "동쪽 바위",
+          "shortDesc": "더 높은 바위로, 날개를 펼쳐 짝을 감싸 주는 수탉의 모습을 하고 있습니다."
+        },
+        "ja": {
+          "name": "雄鶏 – 大きな岩",
+          "zone": "東側の岩",
+          "shortDesc": "背の高いほうの岩で、翼を広げて連れ合いを守る雄鶏の姿をしています。"
+        },
+        "zh": {
+          "name": "公鸡 – 大石",
+          "zone": "东侧岩石",
+          "shortDesc": "较高的那块石头，形似展开翅膀守护伴侣的公鸡。"
+        }
+      },
+      "narration": {
+        "vi": "Mời quý khách nhìn vào khối đá lớn hơn trong đôi Trống Mái. Đây chính là chú gà trống của hòn đảo. Phần đỉnh đá vươn rộng sang hai bên, như đôi cánh đang xòe ra, còn phần đầu hơi nghiêng về phía khối đá nhỏ bên cạnh, như đang che chở cho bạn đời. Nhìn từ những góc khác nhau, dáng gà trống lại thay đổi: có lúc như đang gáy vang, có lúc như đang cúi đầu âu yếm. Chính vì vậy, người lái tàu thường cho tàu chạy chậm, vòng quanh hòn đảo để du khách ngắm trọn các góc. Quý khách hãy thử tìm phần mào và phần mỏ của chú gà nhé, chỉ cần một chút tưởng tượng là sẽ thấy ngay!",
+        "en": "Please look at the larger of the two rocks. This is the rooster of the islet. Its top spreads out to both sides like open wings, while its head tilts towards the smaller rock beside it, as if protecting its mate. From different angles the rooster changes shape: sometimes it seems to crow proudly, sometimes to bow its head tenderly. That is why boat captains usually slow down and circle the islet so visitors can enjoy every angle. Try to find the rooster's comb and beak, with just a little imagination you will see them right away! Many visitors say the rooster looks different every time they come back, depending on the light and the tide.",
+        "ko": "이제 두 바위 중에서 더 큰 바위를 봐 주세요. 이 바위가 바로 섬의 수탉입니다. 바위 꼭대기는 양옆으로 넓게 퍼져 있어 마치 활짝 편 날개 같고, 머리 부분은 옆의 작은 바위 쪽으로 살짝 기울어져 있어 짝을 감싸 주는 듯합니다. 보는 각도에 따라 수탉의 모습도 달라지는데요, 어떤 때는 힘차게 우는 것 같고, 어떤 때는 다정하게 고개를 숙인 것 같습니다. 그래서 선장님들은 보통 배를 천천히 몰며 섬 주위를 한 바퀴 돌아, 여행객들이 모든 각도에서 감상할 수 있게 해 줍니다. 수탉의 볏과 부리를 한번 찾아보세요. 조금만 상상력을 발휘하시면 금방 보이실 거예요! 많은 여행객들이 빛과 물때에 따라 올 때마다 수탉의 모습이 달라 보인다고 말합니다.",
+        "ja": "二つの岩のうち、大きいほうの岩をご覧ください。これが島の雄鶏です。岩のてっぺんは左右に大きく広がり、まるで翼を広げているようです。頭の部分は隣の小さな岩のほうへ少し傾いていて、まるで連れ合いを守っているかのようです。見る角度によって、雄鶏の姿は変わります。高らかに鳴いているように見えるときもあれば、優しく頭を下げているように見えるときもあります。そのため、船長はたいてい船をゆっくり走らせ、島の周りをぐるりと回って、どの角度からも楽しめるようにしてくれます。雄鶏のとさかとくちばしを探してみてください。少し想像力を働かせれば、すぐに見つかりますよ。光や潮の具合によって、来るたびに雄鶏の表情が違って見えると話す旅行者も多いんですよ。",
+        "zh": "请大家看这两块石头中较大的那一块，它就是岛上的公鸡。石头顶部向两边伸展开来，就像张开的翅膀；头部微微倾向旁边的小石头，好像在守护着自己的伴侣。从不同的角度看，公鸡的模样也会变化：有时像在昂首啼鸣，有时又像在温柔地低头。正因为如此，船长通常会放慢船速，绕着小岛转一圈，让游客从各个角度欣赏。大家试着找一找公鸡的鸡冠和鸡嘴吧，只要发挥一点想象力，马上就能看到！很多游客说，随着光线和潮水的不同，每次来看，公鸡的样子都不一样。今天它在您眼中是什么样子呢？"
+      },
+      "durationSec": {
+        "vi": 45,
+        "en": 46,
+        "ko": 50,
+        "ja": 52,
+        "zh": 48
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "sortOrder": 1
+    },
+    {
+      "id": "s2-e2",
+      "siteId": 2,
+      "nameVi": "Gà Mái – khối đá nhỏ",
+      "nameEn": "The Hen – the smaller rock",
+      "zoneVi": "Khối đá phía tây",
+      "zoneEn": "Companion rock",
+      "image": "/image/HonTrongMai.jpg",
+      "shortDescVi": "Khối đá nhỏ nép bên gà trống, gắn với truyền thuyết người vợ chung thủy.",
+      "shortDescEn": "The smaller rock nestled by the rooster, linked to the legend of a faithful wife.",
+      "translations": {
+        "ko": {
+          "name": "암탉 – 작은 바위",
+          "zone": "서쪽 바위",
+          "shortDesc": "수탉 곁에 기댄 작은 바위로, 변치 않는 아내의 전설이 깃들어 있습니다."
+        },
+        "ja": {
+          "name": "雌鶏 – 小さな岩",
+          "zone": "西側の岩",
+          "shortDesc": "雄鶏に寄り添う小さな岩で、一途な妻の伝説と結びついています。"
+        },
+        "zh": {
+          "name": "母鸡 – 小石",
+          "zone": "西侧岩石",
+          "shortDesc": "依偎在公鸡身旁的小石头，与忠贞妻子的传说紧密相连。"
+        }
+      },
+      "narration": {
+        "vi": "Bên cạnh chú gà trống là khối đá nhỏ hơn, được ví như cô gà mái hiền lành nép mình bên bạn đời. Theo truyền thuyết của người dân chài, đây là hình bóng người vợ ngày ngày đứng đợi chồng trở về sau cơn bão biển. Tấm lòng thủy chung ấy đã khiến trời đất cảm động, cho hai người hóa đá để mãi mãi bên nhau. Vì thế, nhiều cặp đôi khi đến Hạ Long thường chọn Hòn Trống Mái làm phông nền cho bức ảnh kỷ niệm, như một lời hẹn ước gắn bó dài lâu. Quý khách hãy để ý khoảng cách rất hẹp giữa hai khối đá, tưởng như chỉ cần thêm chút nữa là đôi gà sẽ chạm mỏ vào nhau.",
+        "en": "Next to the rooster stands the smaller rock, likened to a gentle hen nestling beside her mate. In the fishermen's legend, she is the wife who waited every day for her husband to return after a storm at sea. Her faithfulness moved heaven, which turned the couple to stone so they could stay together forever. That is why many couples visiting Ha Long choose Trong Mai as the backdrop for a memorable photo, like a promise of lasting love. Notice how narrow the gap between the two rocks is, it seems that with just a little more, the two birds would touch beaks. Take a quiet moment here, and you may understand why fishermen have told this love story for generations.",
+        "ko": "수탉 옆에는 조금 더 작은 바위가 있는데요, 짝 곁에 다소곳이 기대어 있는 순한 암탉에 비유됩니다. 어부들의 전설에 따르면, 이 바위는 바다 폭풍이 지나간 뒤 남편이 돌아오기를 날마다 기다리던 아내의 모습이라고 해요. 그 변치 않는 마음이 하늘을 감동시켜, 두 사람은 바위가 되어 영원히 함께하게 되었습니다. 그래서 하롱베이를 찾는 많은 연인들이 오래도록 함께하자는 약속처럼, 이 바위를 배경으로 기념사진을 찍곤 합니다. 두 바위 사이의 아주 좁은 틈을 눈여겨보세요. 조금만 더 가까워지면 두 닭의 부리가 맞닿을 것만 같습니다. 잠시 조용히 바라보시면, 어부들이 왜 대대로 이 사랑 이야기를 전해 왔는지 느끼실 수 있을 거예요.",
+        "ja": "雄鶏の隣にあるのが、少し小さな岩です。連れ合いのそばにそっと寄り添う、おとなしい雌鶏にたとえられています。漁師たちの伝説では、この岩は、海の嵐のあと夫の帰りを毎日待ち続けた妻の姿だと言われています。その一途な思いが天を動かし、二人は岩となって、いつまでも一緒にいられるようになりました。そのため、ハロン湾を訪れる多くのカップルが、末永く寄り添う約束のように、この岩を背景に記念写真を撮ります。二つの岩の間のとても狭いすき間に注目してください。あと少し近づけば、二羽の鶏のくちばしが触れ合いそうに見えますね。少しの間、静かに眺めてみてください。漁師たちがなぜこの愛の物語を代々語り継いできたのか、きっと感じられるはずです。",
+        "zh": "公鸡旁边是一块小一些的石头，人们把它比作依偎在伴侣身边的温顺母鸡。根据渔民的传说，这就是那位在海上风暴之后，每天站着等待丈夫归来的妻子。她的忠贞感动了天地，于是两人化作石头，永远相伴。因此，许多来到下龙湾的情侣，都喜欢以斗鸡石为背景拍一张纪念照，就像许下一个天长地久的约定。请留意两块石头之间那道非常窄的缝隙，好像只要再靠近一点点，两只鸡的嘴就要碰到一起了。请在这里静静地欣赏片刻，您也许就会明白，为什么渔民们世世代代都在讲述这个爱情故事。"
+      },
+      "durationSec": {
+        "vi": 45,
+        "en": 48,
+        "ko": 50,
+        "ja": 51,
+        "zh": 48
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "sortOrder": 2
+    },
+    {
+      "id": "s2-e3",
+      "siteId": 2,
+      "nameVi": "Ngấn biển thắt eo",
+      "nameEn": "The wave-cut notches",
+      "zoneVi": "Chân đá sát mặt nước",
+      "zoneEn": "Waterline",
+      "image": "/image/HonTrongMai.jpg",
+      "shortDescVi": "Vệt lõm sâu dưới chân đá do sóng và thủy triều bào mòn – dấu ấn của địa chất karst.",
+      "shortDescEn": "Deep notches at the base carved by waves and tides – a signature of karst geology.",
+      "translations": {
+        "ko": {
+          "name": "잘록한 파식와",
+          "zone": "수면 가까운 바위 밑동",
+          "shortDesc": "파도와 조수가 깎아 낸 바위 밑동의 깊은 홈으로, 카르스트 지질의 흔적입니다."
+        },
+        "ja": {
+          "name": "くびれたノッチ",
+          "zone": "水際の岩の根元",
+          "shortDesc": "波と潮が岩の根元に刻んだ深いくぼみで、カルスト地形の証です。"
+        },
+        "zh": {
+          "name": "细腰海蚀凹槽",
+          "zone": "贴近水面的岩脚",
+          "shortDesc": "海浪和潮汐在岩石底部侵蚀出的深凹槽，是喀斯特地质的印记。"
+        }
+      },
+      "narration": {
+        "vi": "Giờ mời quý khách hướng mắt xuống sát mặt nước, nơi chân đá bị khoét lõm vào trong. Các nhà địa chất gọi đó là ngấn biển. Nước biển hòa tan đá vôi, kết hợp với sóng vỗ và thủy triều lên xuống mỗi ngày, đã từng chút một bào mòn phần chân đá qua hàng nghìn năm. Kết quả là đôi gà có phần thân lớn nhưng chân lại rất nhỏ, tạo nên dáng đứng chênh vênh nổi tiếng. Ngấn biển cũng giống như một chiếc thước đo tự nhiên, ghi lại mực nước biển qua các thời kỳ. Đây chính là một trong những giá trị địa chất, địa mạo giúp Vịnh Hạ Long được UNESCO công nhận lần thứ hai vào năm hai nghìn.",
+        "en": "Now please look down at the waterline, where the base of the rocks is hollowed inwards. Geologists call these wave-cut or tidal notches. Seawater dissolves limestone, and together with breaking waves and the daily rise and fall of the tide, it has slowly eaten away the base over thousands of years. The result is a pair of birds with heavy bodies but very slender feet, giving them their famous precarious pose. The notches are also a natural measuring stick, recording sea levels through the ages. They are part of the geological value that earned Ha Long Bay its second UNESCO recognition in 2000. Look closely and you may even see small shells and oysters clinging inside the notches, where the waves break.",
+        "ko": "이번에는 수면 가까이, 바위 밑동이 안쪽으로 움푹 파인 곳을 내려다봐 주세요. 지질학자들은 이것을 파식와, 즉 바다가 깎아 낸 홈이라고 부릅니다. 바닷물이 석회암을 녹이고, 여기에 부서지는 파도와 매일 오르내리는 밀물과 썰물이 더해져, 수천 년에 걸쳐 바위 밑동을 조금씩 깎아 냈습니다. 그 결과 두 닭은 몸통은 크지만 다리는 아주 가는, 아슬아슬한 모습을 갖게 되었죠. 이 홈은 시대마다 바닷물의 높이를 기록해 온 자연의 눈금자이기도 합니다. 바로 이러한 지질과 지형의 가치 덕분에, 하롱베이는 이천 년에 유네스코로부터 두 번째로 인정을 받았습니다. 자세히 보시면 파도가 부서지는 홈 안쪽에 붙어 있는 작은 조개와 굴도 보실 수 있습니다.",
+        "ja": "今度は水面の近く、岩の根元が内側にえぐれているところをご覧ください。地質学者はこれをノッチ、つまり波が刻んだくぼみと呼んでいます。海水が石灰岩を溶かし、そこに打ち寄せる波と毎日の潮の満ち引きが加わって、何千年もかけて少しずつ岩の根元を削ってきました。その結果、二羽の鶏は胴体が大きいのに足がとても細いという、あの有名な危うい姿になったのです。このくぼみは、時代ごとの海面の高さを記録してきた、自然の物差しでもあります。こうした地質と地形の価値によって、ハロン湾は二千年にユネスコから二度目の認定を受けました。よく見ると、波が砕けるくぼみの内側に、小さな貝や牡蠣がびっしりと張り付いているのも見えますよ。",
+        "zh": "现在请大家往下看靠近水面的地方，岩石底部向里凹进去了一圈。地质学家把它叫做海蚀凹槽。海水会溶解石灰岩，再加上拍打的海浪和每天的潮涨潮落，几千年来一点一点地侵蚀着岩石底部。结果，这对鸡身体很大，脚却非常细，形成了那著名的摇摇欲坠的姿态。这些凹槽也是一把天然的尺子，记录着不同时期的海平面。正是这样的地质和地貌价值，让下龙湾在二零零零年第二次获得联合国教科文组织的认可。仔细看的话，您还能发现凹槽里面附着着许多小贝壳和牡蛎，那里正是海浪拍打的地方。"
+      },
+      "durationSec": {
+        "vi": 45,
+        "en": 49,
+        "ko": 51,
+        "ja": 50,
+        "zh": 49
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "sortOrder": 3
+    },
+    {
+      "id": "s2-e4",
+      "siteId": 2,
+      "nameVi": "Góc chụp ảnh đẹp nhất",
+      "nameEn": "The best photo angle",
+      "zoneVi": "Boong tàu",
+      "zoneEn": "On deck",
+      "image": "/image/HonTrongMai.jpg",
+      "shortDescVi": "Mẹo chọn góc, chọn giờ để chụp trọn dáng đôi gà chọi trên nền vịnh.",
+      "shortDescEn": "Tips on angle and timing to capture the whole fighting-cock silhouette.",
+      "translations": {
+        "ko": {
+          "name": "최고의 사진 명당",
+          "zone": "갑판",
+          "shortDesc": "하롱베이를 배경으로 싸움닭 바위의 모습을 온전히 담기 위한 각도와 시간 선택 요령입니다."
+        },
+        "ja": {
+          "name": "ベストな撮影アングル",
+          "zone": "甲板",
+          "shortDesc": "湾を背景に闘鶏岩の姿をまるごと収めるための、角度と時間帯のコツです。"
+        },
+        "zh": {
+          "name": "最佳拍照角度",
+          "zone": "甲板",
+          "shortDesc": "选择角度和时间的小技巧，以海湾为背景完整拍下斗鸡石的身影。"
+        }
+      },
+      "narration": {
+        "vi": "Để có bức ảnh Hòn Trống Mái thật đẹp, quý khách nên lưu ý vài điều nhỏ. Thứ nhất, đừng chụp khi tàu ở chính diện, vì hai khối đá dễ chồng lên nhau. Hãy chờ tàu đi chếch sang một bên, lúc ấy hai dáng gà sẽ tách rời và rõ nét nhất. Thứ hai, nếu đi tàu buổi sáng sớm hoặc chiều muộn, ánh nắng xiên sẽ tạo ra hình bóng đôi gà in trên mặt nước rất lãng mạn. Thứ ba, hãy hạ thấp máy ảnh gần mặt nước để đôi đá trông cao lớn và hùng vĩ hơn. Và quan trọng nhất, luôn đứng ở vị trí an toàn, không nhoài người qua lan can tàu. Nếu sử dụng flycam, quý khách vui lòng tuân thủ quy định của Ban quản lý vịnh và hướng dẫn của thủy thủ đoàn.",
+        "en": "To take a beautiful photo of Trong Mai, keep a few small tips in mind. First, avoid shooting head-on, as the two rocks tend to overlap. Wait until the boat moves to one side, when the two bird shapes separate and look clearest. Second, on an early morning or late afternoon cruise, the low sun creates a romantic silhouette of the pair on the water. Third, hold your camera low, close to the water, so the rocks look taller and more majestic. And most importantly, always stay in a safe spot and never lean over the boat's railing. If you use a drone, please follow the rules of the bay management board and the crew's instructions.",
+        "ko": "싸움닭 바위를 멋지게 찍으려면 몇 가지만 기억해 주세요. 첫째, 배가 정면에 있을 때는 찍지 마세요. 두 바위가 겹쳐 보이기 쉽거든요. 배가 한쪽으로 비스듬히 지나갈 때까지 기다리시면, 두 닭의 모습이 따로 떨어져 가장 또렷하게 보입니다. 둘째, 이른 아침이나 늦은 오후에 배를 타시면, 비스듬한 햇살이 물 위에 두 닭의 낭만적인 그림자를 만들어 줍니다. 셋째, 카메라를 수면 가까이 낮게 들고 찍으시면 바위가 더 높고 웅장해 보입니다. 그리고 가장 중요한 것은, 언제나 안전한 곳에 서서 난간 밖으로 몸을 내밀지 않는 것입니다. 드론을 사용하실 때는 하롱베이 관리위원회의 규정과 승무원의 안내를 꼭 따라 주세요. 사진을 찍은 뒤에는 잠시 휴대전화를 내려놓고, 두 눈으로 이 멋진 풍경을 감상해 보세요.",
+        "ja": "闘鶏岩をきれいに撮るために、いくつかのポイントを覚えておいてください。一つ目、船が正面にいるときは撮らないこと。二つの岩が重なって見えやすいからです。船が斜めに進むまで待つと、二羽の鶏の姿が離れて、いちばんはっきり見えます。二つ目、早朝や夕方のクルーズなら、斜めの日差しが水面に二羽の鶏のロマンチックなシルエットを描いてくれます。三つ目、カメラを水面近くまで低く構えると、岩がより高く、雄大に見えます。そして何より大切なのは、いつも安全な場所に立ち、手すりから身を乗り出さないことです。ドローンを使う場合は、湾の管理委員会の規則と乗組員の指示に必ず従ってください。撮影のあとは、少しスマートフォンを置いて、ご自分の目でこの景色をゆっくり味わってくださいね。",
+        "zh": "想拍出漂亮的斗鸡石照片，请记住几个小技巧。第一，不要在船正对着石头时拍，因为两块石头容易重叠在一起。等船驶到斜侧方，两只鸡的身影就会分开，看起来最清晰。第二，如果是清晨或傍晚乘船，斜射的阳光会在水面上映出这对鸡浪漫的剪影。第三，把相机放低，靠近水面拍摄，石头会显得更加高大雄伟。最重要的是，请始终站在安全的位置，不要把身子探出船的栏杆。如果使用无人机，请遵守下龙湾管理委员会的规定和船员的指引。拍完照片后，也别忘了放下手机，用自己的眼睛好好欣赏这片美景。"
+      },
+      "durationSec": {
+        "vi": 51,
+        "en": 46,
+        "ko": 55,
+        "ja": 54,
+        "zh": 49
+      },
+      "audioUrl": {
+        "vi": null,
+        "en": null,
+        "ko": null,
+        "ja": null,
+        "zh": null
+      },
+      "sortOrder": 4
+    }
+  ]
+}
