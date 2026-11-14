@@ -1,0 +1,16 @@
+{
+  "name": "Hạ Long SmartGuide – Thuyết minh tự động",
+  "short_name": "SmartGuide",
+  "description": "Thuyết minh âm thanh đa ngôn ngữ cho Vịnh Hạ Long: quét mã QR, GPS tự nhận diện, nghe thử và mua vé điện tử.",
+  "lang": "vi",
+  "start_url": "/?src=app",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8fafc",
+  "theme_color": "#0284c7",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
