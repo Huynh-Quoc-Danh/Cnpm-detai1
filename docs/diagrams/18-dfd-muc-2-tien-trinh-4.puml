@@ -1,0 +1,34 @@
+@startuml dfd-muc-2-tien-trinh-4
+' DFD mức 2 – tiến trình 4.0 Theo dõi vị trí du khách (có quét QR tại điểm)
+skinparam monochrome true
+skinparam shadowing false
+skinparam rectangle<<process>> {
+  RoundCorner 30
+}
+hide stereotype
+left to right direction
+
+rectangle "Du khách" as DK
+rectangle "Thiết bị GPS" as GPS
+
+rectangle "4.1\n----\nNhận tín hiệu\nvị trí" as P41 <<process>>
+rectangle "4.2\n----\nXác định\nđịa điểm" as P42 <<process>>
+rectangle "4.3\n----\nCập nhật trạng\nthái khách" as P43 <<process>>
+
+database "D1 Địa điểm" as D1
+database "D7 Khách truy cập" as D7
+
+' 4.1 – quét QR mở /?site=<id>&src=qr, hoặc heartbeat định kỳ
+DK --> P41 : quét mã QR tại điểm
+DK --> P41 : heartbeat định kỳ
+GPS --> P41 : toạ độ
+P41 --> P42 : nguồn, toạ độ, mã điểm
+
+' 4.2 – Haversine so với bán kính; không có toạ độ thì giữ điểm QR 30 phút
+D1 --> P42 : toạ độ, bán kính
+D7 --> P42 : QR đã quét
+P42 --> P43 : địa điểm hiện tại
+
+' 4.3 – ghi D7; online = có tín hiệu trong 60 giây
+P43 --> D7 : trạng thái khách
+@enduml
