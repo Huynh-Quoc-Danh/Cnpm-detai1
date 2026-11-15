@@ -1,0 +1,36 @@
+@startuml dfd-muc-2-tien-trinh-2
+' DFD mức 2 – tiến trình 2.0 Phát thuyết minh (siteService.getNarration)
+skinparam monochrome true
+skinparam shadowing false
+skinparam rectangle<<process>> {
+  RoundCorner 30
+}
+hide stereotype
+left to right direction
+
+rectangle "Du khách" as DK
+
+rectangle "2.1\n----\nNhận yêu cầu nghe" as P21 <<process>>
+rectangle "2.2\n----\nKiểm tra quyền nghe" as P22 <<process>>
+rectangle "2.3\n----\nChọn ngôn ngữ phát\n(ngôn ngữ chọn → en → vi)" as P23 <<process>>
+rectangle "2.4\n----\nCắt đoạn nghe thử" as P24 <<process>>
+rectangle "2.5\n----\nGhi lượt nghe" as P25 <<process>>
+
+database "D1 Địa điểm" as D1
+database "D2 Điểm nhấn" as D2
+database "D5 Vé điện tử" as D5
+database "D10 Cài đặt" as D10
+database "D8 Lượt nghe" as D8
+
+DK --> P21 : yêu cầu nghe + vé
+D1 --> P21 : địa điểm
+D2 --> P21 : điểm nhấn
+P21 --> P22 : nội dung gốc, vé
+D5 --> P22 : hạn, phạm vi vé
+P22 --> P23 : có / không có quyền
+P23 --> P24 : văn bản, thời lượng, mp3
+D10 --> P24 : giây nghe thử
+P24 --> DK : văn bản, file mp3
+P24 --> P25 : trạng thái khoá / mở
+P25 <--> D8 : lượt nghe
+@enduml
