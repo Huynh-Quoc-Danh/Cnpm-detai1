@@ -1,0 +1,25 @@
+@startuml activity-nhap-ma
+' Activity – Nhập mã kích hoạt (ticketService.redeem)
+skinparam monochrome true
+skinparam shadowing false
+
+start
+:Nhập mã trong tab Vé;
+:Server bỏ khoảng trắng, viết hoa;
+if (Mã trống?) then (có)
+  :Báo "Vui lòng nhập mã kích hoạt";
+  stop
+endif
+if (Mã có, đang bật?) then (không)
+  :Báo "Mã không hợp lệ hoặc đã bị vô hiệu hoá";
+  stop
+endif
+if (Còn lượt dùng?) then (hết)
+  :Báo "Mã đã hết lượt sử dụng";
+  stop
+endif
+:Tăng số lượt đã dùng;
+:Cấp vé theo phạm vi, hạn của mã;
+:Lưu vé, mở khoá thuyết minh;
+stop
+@enduml
