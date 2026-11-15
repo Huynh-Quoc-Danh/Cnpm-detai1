@@ -1,0 +1,23 @@
+@startuml activity-dang-nhap
+' Activity – Đăng nhập quản trị (adminAuthService.login)
+skinparam monochrome true
+skinparam shadowing false
+
+start
+repeat
+  :Nhập tên đăng nhập, mật khẩu;
+  if (Nhập đủ chưa?) then (chưa)
+    :Báo thiếu thông tin;
+  else (đủ)
+    :Tìm tài khoản, băm mật khẩu (scrypt);
+    if (Mật khẩu đúng?) then (sai)
+      :Báo sai tên hoặc mật khẩu;
+    else (đúng)
+      break
+    endif
+  endif
+repeat while (nhập lại)
+:Xoá phiên cũ, tạo token 12 giờ;
+:Lưu token, mở trang tổng quan;
+stop
+@enduml
