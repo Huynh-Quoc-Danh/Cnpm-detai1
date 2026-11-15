@@ -8,6 +8,9 @@ function rowToAdmin(r) {
     username: r.username,
     displayName: r.display_name,
     role: r.role,
+    tenantId: r.tenant_id ?? null,
+    tenantName: r.tenant_name ?? null,
+    tenantActive: r.tenant_id == null ? true : !!r.tenant_active,
     passwordHash: r.password_hash,
     salt: r.salt,
     createdAt: r.created_at,
@@ -15,20 +18,31 @@ function rowToAdmin(r) {
   };
 }
 
+// Kèm tên và trạng thái của ban quản lý (tenant) mà tài khoản thuộc về.
+const SELECT_ADMIN = `SELECT a.*, t.name AS tenant_name, t.is_active AS tenant_active
+  FROM admins a LEFT JOIN tenants t ON t.id = a.tenant_id`;
+
 export const adminRepository = {
   async findByUsername(username) {
-    return rowToAdmin(await get('SELECT * FROM admins WHERE username = ?', username));
+    return rowToAdmin(await get(`${SELECT_ADMIN} WHERE a.username = ?`, username));
   },
   async findById(id) {
-    return rowToAdmin(await get('SELECT * FROM admins WHERE id = ?', id));
+    return rowToAdmin(await get(`${SELECT_ADMIN} WHERE a.id = ?`, id));
   },
   async count() {
     return (await get('SELECT COUNT(*) AS n FROM admins')).n;
   },
+  async listByTenant(tenantId) {
+    return (await all(`${SELECT_ADMIN} WHERE a.tenant_id = ? ORDER BY a.username`, tenantId)).map(rowToAdmin);
+  },
   async insert(a) {
-    const r = await run(`INSERT INTO admins (username, display_name, role, password_hash, salt, created_at) VALUES (?, ?, ?, ?, ?, ?)`,
-      a.username, a.displayName, a.role || 'admin', a.passwordHash, a.salt, a.createdAt);
+    const r = await run(`INSERT INTO admins (username, display_name, role, tenant_id, password_hash, salt, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)`,
+      a.username, a.displayName, a.role || 'admin', a.tenantId ?? null, a.passwordHash, a.salt, a.createdAt);
     return this.findById(Number(r.lastInsertRowid));
+  },
+  async delete(id) {
+    await run('DELETE FROM admin_sessions WHERE admin_id = ?', id);
+    return (await run('DELETE FROM admins WHERE id = ?', id)).changes;
   },
   async setPassword(id, passwordHash, salt) {
     await run('UPDATE admins SET password_hash = ?, salt = ? WHERE id = ?', passwordHash, salt, id);
