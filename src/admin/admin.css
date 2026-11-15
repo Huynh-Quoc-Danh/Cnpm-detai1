@@ -1,0 +1,19 @@
+/* Hiệu ứng cho trang quản trị (dùng qua class animate-[...] của Tailwind) */
+@keyframes adminFade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes adminPop { from { opacity: 0; transform: translateY(8px) scale(.98); } to { opacity: 1; transform: none; } }
+@keyframes adminSlideIn { from { transform: translateX(40px); opacity: .4; } to { transform: none; opacity: 1; } }
+@keyframes adminToastIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes adminPage { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+.admin-root { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.admin-root .leaflet-container { font-family: inherit; }
+.admin-root .leaflet-tooltip { border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 8px 20px rgba(15, 23, 42, .12); padding: 6px 10px; }
+.admin-root .recharts-wrapper:focus, .admin-root .recharts-surface:focus { outline: none; }
+.admin-hatch { background-image: repeating-linear-gradient(135deg, rgba(100,116,139,.18) 0 4px, transparent 4px 8px); }
+
+@media print {
+  body { background: #fff !important; }
+  .admin-root { background: #fff !important; }
+  .admin-main { padding: 0 !important; margin: 0 !important; }
+  .admin-no-print { display: none !important; }
+}
