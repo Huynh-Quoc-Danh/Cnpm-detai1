@@ -1,0 +1,23 @@
+@startuml activity-hoan-tien-huy-don
+' Activity – Hoàn tiền, huỷ đơn (orderService.adminSetStatus)
+skinparam monochrome true
+skinparam shadowing false
+
+start
+:Mở trang Đơn hàng, tìm đơn;
+:Chọn Hoàn tiền hoặc Huỷ đơn;
+:Khoá dòng đơn (FOR UPDATE);
+if (Hoàn tiền hay huỷ?) then (hoàn tiền)
+  if (Đơn đang paid?) then (không)
+    :Báo "Chỉ hoàn tiền được đơn đã thanh toán";
+    stop
+  else (có)
+    :Đặt trạng thái refunded;
+  endif
+else (huỷ)
+  :Đặt trạng thái cancelled;
+endif
+:Thu hồi vé của đơn;
+:Du khách mất quyền nghe đầy đủ;
+stop
+@enduml
