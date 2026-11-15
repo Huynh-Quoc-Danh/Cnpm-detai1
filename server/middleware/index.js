@@ -1,5 +1,6 @@
-// Cross-cutting middleware: CORS, admin auth guard, 404 + error handler.
+// Cross-cutting middleware: CORS, admin auth guard (+ tenant scope), 404 + error handler.
 import { adminAuthService, publicAdmin } from '../services/adminAuthService.js';
+import { scopeFor } from '../services/tenantScopeService.js';
 import { HttpError, bearerToken, unauthorized } from '../utils/http.js';
 
 export function cors(req, res, next) {
@@ -18,6 +19,14 @@ export async function requireAdmin(req, res, next) {
   req.admin = admin;
   req.adminPublic = publicAdmin(admin);
   req.adminToken = token;
+  // Phạm vi dữ liệu theo ban quản lý (tenant): mọi handler phía sau dùng req.scope để lọc.
+  req.scope = await scopeFor(admin);
+  next();
+}
+
+/** Chỉ quản trị nền tảng (không thuộc ban quản lý nào) mới được đi tiếp. */
+export function requireSuperAdmin(req, res, next) {
+  if (!req.scope || !req.scope.isSuper) return next(new HttpError(403, 'Chỉ quản trị nền tảng mới có quyền thực hiện thao tác này'));
   next();
 }
 
