@@ -1,0 +1,67 @@
+@startuml dfd-muc-2-tien-trinh-3
+' DFD mức 2 – tiến trình 3.0 Bán vé và kích hoạt vé
+skinparam monochrome true
+skinparam shadowing false
+skinparam rectangle<<process>> {
+  RoundCorner 30
+}
+hide stereotype
+left to right direction
+
+rectangle "Du khách" as DK
+rectangle "Quản trị viên" as QT
+rectangle "Dịch vụ VietQR" as VQR
+
+rectangle "3.1\n----\nHiển thị gói vé" as P31 <<process>>
+rectangle "3.2\n----\nTạo đơn hàng" as P32 <<process>>
+rectangle "3.3\n----\nGhi nhận thanh toán" as P33 <<process>>
+rectangle "3.4\n----\nCấp vé điện tử" as P34 <<process>>
+rectangle "3.5\n----\nKích hoạt bằng mã" as P35 <<process>>
+rectangle "3.6\n----\nHoàn tiền, huỷ đơn" as P36 <<process>>
+rectangle "3.7\n----\nQuản lý gói vé\nvà mã kích hoạt" as P37 <<process>>
+
+database "D3 Gói vé" as D3
+database "D4 Đơn hàng" as D4
+database "D5 Vé điện tử" as D5
+database "D6 Mã kích hoạt" as D6
+
+' 3.1
+D3 --> P31 : gói đang bán
+P31 --> DK : danh sách gói
+P31 --> P32 : gói đã chọn
+
+' 3.2
+DK --> P32 : gói, tên, SĐT
+P32 --> DK : đơn, mã QR
+D3 --> P32 : giá, phạm vi
+P32 --> D4 : đơn pending
+P32 --> VQR : số tiền, nội dung CK
+VQR --> P32 : ảnh QR chuyển khoản
+P32 --> P33 : đơn pending
+
+' 3.3
+DK --> P33 : xác nhận trả
+QT --> P33 : xác nhận thủ công
+P33 <--> D4 : paid / expired
+P33 --> P34 : đơn đã trả
+
+' 3.4
+D3 --> P34 : thời hạn gói
+P34 <--> D5 : vé
+P34 --> DK : vé điện tử
+
+' 3.5
+DK --> P35 : mã kích hoạt
+P35 <--> D6 : lượt dùng
+P35 --> P34 : mã hợp lệ
+
+' 3.6
+QT --> P36 : hoàn tiền, huỷ
+P36 <--> D4 : trạng thái đơn
+P36 <--> D5 : thu hồi vé
+
+' 3.7
+QT --> P37 : gói vé, mã
+P37 <--> D3 : gói vé
+P37 <--> D6 : mã kích hoạt
+@enduml
