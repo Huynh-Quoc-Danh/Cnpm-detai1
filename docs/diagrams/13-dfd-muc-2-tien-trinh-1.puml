@@ -1,0 +1,38 @@
+@startuml dfd-muc-2-tien-trinh-1
+' DFD mức 2 – tiến trình 1.0 Quản lý nội dung
+skinparam monochrome true
+skinparam shadowing false
+skinparam rectangle<<process>> {
+  RoundCorner 30
+}
+hide stereotype
+left to right direction
+
+rectangle "Du khách" as DK
+rectangle "Quản trị viên" as QT
+
+rectangle "1.1\n----\nCung cấp danh sách,\nchi tiết" as P11 <<process>>
+rectangle "1.2\n----\nLưu tệp ảnh, mp3" as P12 <<process>>
+rectangle "1.3\n----\nThêm, sửa, xoá\nđịa điểm, điểm nhấn" as P13 <<process>>
+rectangle "1.4\n----\nTạo mã QR để in" as P14 <<process>>
+
+database "D1 Địa điểm" as D1
+database "D2 Điểm nhấn" as D2
+database "D12 Tệp tải lên\n(server/uploads)" as D12
+
+DK --> P11 : ngôn ngữ, địa điểm
+P11 --> DK : danh sách, chi tiết
+D1 --> P11 : địa điểm
+D2 --> P11 : điểm nhấn
+
+QT --> P12 : ảnh, mp3
+P12 --> D12 : tệp
+P12 --> P13 : đường dẫn tệp
+
+QT --> P13 : địa điểm, điểm nhấn
+P13 <--> D1 : địa điểm
+P13 <--> D2 : điểm nhấn
+
+D1 --> P14 : id, tên địa điểm
+P14 --> QT : mã QR để in
+@enduml
