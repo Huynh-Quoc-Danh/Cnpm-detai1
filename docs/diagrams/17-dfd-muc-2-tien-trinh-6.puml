@@ -1,0 +1,39 @@
+@startuml dfd-muc-2-tien-trinh-6
+' DFD mức 2 – tiến trình 6.0 Xác thực và cấu hình
+skinparam monochrome true
+skinparam shadowing false
+skinparam rectangle<<process>> {
+  RoundCorner 30
+}
+hide stereotype
+left to right direction
+
+rectangle "Quản trị viên" as QT
+
+rectangle "6.1\n----\nĐăng nhập" as P61 <<process>>
+rectangle "6.2\n----\nKiểm tra phiên\n(requireAdmin)" as P62 <<process>>
+rectangle "6.3\n----\nĐổi mật khẩu,\ncập nhật cài đặt" as P63 <<process>>
+rectangle "6.4\n----\nQuản lý\nban quản lý" as P64 <<process>>
+
+database "D9 Tài khoản quản trị" as D9
+database "D1 Địa điểm" as D1
+database "D10 Cài đặt" as D10
+
+QT --> P61 : tên, mật khẩu
+P61 --> QT : token hoặc lỗi
+P61 <--> D9 : tài khoản, phiên
+
+QT --> P62 : token mỗi yêu cầu
+P62 --> QT : 401 khi hết phiên
+P62 <--> D9 : phiên
+P62 --> P63 : quản trị viên hợp lệ
+
+QT --> P63 : mật khẩu, cài đặt
+P63 <--> D9 : mật khẩu
+P63 <--> D10 : cấu hình
+
+' 6.4 – chỉ quản trị nền tảng (superadmin)
+QT --> P64 : ban, điểm, tài khoản
+P64 <--> D9 : ban, tài khoản
+P64 --> D1 : gán địa điểm
+@enduml
