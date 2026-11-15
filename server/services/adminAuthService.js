@@ -21,8 +21,21 @@ function verifyPassword(password, admin) {
 }
 
 export function publicAdmin(a) {
-  return a ? { id: a.id, username: a.username, displayName: a.displayName, role: a.role, lastLoginAt: a.lastLoginAt } : null;
+  return a
+    ? {
+        id: a.id,
+        username: a.username,
+        displayName: a.displayName,
+        role: a.role,
+        tenantId: a.tenantId ?? null,
+        tenantName: a.tenantName ?? null,
+        lastLoginAt: a.lastLoginAt
+      }
+    : null;
 }
+
+/** Quản trị nền tảng: không thuộc ban quản lý (tenant) nào, thấy dữ liệu của mọi tenant. */
+export const isSuperAdmin = (a) => !!a && a.tenantId == null;
 
 export const adminAuthService = {
   async ensureDefaultAdmin() {
@@ -31,7 +44,8 @@ export const adminAuthService = {
     await adminRepository.insert({
       username: 'admin',
       displayName: 'Quản trị viên',
-      role: 'admin',
+      role: 'superadmin',
+      tenantId: null,
       passwordHash: hash,
       salt,
       createdAt: iso()
@@ -42,6 +56,7 @@ export const adminAuthService = {
     if (!u || !password) throw badRequest('Vui lòng nhập tên đăng nhập và mật khẩu');
     const admin = await adminRepository.findByUsername(u);
     if (!admin || !verifyPassword(password, admin)) throw unauthorized('Sai tên đăng nhập hoặc mật khẩu');
+    if (!admin.tenantActive) throw unauthorized('Ban quản lý của tài khoản này đang bị tạm khoá');
     const now = Date.now();
     await sessionRepository.purgeExpired(now);
     const token = newToken(32);
@@ -57,7 +72,9 @@ export const adminAuthService = {
       await sessionRepository.delete(token);
       return null;
     }
-    return adminRepository.findById(s.admin_id);
+    const admin = await adminRepository.findById(s.admin_id);
+    // Ban quản lý bị khoá thì mọi phiên của tài khoản thuộc ban đó hết hiệu lực ngay.
+    return admin && admin.tenantActive ? admin : null;
   },
   async logout(token) {
     if (token) await sessionRepository.delete(token);
