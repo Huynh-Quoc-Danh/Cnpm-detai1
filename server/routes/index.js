@@ -2,7 +2,8 @@
 import { Router } from 'express';
 import { publicController as p } from '../controllers/publicController.js';
 import { adminController as a } from '../controllers/adminController.js';
-import { requireAdmin, apiNotFound } from '../middleware/index.js';
+import { tenantController as t } from '../controllers/tenantController.js';
+import { requireAdmin, requireSuperAdmin, apiNotFound } from '../middleware/index.js';
 
 export function buildApiRouter() {
   const r = Router();
@@ -52,8 +53,19 @@ export function buildApiRouter() {
   ad.put('/codes/:code', a.updateCode);
   ad.delete('/codes/:code', a.deleteCode);
   ad.get('/settings', a.getSettings);
-  ad.put('/settings', a.putSettings);
+  ad.put('/settings', requireSuperAdmin, a.putSettings);
   ad.post('/upload', a.upload);
+
+  // ---- ban quản lý (multi-tenant) – chỉ quản trị nền tảng ----
+  ad.get('/tenants', requireSuperAdmin, t.list);
+  ad.post('/tenants', requireSuperAdmin, t.create);
+  ad.put('/tenants/:id', requireSuperAdmin, t.update);
+  ad.delete('/tenants/:id', requireSuperAdmin, t.remove);
+  ad.put('/tenants/:id/sites', requireSuperAdmin, t.setSites);
+  ad.get('/tenants/:id/admins', requireSuperAdmin, t.listAdmins);
+  ad.post('/tenants/:id/admins', requireSuperAdmin, t.createAdmin);
+  ad.delete('/tenant-admins/:adminId', requireSuperAdmin, t.deleteAdmin);
+  ad.post('/tenant-admins/:adminId/password', requireSuperAdmin, t.resetAdminPassword);
   r.use('/admin', ad);
 
   r.use(apiNotFound);
