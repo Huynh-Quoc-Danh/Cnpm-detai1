@@ -144,11 +144,19 @@ export const SCHEMA = [
     demo TINYINT(1) NOT NULL DEFAULT 0,
     INDEX idx_listens_created (created_ms)
   ) ${TABLE_OPTS}`,
+  `CREATE TABLE IF NOT EXISTS tenants (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    slug VARCHAR(64) NOT NULL UNIQUE,
+    name VARCHAR(255) NOT NULL,
+    is_active TINYINT(1) NOT NULL DEFAULT 1,
+    created_at VARCHAR(32) NOT NULL
+  ) ${TABLE_OPTS}`,
   `CREATE TABLE IF NOT EXISTS admins (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(64) NOT NULL UNIQUE,
     display_name VARCHAR(120) NOT NULL,
     role VARCHAR(32) NOT NULL DEFAULT 'admin',
+    tenant_id INT NULL,
     password_hash VARCHAR(256) NOT NULL,
     salt VARCHAR(64) NOT NULL,
     created_at VARCHAR(32) NOT NULL,
@@ -167,7 +175,44 @@ export const SCHEMA = [
 ];
 
 export const TABLES = ['sites', 'exhibits', 'packages', 'orders', 'tickets', 'claim_codes', 'visitors', 'listens',
-  'admins', 'admin_sessions', 'settings'];
+  'tenants', 'admins', 'admin_sessions', 'settings'];
+
+// ---- Multi-tenant (mô hình shared database, shared schema) ----
+// Mỗi tenant là một ban quản lý sở hữu một số địa điểm, gói vé và mã kích hoạt.
+// Đơn hàng, lượt nghe, khách truy cập thuộc tenant thông qua địa điểm (site_id) hoặc gói vé (package_id).
+// Tài khoản quản trị có tenant_id = NULL là quản trị nền tảng (role 'superadmin'), thấy mọi tenant.
+export const DEFAULT_TENANT_ID = 1;
+export const DEFAULT_TENANT = { id: DEFAULT_TENANT_ID, slug: 'bql-vinh-ha-long', name: 'Ban quản lý Vịnh Hạ Long' };
+
+/** Cột tenant_id được thêm vào các bảng có sẵn (CSDL tạo từ trước vẫn tự nâng cấp khi khởi động). */
+const TENANT_COLUMNS = [
+  { table: 'admins', ddl: 'tenant_id INT NULL', index: 'idx_admins_tenant' },
+  { table: 'sites', ddl: `tenant_id INT NOT NULL DEFAULT ${DEFAULT_TENANT_ID}`, index: 'idx_sites_tenant' },
+  { table: 'packages', ddl: `tenant_id INT NOT NULL DEFAULT ${DEFAULT_TENANT_ID}`, index: 'idx_packages_tenant' },
+  { table: 'claim_codes', ddl: `tenant_id INT NOT NULL DEFAULT ${DEFAULT_TENANT_ID}`, index: 'idx_claim_codes_tenant' }
+];
+
+async function migrateMultiTenant(p) {
+  const { database } = DB_CONFIG;
+  for (const c of TENANT_COLUMNS) {
+    const [cols] = await p.query(
+      'SELECT 1 FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = ? AND TABLE_NAME = ? AND COLUMN_NAME = ?',
+      [database, c.table, 'tenant_id']
+    );
+    if (!cols.length) await p.query(`ALTER TABLE \`${c.table}\` ADD COLUMN ${c.ddl}`);
+    const [idx] = await p.query(
+      'SELECT 1 FROM information_schema.STATISTICS WHERE TABLE_SCHEMA = ? AND TABLE_NAME = ? AND INDEX_NAME = ?',
+      [database, c.table, c.index]
+    );
+    if (!idx.length) await p.query(`ALTER TABLE \`${c.table}\` ADD INDEX \`${c.index}\` (tenant_id)`);
+  }
+  await p.query(
+    'INSERT IGNORE INTO tenants (id, slug, name, is_active, created_at) VALUES (?, ?, ?, 1, ?)',
+    [DEFAULT_TENANT.id, DEFAULT_TENANT.slug, DEFAULT_TENANT.name, new Date().toISOString()]
+  );
+  // Tài khoản không thuộc tenant nào là quản trị nền tảng.
+  await p.query("UPDATE admins SET role = 'superadmin' WHERE tenant_id IS NULL AND role <> 'superadmin'");
+}
 
 let pool = null;
 let initPromise = null;
@@ -213,6 +258,7 @@ export function initDb() {
       const [rows] = await p.query("SHOW TABLES LIKE 'settings'");
       createdFresh = rows.length === 0;
       for (const sql of SCHEMA) await p.query(sql);
+      await migrateMultiTenant(p);
       fs.mkdirSync(UPLOAD_DIR, { recursive: true });
     })();
   }
