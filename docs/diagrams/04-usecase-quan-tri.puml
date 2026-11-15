@@ -1,0 +1,53 @@
+@startuml usecase-quan-tri
+' Use case phân rã 3 – Phân hệ quản trị
+skinparam monochrome true
+skinparam shadowing false
+left to right direction
+
+actor "Quản trị viên" as QT
+
+rectangle "Phân hệ quản trị" {
+  usecase "Xem tổng quan, báo cáo" as UC_Dash
+  usecase "Theo dõi khách trực tiếp" as UC_Live
+  usecase "Quản lý địa điểm, điểm nhấn" as UC_Sites
+  usecase "Tải ảnh, mp3 lên" as UC_Upload
+  usecase "Quản lý gói vé" as UC_Packages
+  usecase "Quản lý mã kích hoạt" as UC_Codes
+  usecase "Tạo và in mã QR" as UC_QR
+  usecase "Quản lý đơn hàng" as UC_Orders
+  usecase "Xuất danh sách CSV" as UC_Csv
+  usecase "Hoàn tiền, huỷ đơn" as UC_Refund
+  usecase "Cài đặt hệ thống" as UC_Settings
+  usecase "Đổi mật khẩu" as UC_Password
+  usecase "Quản lý ban quản lý" as UC_Tenants
+  usecase "Đăng nhập" as UC_Login
+}
+
+QT --> UC_Dash
+QT --> UC_Live
+QT --> UC_Sites
+QT --> UC_Packages
+QT --> UC_Codes
+QT --> UC_QR
+QT --> UC_Orders
+QT --> UC_Settings
+QT --> UC_Password
+QT --> UC_Tenants
+QT --> UC_Login
+
+UC_Upload ..> UC_Sites : <<extend>>
+UC_Csv ..> UC_Orders : <<extend>>
+UC_Refund ..> UC_Orders : <<extend>>
+
+UC_Dash ..> UC_Login : <<include>>
+UC_Live ..> UC_Login : <<include>>
+UC_Sites ..> UC_Login : <<include>>
+UC_Packages ..> UC_Login : <<include>>
+UC_Codes ..> UC_Login : <<include>>
+UC_QR ..> UC_Login : <<include>>
+UC_Orders ..> UC_Login : <<include>>
+UC_Settings ..> UC_Login : <<include>>
+UC_Password ..> UC_Login : <<include>>
+UC_Tenants ..> UC_Login : <<include>>
+
+@enduml
