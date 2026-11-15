@@ -1,0 +1,35 @@
+@startuml activity-nghe-va-mua-ve
+' Activity – Nghe thuyết minh và mua vé
+skinparam monochrome true
+skinparam shadowing false
+
+start
+:Quét mã QR tại điểm;
+:Tải danh sách địa điểm;
+:Chọn địa điểm, bấm nghe;
+repeat
+  :Gửi yêu cầu kèm vé (nếu có);
+  if (Vé hợp lệ, đúng phạm vi?) then (có)
+    :Phát thuyết minh đầy đủ;
+    stop
+  endif
+  :Phát ~30 giây nghe thử;
+  if (Muốn mua vé?) then (không)
+    stop
+  endif
+  if (Cách thanh toán?) then (online)
+    :Chọn gói, tạo đơn (pending);
+    :Quét QR chuyển khoản;
+    if (Trả trong 15 phút?) then (không)
+      :Đơn hết hạn (expired);
+      stop
+    endif
+  else (tiền mặt)
+    :Trả tiền mặt, nhận mã kích hoạt;
+    repeat
+      :Nhập mã kích hoạt;
+    repeat while (Mã hợp lệ, còn lượt?) is (không) not (có)
+  endif
+  :Server cấp vé, lưu vé;
+repeat while (gửi lại yêu cầu kèm vé)
+@enduml
