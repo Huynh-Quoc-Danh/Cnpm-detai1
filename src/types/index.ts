@@ -268,8 +268,40 @@ export interface AdminUser {
   id: number;
   username: string;
   displayName: string;
+  /** 'superadmin' = quản trị nền tảng; 'admin' = quản trị của một ban quản lý. */
   role: string;
+  /** Ban quản lý (tenant) của tài khoản; null = quản trị nền tảng, thấy mọi ban. */
+  tenantId?: number | null;
+  tenantName?: string | null;
   lastLoginAt?: string | null;
+}
+
+/** Ban quản lý (tenant) – multi-tenant theo mô hình shared database, shared schema. */
+export interface Tenant {
+  id: number;
+  slug: string;
+  name: string;
+  isActive: boolean;
+  /** Ban mặc định giữ dữ liệu có từ trước – không xoá, không khoá được. */
+  isDefault: boolean;
+  createdAt: string;
+  siteIds: number[];
+  siteCount: number;
+  adminCount: number;
+  packageCount: number;
+  codeCount: number;
+}
+
+export interface TenantInput {
+  name: string;
+  slug?: string;
+  isActive?: boolean;
+}
+
+export interface TenantAdminInput {
+  username: string;
+  displayName?: string;
+  password: string;
 }
 
 export interface AdminLoginResult {
