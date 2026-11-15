@@ -1,0 +1,25 @@
+@startuml activity-quan-ly-dia-diem
+' Activity – Quản lý địa điểm (siteService.create / update)
+skinparam monochrome true
+skinparam shadowing false
+
+start
+:Mở trang quản lý Địa điểm;
+if (Thêm hay sửa?) then (thêm)
+  :Nhập địa điểm mới;
+else (sửa)
+  :Chọn địa điểm, sửa nội dung;
+endif
+if (Có ảnh, mp3 mới?) then (có)
+  :Tải tệp lên, nhận đường dẫn;
+else (không)
+endif
+repeat
+  :Bấm Lưu, gửi lên server;
+  :Server kiểm tra dữ liệu;
+  backward :Báo lỗi, sửa lại;
+repeat while (Dữ liệu hợp lệ?) is (không) not (có)
+:Lưu địa điểm và điểm nhấn;
+:Du khách thấy nội dung mới;
+stop
+@enduml
