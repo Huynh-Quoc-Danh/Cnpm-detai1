@@ -23,6 +23,9 @@ import type {
   SalesRange,
   SalesStats,
   StatsOverview,
+  Tenant,
+  TenantAdminInput,
+  TenantInput,
   TicketPackage,
   UploadResult,
   VerifyResult
@@ -241,6 +244,20 @@ export const adminApi = {
   updateCode: (code: string, input: ClaimCodeInput) =>
     admin<ClaimCode>(`/codes/${encodeURIComponent(code)}`, { method: 'PUT', body: input }),
   deleteCode: (code: string) => admin<{ ok: boolean }>(`/codes/${encodeURIComponent(code)}`, { method: 'DELETE' }),
+
+  // ban quản lý (multi-tenant) – chỉ quản trị nền tảng
+  listTenants: () => admin<Tenant[]>('/tenants'),
+  createTenant: (input: TenantInput) => admin<Tenant>('/tenants', { method: 'POST', body: input }),
+  updateTenant: (id: number, input: Partial<TenantInput>) => admin<Tenant>(`/tenants/${id}`, { method: 'PUT', body: input }),
+  deleteTenant: (id: number) => admin<{ ok: boolean }>(`/tenants/${id}`, { method: 'DELETE' }),
+  setTenantSites: (id: number, siteIds: number[]) =>
+    admin<Tenant>(`/tenants/${id}/sites`, { method: 'PUT', body: { siteIds } }),
+  listTenantAdmins: (id: number) => admin<AdminUser[]>(`/tenants/${id}/admins`),
+  createTenantAdmin: (id: number, input: TenantAdminInput) =>
+    admin<AdminUser>(`/tenants/${id}/admins`, { method: 'POST', body: input }),
+  deleteTenantAdmin: (adminId: number) => admin<{ ok: boolean }>(`/tenant-admins/${adminId}`, { method: 'DELETE' }),
+  resetTenantAdminPassword: (adminId: number, password: string) =>
+    admin<{ ok: boolean }>(`/tenant-admins/${adminId}/password`, { method: 'POST', body: { password } }),
 
   // settings & uploads
   getSettings: () => admin<AdminSettings>('/settings'),
