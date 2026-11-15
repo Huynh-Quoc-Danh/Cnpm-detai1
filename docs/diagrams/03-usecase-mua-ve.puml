@@ -1,0 +1,37 @@
+@startuml usecase-mua-ve
+' Use case phân rã 2 – Phân hệ bán vé
+skinparam monochrome true
+skinparam shadowing false
+left to right direction
+
+actor "Du khách" as DK
+actor "Quản trị viên" as QT
+
+rectangle "Phân hệ bán vé" {
+  usecase "Xem các gói vé" as UC_Packages
+  usecase "Mua vé điện tử" as UC_Buy
+  usecase "Thanh toán qua QR" as UC_Pay
+  usecase "Nhập mã kích hoạt" as UC_Redeem
+  usecase "Xem vé của tôi (tab Vé)" as UC_MyTickets
+
+  usecase "Chọn địa điểm cho gói lẻ" as UC_Site
+  usecase "Cấp vé điện tử" as UC_Issue
+  usecase "Xác nhận thanh toán thủ công" as UC_Cash
+  usecase "Hoàn tiền, huỷ đơn" as UC_Refund
+}
+
+DK --> UC_Packages
+DK --> UC_Buy
+DK --> UC_Pay
+DK --> UC_Redeem
+DK --> UC_MyTickets
+
+UC_Cash <-- QT
+UC_Refund <-- QT
+
+UC_Site ..> UC_Buy : <<extend>>\n(gói lẻ theo điểm)
+UC_Buy ..> UC_Pay : <<include>>
+UC_Pay ..> UC_Issue : <<include>>
+UC_Redeem ..> UC_Issue : <<include>>
+UC_Cash ..> UC_Issue : <<include>>
+@enduml
