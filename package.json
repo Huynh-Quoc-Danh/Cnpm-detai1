@@ -10,8 +10,7 @@
     "build": "vite build",
     "start": "node server/index.js",
     "preview": "vite preview",
-    "db:reset": "node server/reset.js",
-    "db:migrate": "node server/migrate-sqlite.js",
+    "db:reset": "node server/reset.js",
     "test": "echo \"Running unit tests...\" && exit 0"
   },
   "dependencies": {

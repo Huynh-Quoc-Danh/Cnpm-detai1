@@ -19,11 +19,10 @@ server/services/*        Business logic (siteService, ticketService, orderServic
                          visitorService, adminAuthService, settingsService, uploadService)
 server/repositories/*    SQL (MySQL/MariaDB via mysql2, async) – sites/exhibits, packages, orders,
                          tickets/claim_codes, visitors/listens, admins/sessions/settings
-server/db.js             MySQL pool + schema (config in .env); server/seed.js seeding; server/reset.js;
-                         server/migrate-sqlite.js (one-off copy from the old SQLite file)
+server/db.js             MySQL pool + schema (config in .env); server/seed.js seeding; server/reset.js
 ```
 
-Scripts: `npm run dev` (server --watch + vite), `npm run dev:web`, `npm run dev:server`, `npm run build`, `npm start`, `npm run db:reset` (drops all tables and reseeds), `npm run db:migrate` (copies server/data/halong.db into MySQL, replacing its rows).
+Scripts: `npm run dev` (server --watch + vite), `npm run dev:web`, `npm run dev:server`, `npm run build`, `npm start`, `npm run db:reset` (drops all tables and reseeds).
 
 **Database:** MySQL / MariaDB (e.g. XAMPP). Connection via `.env` (see `.env.example`): `DB_HOST`, `DB_PORT`, `DB_USER`, `DB_PASSWORD`, `DB_NAME` (default `halong`, created automatically with all tables on first start).
 
