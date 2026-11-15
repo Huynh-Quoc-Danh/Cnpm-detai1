@@ -1,0 +1,89 @@
+@startuml dfd-muc-1
+' DFD mức 1 – 7 tiến trình chính, 11 kho dữ liệu
+' Quy ước: hình chữ nhật vuông = tác nhân, bo góc = tiến trình, hình trụ = kho dữ liệu
+skinparam monochrome true
+skinparam shadowing false
+skinparam rectangle<<process>> {
+  RoundCorner 30
+}
+hide stereotype
+left to right direction
+
+rectangle "Du khách" as DK
+rectangle "Quản trị viên" as QT
+rectangle "Thiết bị GPS" as GPS
+rectangle "Dịch vụ VietQR" as VQR
+
+rectangle "1.0\n----\nQuản lý nội dung\nđịa điểm" as P1 <<process>>
+rectangle "2.0\n----\nPhát thuyết minh" as P2 <<process>>
+rectangle "3.0\n----\nBán vé và\nkích hoạt vé" as P3 <<process>>
+rectangle "4.0\n----\nTheo dõi vị trí\ndu khách" as P4 <<process>>
+rectangle "5.0\n----\nThống kê và\nbáo cáo" as P5 <<process>>
+rectangle "6.0\n----\nXác thực và\ncấu hình" as P6 <<process>>
+rectangle "7.0\n----\nHỏi đáp chatbot" as P7 <<process>>
+
+database "D1 Địa điểm" as D1
+database "D2 Điểm nhấn" as D2
+database "D3 Gói vé" as D3
+database "D4 Đơn hàng" as D4
+database "D5 Vé điện tử" as D5
+database "D6 Mã kích hoạt" as D6
+database "D7 Khách truy cập" as D7
+database "D8 Lượt nghe" as D8
+database "D9 Tài khoản quản trị" as D9
+database "D10 Cài đặt" as D10
+database "D11 Kho tri thức chatbot" as D11
+
+' 1.0 Quản lý nội dung
+DK --> P1 : ngôn ngữ, địa điểm
+P1 --> DK : danh sách, chi tiết
+QT --> P1 : nội dung, ảnh, mp3
+P1 --> QT : mã QR để in
+P1 <--> D1 : địa điểm
+P1 <--> D2 : điểm nhấn
+
+' 2.0 Phát thuyết minh
+DK --> P2 : yêu cầu nghe + vé
+P2 --> DK : văn bản, file mp3
+D1 --> P2 : nội dung
+D2 --> P2 : nội dung
+D5 --> P2 : vé
+D10 --> P2 : giây nghe thử
+P2 <--> D8 : lượt nghe
+
+' 3.0 Bán vé và kích hoạt vé
+DK --> P3 : gói, xác nhận, mã
+P3 --> DK : gói, mã QR, vé
+QT --> P3 : sửa gói, mã, đơn
+P3 --> VQR : số tiền, nội dung CK
+VQR --> P3 : ảnh QR chuyển khoản
+P3 <--> D3 : gói vé
+P3 <--> D4 : đơn hàng
+P3 <--> D5 : vé
+P3 <--> D6 : mã kích hoạt
+
+' 4.0 Theo dõi vị trí
+DK --> P4 : quét mã QR, heartbeat
+GPS --> P4 : toạ độ
+P4 <--> D7 : vị trí khách
+D1 --> P4 : toạ độ, bán kính
+
+' 5.0 Thống kê và báo cáo
+P5 --> QT : báo cáo, CSV\nkhách đang online
+D4 --> P5 : đơn đã trả
+D8 --> P5 : lượt nghe
+D7 --> P5 : khách online
+D1 --> P5 : tên địa điểm
+
+' 6.0 Xác thực và cấu hình
+QT --> P6 : đăng nhập, cài đặt,\nban quản lý
+P6 --> QT : kết quả đăng nhập
+P6 <--> D9 : tài khoản, phiên
+P6 <--> D10 : cấu hình
+P6 --> D1 : gán địa điểm
+
+' 7.0 Hỏi đáp chatbot
+DK --> P7 : câu hỏi
+P7 --> DK : câu trả lời
+D11 --> P7 : câu trả lời mẫu
+@enduml
