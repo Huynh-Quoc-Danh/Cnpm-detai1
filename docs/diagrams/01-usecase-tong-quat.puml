@@ -1,0 +1,75 @@
+@startuml usecase-tong-quat
+' Use case tổng quát – Hạ Long SmartGuide
+skinparam monochrome true
+skinparam shadowing false
+left to right direction
+
+actor "Du khách" as DK
+actor "Quản trị viên" as QT
+
+rectangle "Hệ thống Hạ Long SmartGuide" {
+  ' --- Chức năng của du khách ---
+  usecase "Xem danh sách địa điểm" as UC_List
+  usecase "Xem chi tiết, điểm nhấn" as UC_Detail
+  usecase "Đổi ngôn ngữ (5 thứ tiếng)" as UC_Lang
+  usecase "Nghe thuyết minh" as UC_Listen
+  usecase "Tự phát theo GPS" as UC_GPS
+  usecase "Xem bản đồ, tuyến gợi ý" as UC_Map
+  usecase "Mua vé điện tử" as UC_Buy
+  usecase "Thanh toán qua QR" as UC_Pay
+  usecase "Nhập mã kích hoạt" as UC_Redeem
+  usecase "Hỏi chatbot" as UC_Chat
+  usecase "Lưu địa điểm yêu thích" as UC_Fav
+  usecase "Quét mã QR tại điểm" as UC_Scan
+
+  ' --- Chức năng của quản trị viên ---
+  usecase "Xem tổng quan, báo cáo" as UC_Dash
+  usecase "Theo dõi khách trực tiếp" as UC_Live
+  usecase "Quản lý địa điểm, điểm nhấn" as UC_Sites
+  usecase "Quản lý gói vé" as UC_Packages
+  usecase "Quản lý mã kích hoạt" as UC_Codes
+  usecase "Quản lý đơn hàng" as UC_Orders
+  usecase "Tạo và in mã QR" as UC_QR
+  usecase "Cài đặt hệ thống" as UC_Settings
+  usecase "Đổi mật khẩu" as UC_Password
+  usecase "Quản lý ban quản lý" as UC_Tenants
+  usecase "Đăng nhập" as UC_Login
+}
+
+DK --> UC_List
+DK --> UC_Detail
+DK --> UC_Lang
+DK --> UC_Listen
+DK --> UC_Scan
+DK --> UC_Map
+DK --> UC_Buy
+DK --> UC_Redeem
+DK --> UC_Chat
+DK --> UC_Fav
+
+UC_GPS .> UC_Listen : <<extend>>
+UC_Buy .> UC_Pay : <<include>>
+
+UC_Dash <-- QT
+UC_Live <-- QT
+UC_Sites <-- QT
+UC_Packages <-- QT
+UC_Codes <-- QT
+UC_Orders <-- QT
+UC_QR <-- QT
+UC_Settings <-- QT
+UC_Password <-- QT
+UC_Tenants <-- QT
+UC_Login <-- QT
+
+UC_Dash .> UC_Login : <<include>>
+UC_Live .> UC_Login : <<include>>
+UC_Sites .> UC_Login : <<include>>
+UC_Packages .> UC_Login : <<include>>
+UC_Codes .> UC_Login : <<include>>
+UC_Orders .> UC_Login : <<include>>
+UC_QR .> UC_Login : <<include>>
+UC_Settings .> UC_Login : <<include>>
+UC_Password .> UC_Login : <<include>>
+UC_Tenants .> UC_Login : <<include>>
+@enduml
