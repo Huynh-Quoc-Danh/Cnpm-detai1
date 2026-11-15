@@ -24,7 +24,9 @@ export const DB_CONFIG = {
   port: Number(process.env.DB_PORT) || 3306,
   user: process.env.DB_USER || 'root',
   password: process.env.DB_PASSWORD || '',
-  database: process.env.DB_NAME || 'halong'
+  database: process.env.DB_NAME || 'halong',
+  // MySQL trên cloud (TiDB Cloud, Aiven…) bắt buộc kết nối mã hoá: đặt DB_SSL=true.
+  ...(/^(1|true|yes)$/i.test(process.env.DB_SSL || '') ? { ssl: { minVersion: 'TLSv1.2', rejectUnauthorized: true } } : {})
 };
 /** Human-readable DB location for logs. */
 export const DB_LABEL = `mysql://${DB_CONFIG.user}@${DB_CONFIG.host}:${DB_CONFIG.port}/${DB_CONFIG.database}`;
