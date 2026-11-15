@@ -1,0 +1,184 @@
+@startuml erd
+' ERD – CSDL halong: 12 bảng (11 bảng gốc + bảng tenants cho multi-tenant), theo server/db.js
+' Ký hiệu chân chim: ||  một, }o  không hoặc nhiều, |o  không hoặc một
+skinparam monochrome true
+skinparam shadowing false
+skinparam linetype ortho
+hide circle
+
+entity "tenants" as tenants {
+  * id : INT AI <<PK>>
+  --
+  slug : VARCHAR(64) <<UQ>>
+  name : VARCHAR(255)
+  is_active : TINYINT(1)
+  created_at : VARCHAR(32)
+}
+
+entity "sites" as sites {
+  * id : INT <<PK>>
+  --
+  tenant_id : INT <<FK>>
+  slug : VARCHAR(120)
+  name_vi : VARCHAR(255)
+  is_active : TINYINT(1)
+  data : LONGTEXT (JSON)
+  created_at : VARCHAR(32)
+  updated_at : VARCHAR(32)
+}
+
+entity "exhibits" as exhibits {
+  * id : VARCHAR(64) <<PK>>
+  --
+  site_id : INT <<FK>>
+  sort_order : INT
+  data : LONGTEXT (JSON)
+  updated_at : VARCHAR(32)
+}
+
+entity "listens" as listens {
+  * id : BIGINT AI <<PK>>
+  --
+  site_id : INT <<FK>>
+  exhibit_id : VARCHAR(64) <<FK>>
+  lang : VARCHAR(8)
+  visitor_id : VARCHAR(64) <<FK>>
+  locked : TINYINT(1)
+  created_at : VARCHAR(32)
+  created_ms : BIGINT
+  demo : TINYINT(1)
+}
+
+entity "packages" as packages {
+  * id : INT AI <<PK>>
+  --
+  tenant_id : INT <<FK>>
+  code : VARCHAR(64) <<UQ>>
+  name_vi : VARCHAR(255)
+  name_en : VARCHAR(255)
+  desc_vi : TEXT
+  desc_en : TEXT
+  price : INT
+  scope : site / all
+  duration_hours : INT
+  max_people : INT
+  is_active : TINYINT(1)
+  badge_vi : VARCHAR(255)
+  badge_en : VARCHAR(255)
+  sort_order : INT
+}
+
+entity "orders" as orders {
+  * id : VARCHAR(32) <<PK>>
+  --
+  package_id : INT <<FK>>
+  package_name : VARCHAR(255)
+  site_id : INT <<FK>>
+  amount : INT
+  method : VARCHAR(16)
+  status : VARCHAR(16)
+  visitor_id : VARCHAR(64) <<FK>>
+  lang : VARCHAR(8)
+  customer_name : VARCHAR(120)
+  customer_phone : VARCHAR(32)
+  created_at : VARCHAR(32)
+  created_ms : BIGINT
+  paid_at : VARCHAR(32)
+  paid_ms : BIGINT
+  expires_at : VARCHAR(32)
+  transfer_note : VARCHAR(64)
+  demo : TINYINT(1)
+}
+
+entity "tickets" as tickets {
+  * token : VARCHAR(64) <<PK>>
+  --
+  order_id : VARCHAR(32) <<FK>>
+  code : VARCHAR(64) <<FK>>
+  scope : VARCHAR(8)
+  site_ids : VARCHAR(2000)
+  issued_at : VARCHAR(32)
+  expires_at : VARCHAR(32)
+  expires_ms : BIGINT
+  package_name : VARCHAR(255)
+  visitor_id : VARCHAR(64) <<FK>>
+  revoked : TINYINT(1)
+}
+
+entity "claim_codes" as claim_codes {
+  * code : VARCHAR(64) <<PK>>
+  --
+  tenant_id : INT <<FK>>
+  scope : site / all
+  site_ids : VARCHAR(2000)
+  duration_hours : INT
+  max_uses : INT
+  used_count : INT
+  is_active : TINYINT(1)
+  note : TEXT
+  created_at : VARCHAR(32)
+}
+
+entity "visitors" as visitors {
+  * visitor_id : VARCHAR(64) <<PK>>
+  --
+  site_id : INT <<FK>>
+  lat : DOUBLE
+  lng : DOUBLE
+  accuracy : DOUBLE
+  source : VARCHAR(16)
+  lang : VARCHAR(8)
+  device : VARCHAR(16)
+  user_agent : VARCHAR(300)
+  qr_site_id : INT <<FK>>
+  qr_ms : BIGINT
+  is_sim : TINYINT(1)
+  first_seen : VARCHAR(32)
+  last_seen : VARCHAR(32)
+  last_seen_ms : BIGINT
+}
+
+entity "admins" as admins {
+  * id : INT AI <<PK>>
+  --
+  username : VARCHAR(64) <<UQ>>
+  display_name : VARCHAR(120)
+  role : VARCHAR(32)
+  tenant_id : INT <<FK>> (NULL = superadmin)
+  password_hash : VARCHAR(256)
+  salt : VARCHAR(64)
+  created_at : VARCHAR(32)
+  last_login_at : VARCHAR(32)
+}
+
+entity "admin_sessions" as admin_sessions {
+  * token : VARCHAR(128) <<PK>>
+  --
+  admin_id : INT <<FK>>
+  created_at : VARCHAR(32)
+  expires_ms : BIGINT
+}
+
+entity "settings" as settings {
+  * key : VARCHAR(64) <<PK>>
+  --
+  value : LONGTEXT (JSON)
+}
+
+sites ||--o{ exhibits
+sites ||--o{ listens
+exhibits ||--o{ listens
+sites ||--o{ orders
+sites ||--o{ visitors
+visitors ||--o{ listens
+visitors ||--o{ orders
+visitors ||--o{ tickets
+packages ||--o{ orders
+orders ||--o| tickets
+claim_codes ||--o{ tickets
+admins ||--o{ admin_sessions
+tenants |o--o{ admins
+tenants ||--o{ sites
+tenants ||--o{ packages
+tenants ||--o{ claim_codes
+@enduml
