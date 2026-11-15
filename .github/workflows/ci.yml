@@ -1,7 +1,9 @@
-# CI – tự chạy mỗi khi có push hoặc Pull Request vào main.
-# Kiểm tra: cài thư viện, kiểm tra kiểu TypeScript, build giao diện,
-# khởi động server với MySQL (MariaDB) thật và gọi thử API.
-name: CI
+# CI/CD – tự chạy mỗi khi có push hoặc Pull Request vào main.
+# CI: cài thư viện, kiểm tra kiểu TypeScript, build giao diện,
+#     khởi động server với MySQL (MariaDB) thật và gọi thử API.
+# CD: CI đạt trên nhánh main thì gọi Deploy Hook của Render để đưa bản mới lên Internet
+#     (xem docs/DEPLOY.md). Chưa cấu hình secret RENDER_DEPLOY_HOOK_URL thì bước này tự bỏ qua.
+name: CI/CD
 
 on:
   push:
@@ -77,3 +79,22 @@ jobs:
       - name: In log server nếu lỗi
         if: failure()
         run: cat server.log || true
+
+  deploy:
+    name: Triển khai lên Render (CD)
+    needs: build-and-test
+    # Chỉ triển khai khi code đã vào main (không chạy cho Pull Request) và CI đã đạt.
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gọi Deploy Hook của Render
+        env:
+          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$RENDER_DEPLOY_HOOK_URL" ]; then
+            echo "Chưa có secret RENDER_DEPLOY_HOOK_URL – bỏ qua bước triển khai (xem docs/DEPLOY.md)."
+            exit 0
+          fi
+          curl -fsS -X POST "$RENDER_DEPLOY_HOOK_URL"
+          echo
+          echo "Đã yêu cầu Render triển khai bản mới."
