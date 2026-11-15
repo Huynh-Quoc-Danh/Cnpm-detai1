@@ -1,0 +1,27 @@
+@startuml dfd-muc-0
+' DFD mức 0 (ngữ cảnh) – Hạ Long SmartGuide
+' Quy ước: hình chữ nhật vuông = tác nhân ngoài, hình bo góc = tiến trình
+skinparam monochrome true
+skinparam shadowing false
+skinparam rectangle<<process>> {
+  RoundCorner 30
+}
+hide stereotype
+
+rectangle "Du khách" as DK
+rectangle "Quản trị viên" as QT
+rectangle "Thiết bị GPS\n(Geolocation API)" as GPS
+rectangle "Dịch vụ VietQR\n(img.vietqr.io)" as VQR
+
+rectangle "0\n----\nHệ thống\nHạ Long SmartGuide" as P0 <<process>>
+
+DK --> P0 : ngôn ngữ, địa điểm, điểm nhấn chọn xem\nyêu cầu nghe (kèm vé nếu có)\ngói vé, tên, SĐT, xác nhận thanh toán\nmã kích hoạt, câu hỏi chatbot\nquét mã QR tại điểm, vị trí (heartbeat)
+P0 --> DK : danh sách, chi tiết địa điểm\nthuyết minh nghe thử hoặc đầy đủ\ngói vé, mã QR thanh toán, vé điện tử\ncâu trả lời chatbot
+
+QT --> P0 : tên đăng nhập, mật khẩu\nnội dung địa điểm, ảnh, file mp3\ngói vé, mã kích hoạt, cài đặt\ncập nhật trạng thái đơn
+P0 --> QT : thống kê doanh thu, lượt nghe\nkhách đang trực tiếp\ndanh sách đơn, file CSV\nmã QR để in, kết quả đăng nhập
+
+GPS --> P0 : toạ độ vị trí
+P0 --> VQR : số tiền, nội dung CK
+VQR --> P0 : ảnh QR chuyển khoản
+@enduml
