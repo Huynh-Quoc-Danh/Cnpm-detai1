@@ -1,0 +1,38 @@
+@startuml usecase-nghe-thuyet-minh
+' Use case phân rã 1 – Phân hệ nghe thuyết minh
+skinparam monochrome true
+skinparam shadowing false
+left to right direction
+
+actor "Du khách" as DK
+
+rectangle "Phân hệ nghe thuyết minh" {
+  usecase "Xem danh sách địa điểm" as UC_List
+  usecase "Xem chi tiết, điểm nhấn" as UC_Detail
+  usecase "Đổi ngôn ngữ (5 thứ tiếng)" as UC_Lang
+  usecase "Nghe thuyết minh" as UC_Listen
+  usecase "Xem bản đồ, tuyến gợi ý" as UC_Map
+  usecase "Hỏi chatbot" as UC_Chat
+  usecase "Lưu địa điểm yêu thích" as UC_Fav
+  usecase "Quét mã QR tại điểm" as UC_Scan
+
+  usecase "Kiểm tra vé hợp lệ" as UC_Check
+  usecase "Nghe bản thử rút gọn" as UC_Preview
+  usecase "Tự phát khi GPS vào vùng" as UC_GPS
+  usecase "Ghi nhận lượt nghe" as UC_Log
+}
+
+DK --> UC_List
+DK --> UC_Detail
+DK --> UC_Lang
+DK --> UC_Listen
+DK --> UC_Map
+DK --> UC_Chat
+DK --> UC_Fav
+DK --> UC_Scan
+
+UC_Listen ..> UC_Check : <<include>>
+UC_Listen ..> UC_Log : <<include>>
+UC_Preview ..> UC_Listen : <<extend>>\n(chưa có vé)
+UC_GPS ..> UC_Listen : <<extend>>\n(vào bán kính địa điểm)
+@enduml
